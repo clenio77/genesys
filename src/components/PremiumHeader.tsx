@@ -40,20 +40,21 @@ export default function PremiumHeader() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="relative w-12 h-12">
+          <div className="flex items-center space-x-2 sm:space-x-3">
+            <div className="relative w-20 h-20 sm:w-16 sm:h-16 md:w-18 md:h-18 lg:w-20 lg:h-20">
               <Image
-                src="/images/genesys-logo.png"
+                src="/images/genesys-logo.jpg"
                 alt="Genesys Logo"
                 fill
                 className="object-contain"
+                priority
               />
             </div>
             <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+              <h1 className="text-xl sm:text-2xl md:text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                 Genesys
               </h1>
-              <p className="text-xs text-gray-400">Tecnologia Jurídica</p>
+              <p className="text-xs sm:text-sm text-gray-300">Tecnologia Jurídica</p>
             </div>
           </div>
 
