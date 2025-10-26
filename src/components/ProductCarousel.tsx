@@ -1,216 +1,369 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { FaChevronLeft, FaChevronRight, FaRobot, FaCog, FaBrain, FaChartLine, FaShieldAlt, FaRocket } from 'react-icons/fa'
+import { useState, useEffect, useCallback } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { FaBrain, FaChartLine, FaSearch, FaFileContract, FaRobot, FaArrowRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+
+interface Product {
+  id: number
+  title: string
+  subtitle: string
+  description: string
+  icon: React.ComponentType<{ className?: string }>
+  gradient: string
+  stats: { label: string; value: string }[]
+  cta: string
+  ctaLink: string
+  bgPattern: string
+}
+
+const products: Product[] = [
+  {
+    id: 1,
+    title: 'Kermartin IA',
+    subtitle: 'Assistente Jurídico Inteligente',
+    description: 'Seu assistente jurídico pessoal 24/7. Análise instantânea de documentos, respostas precisas e insights estratégicos com IA de última geração.',
+    icon: FaBrain,
+    gradient: 'from-blue-600 via-cyan-600 to-blue-500',
+    stats: [
+      { label: 'Precisão', value: '95%' },
+      { label: 'Disponibilidade', value: '24/7' },
+      { label: 'Respostas', value: '<3s' },
+    ],
+    cta: 'Conhecer Kermartin',
+    ctaLink: '#kermartin',
+    bgPattern: 'radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%)',
+  },
+  {
+    id: 2,
+    title: 'Analytics Jurídico',
+    subtitle: 'Inteligência de Dados',
+    description: 'Transforme dados jurídicos em decisões estratégicas. Dashboards interativos, métricas em tempo real e previsões baseadas em IA.',
+    icon: FaChartLine,
+    gradient: 'from-purple-600 via-pink-600 to-purple-500',
+    stats: [
+      { label: 'Métricas', value: '50+' },
+      { label: 'Tempo Real', value: '100%' },
+      { label: 'Insights', value: 'IA' },
+    ],
+    cta: 'Ver Demonstração',
+    ctaLink: '#analytics',
+    bgPattern: 'radial-gradient(circle at 80% 50%, rgba(168, 85, 247, 0.15) 0%, transparent 50%)',
+  },
+  {
+    id: 3,
+    title: 'Pesquisa Jurisprudencial',
+    subtitle: 'Busca Inteligente',
+    description: 'Encontre jurisprudências relevantes em segundos. Busca semântica avançada em mais de 90 milhões de decisões judiciais.',
+    icon: FaSearch,
+    gradient: 'from-emerald-600 via-teal-600 to-emerald-500',
+    stats: [
+      { label: 'Decisões', value: '90M+' },
+      { label: 'Tribunais', value: 'Todos' },
+      { label: 'Busca', value: 'IA' },
+    ],
+    cta: 'Experimentar Busca',
+    ctaLink: '#pesquisa',
+    bgPattern: 'radial-gradient(circle at 50% 20%, rgba(16, 185, 129, 0.15) 0%, transparent 50%)',
+  },
+  {
+    id: 4,
+    title: 'Análise de Contratos',
+    subtitle: 'Revisão Automatizada',
+    description: 'Análise completa de contratos em minutos. Identificação de riscos, cláusulas críticas e sugestões de melhorias com IA.',
+    icon: FaFileContract,
+    gradient: 'from-amber-600 via-orange-600 to-amber-500',
+    stats: [
+      { label: 'Velocidade', value: '90%+' },
+      { label: 'Precisão', value: '98%' },
+      { label: 'Economia', value: '10x' },
+    ],
+    cta: 'Testar Análise',
+    ctaLink: '#contratos',
+    bgPattern: 'radial-gradient(circle at 50% 80%, rgba(245, 158, 11, 0.15) 0%, transparent 50%)',
+  },
+  {
+    id: 5,
+    title: 'Automação Processual',
+    subtitle: 'Workflow Inteligente',
+    description: 'Automatize tarefas repetitivas e ganhe produtividade. Gestão de prazos, petições automáticas e acompanhamento processual.',
+    icon: FaRobot,
+    gradient: 'from-rose-600 via-red-600 to-rose-500',
+    stats: [
+      { label: 'Produtividade', value: '+300%' },
+      { label: 'Automação', value: '100%' },
+      { label: 'Erros', value: '-95%' },
+    ],
+    cta: 'Automatizar Agora',
+    ctaLink: '#automacao',
+    bgPattern: 'radial-gradient(circle at 20% 80%, rgba(244, 63, 94, 0.15) 0%, transparent 50%)',
+  },
+]
 
 export default function ProductCarousel() {
-  const [currentSlide, setCurrentSlide] = useState(0)
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true)
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [direction, setDirection] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
+  const [progress, setProgress] = useState(0)
 
-  const products = [
-    {
-      id: 1,
-      title: 'Kermartin IA',
-      subtitle: 'Assistente Jurídico Cibernético',
-      description: 'Solução completa de IA especializada em Direito Penal, desenvolvida em parceria com o Dr. Jader Mattos. Análise inteligente de jurisprudência e consultas contextualizadas.',
-      icon: <FaBrain className="text-4xl" />,
-      gradient: 'from-blue-500 to-purple-600',
-      features: ['Análise de Jurisprudência', 'Consultas Inteligentes', 'Agente Klaus', 'Roadmap Completo'],
-      stats: { precision: '99.2%', cases: '50K+' },
-      image: '/images/kermartin-logo.png'
+  const slideVariants = {
+    enter: (direction: number) => ({
+      x: direction > 0 ? 1000 : -1000,
+      opacity: 0,
+      scale: 0.8,
+    }),
+    center: {
+      zIndex: 1,
+      x: 0,
+      opacity: 1,
+      scale: 1,
     },
-    {
-      id: 2,
-      title: 'Automações IA',
-      subtitle: 'Processos Inteligentes',
-      description: 'Automação completa de processos jurídicos com IA avançada. Reduza tempo de análise em 80% e aumente precisão com algoritmos especializados.',
-      icon: <FaCog className="text-4xl" />,
-      gradient: 'from-green-500 to-emerald-600',
-      features: ['Análise Automática', 'Geração de Documentos', 'Workflow Inteligente', 'Integração Total'],
-      stats: { efficiency: '80%', time: '5x' },
-      image: '/images/automation-icon.png'
-    },
-    {
-      id: 3,
-      title: 'Bots Jurídicos',
-      subtitle: 'Assistentes Virtuais',
-      description: 'Chatbots especializados em direito com conhecimento jurídico profundo. Atendimento 24/7 com respostas precisas e contextualizadas.',
-      icon: <FaRobot className="text-4xl" />,
-      gradient: 'from-orange-500 to-red-600',
-      features: ['Atendimento 24/7', 'Conhecimento Jurídico', 'Respostas Contextualizadas', 'Integração WhatsApp'],
-      stats: { availability: '24/7', accuracy: '95%' },
-      image: '/images/bot-icon.png'
-    },
-    {
-      id: 4,
-      title: 'Analytics Jurídico',
-      subtitle: 'Insights Inteligentes',
-      description: 'Plataforma de analytics com IA para análise de dados jurídicos. Identifique padrões, tendências e oportunidades estratégicas.',
-      icon: <FaChartLine className="text-4xl" />,
-      gradient: 'from-purple-500 to-pink-600',
-      features: ['Análise Preditiva', 'Dashboards Interativos', 'Relatórios Automáticos', 'Insights Estratégicos'],
-      stats: { insights: '1000+', patterns: '500+' },
-      image: '/images/analytics-icon.png'
-    },
-    {
-      id: 5,
-      title: 'Compliance IA',
-      subtitle: 'Monitoramento Inteligente',
-      description: 'Sistema de compliance automatizado com IA. Monitore regulamentações, identifique riscos e mantenha conformidade em tempo real.',
-      icon: <FaShieldAlt className="text-4xl" />,
-      gradient: 'from-cyan-500 to-blue-600',
-      features: ['Monitoramento 24/7', 'Alertas Inteligentes', 'Relatórios de Conformidade', 'Gestão de Riscos'],
-      stats: { compliance: '100%', alerts: 'Real-time' },
-      image: '/images/compliance-icon.png'
-    }
-  ]
+    exit: (direction: number) => ({
+      zIndex: 0,
+      x: direction < 0 ? 1000 : -1000,
+      opacity: 0,
+      scale: 0.8,
+    }),
+  }
 
+  const swipeConfidenceThreshold = 10000
+  const swipePower = (offset: number, velocity: number) => {
+    return Math.abs(offset) * velocity
+  }
+
+  const paginate = useCallback((newDirection: number) => {
+    setDirection(newDirection)
+    setCurrentIndex((prevIndex) => {
+      let nextIndex = prevIndex + newDirection
+      if (nextIndex < 0) nextIndex = products.length - 1
+      if (nextIndex >= products.length) nextIndex = 0
+      return nextIndex
+    })
+    setProgress(0)
+  }, [])
+
+  // Auto-play
   useEffect(() => {
-    if (!isAutoPlaying) return
+    if (isPaused) return
 
     const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % products.length)
-    }, 5000)
+      setProgress((prev) => {
+        if (prev >= 100) {
+          paginate(1)
+          return 0
+        }
+        return prev + 2
+      })
+    }, 100)
 
     return () => clearInterval(interval)
-  }, [isAutoPlaying, products.length])
+  }, [isPaused, paginate])
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % products.length)
-    setIsAutoPlaying(false)
-  }
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + products.length) % products.length)
-    setIsAutoPlaying(false)
-  }
-
-  const goToSlide = (index: number) => {
-    setCurrentSlide(index)
-    setIsAutoPlaying(false)
-  }
+  const currentProduct = products[currentIndex]
 
   return (
-    <section className="py-20 bg-gradient-to-b from-slate-900 to-slate-800 relative overflow-hidden">
-      {/* Background Effects */}
+    <section
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
+      {/* Animated Background */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
+        {/* Grid Pattern */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `radial-gradient(circle at 2px 2px, rgba(59, 130, 246, 0.3) 1px, transparent 0)`,
+            backgroundSize: '50px 50px',
+          }} />
+        </div>
+
+        {/* Gradient Orbs */}
+        <motion.div
+          className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-3xl"
+          style={{ background: currentProduct.gradient }}
+          animate={{
+            scale: [1, 1.2, 1],
+            opacity: [0.2, 0.3, 0.2],
+          }}
+          transition={{ duration: 4, repeat: Infinity }}
+        />
+        <motion.div
+          className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full blur-3xl"
+          style={{ background: currentProduct.gradient }}
+          animate={{
+            scale: [1.2, 1, 1.2],
+            opacity: [0.3, 0.2, 0.3],
+          }}
+          transition={{ duration: 4, repeat: Infinity, delay: 2 }}
+        />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold font-playfair mb-6">
-            <span className="gradient-text">Nossos Produtos</span>
-          </h2>
-          <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            Soluções inovadoras de IA que transformam a prática jurídica moderna
-          </p>
-        </div>
-
-        {/* Carousel Container */}
-        <div className="relative">
-          {/* Main Carousel */}
-          <div className="carousel-container">
-            <div 
-              className="carousel-track"
-              style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+      {/* Main Content */}
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto">
+          <AnimatePresence initial={false} custom={direction} mode="wait">
+            <motion.div
+              key={currentIndex}
+              custom={direction}
+              variants={slideVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{
+                x: { type: "spring", stiffness: 300, damping: 30 },
+                opacity: { duration: 0.2 },
+                scale: { duration: 0.4 },
+              }}
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              dragElastic={1}
+              onDragEnd={(_e, { offset, velocity }) => {
+                const swipe = swipePower(offset.x, velocity.x)
+                if (swipe < -swipeConfidenceThreshold) {
+                  paginate(1)
+                } else if (swipe > swipeConfidenceThreshold) {
+                  paginate(-1)
+                }
+              }}
+              className="grid lg:grid-cols-2 gap-12 items-center"
             >
-              {products.map((product) => (
-                <div key={product.id} className="carousel-slide">
-                  <div className={`product-card bg-gradient-to-br ${product.gradient} p-8 rounded-3xl shadow-2xl`}>
-                    <div className="grid lg:grid-cols-2 gap-12 items-center">
-                      {/* Left Side - Content */}
-                      <div className="text-white">
-                        <div className="flex items-center mb-6">
-                          <div className="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mr-6 backdrop-blur-sm">
-                            {product.icon}
-                          </div>
-                          <div>
-                            <h3 className="text-3xl font-bold font-playfair">{product.title}</h3>
-                            <p className="text-xl text-white/80">{product.subtitle}</p>
-                          </div>
-                        </div>
+              {/* Left Column - Content */}
+              <div className="space-y-8">
+                {/* Icon */}
+                <motion.div
+                  initial={{ scale: 0, rotate: -180 }}
+                  animate={{ scale: 1, rotate: 0 }}
+                  transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
+                  className={`inline-flex p-6 rounded-2xl bg-gradient-to-r ${currentProduct.gradient} shadow-2xl`}
+                >
+                  <currentProduct.icon className="text-5xl text-white" />
+                </motion.div>
 
-                        <p className="text-lg leading-relaxed mb-8 text-white/90">
-                          {product.description}
-                        </p>
+                {/* Title */}
+                <div>
+                  <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.3 }}
+                    className="text-cyan-400 text-sm font-semibold mb-2 tracking-wider uppercase"
+                  >
+                    {currentProduct.subtitle}
+                  </motion.p>
+                  <motion.h2
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.4 }}
+                    className={`text-5xl md:text-6xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-4`}
+                  >
+                    {currentProduct.title}
+                  </motion.h2>
+                  <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5 }}
+                    className="text-xl text-gray-300 leading-relaxed"
+                  >
+                    {currentProduct.description}
+                  </motion.p>
+                </div>
 
-                        {/* Features */}
-                        <div className="grid grid-cols-2 gap-3 mb-8">
-                          {product.features.map((feature, idx) => (
-                            <div key={idx} className="flex items-center space-x-2">
-                              <div className="w-2 h-2 bg-white rounded-full"></div>
-                              <span className="text-white/80 text-sm">{feature}</span>
-                            </div>
-                          ))}
-                        </div>
+                {/* CTA Button */}
+                <motion.a
+                  href={currentProduct.ctaLink}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.6 }}
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  className={`inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r ${currentProduct.gradient} text-white rounded-xl font-semibold text-lg shadow-2xl hover:shadow-3xl transition-all group`}
+                >
+                  {currentProduct.cta}
+                  <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+                </motion.a>
+              </div>
 
-                        {/* Stats */}
-                        <div className="grid grid-cols-2 gap-6">
-                          {Object.entries(product.stats).map(([key, value], idx) => (
-                            <div key={idx} className="bg-white/10 rounded-xl p-4 text-center backdrop-blur-sm">
-                              <div className="text-2xl font-bold">{value}</div>
-                              <div className="text-sm text-white/70 capitalize">{key}</div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
+              {/* Right Column - Stats */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.7 }}
+                className="relative"
+              >
+                <div className="relative p-8 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl">
+                  {/* Background Pattern */}
+                  <div className="absolute inset-0 rounded-3xl opacity-30" style={{ background: currentProduct.bgPattern }} />
 
-                      {/* Right Side - Visual */}
-                      <div className="relative">
-                        <div className="product-visual bg-white/10 rounded-2xl p-8 backdrop-blur-sm border border-white/20">
-                          <div className="text-center">
-                            <div className="w-32 h-32 mx-auto mb-6 bg-white/20 rounded-full flex items-center justify-center">
-                              {product.icon}
-                            </div>
-                            <h4 className="text-2xl font-bold mb-2">{product.title}</h4>
-                            <p className="text-white/80 mb-6">{product.subtitle}</p>
-                            
-                            <button className="carousel-cta-btn">
-                              <FaRocket className="mr-2" />
-                              Conhecer Produto
-                            </button>
-                          </div>
+                  {/* Stats Grid */}
+                  <div className="relative grid grid-cols-3 gap-6">
+                    {currentProduct.stats.map((stat, index) => (
+                      <motion.div
+                        key={stat.label}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.8 + index * 0.1 }}
+                        className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
+                      >
+                        <div className={`text-4xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2`}>
+                          {stat.value}
                         </div>
-                      </div>
-                    </div>
+                        <div className="text-sm text-gray-400 font-medium">
+                          {stat.label}
+                        </div>
+                      </motion.div>
+                    ))}
                   </div>
                 </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Navigation Controls */}
-          <button 
-            onClick={prevSlide}
-            className="carousel-nav-btn carousel-nav-left"
-            aria-label="Slide anterior"
-          >
-            <FaChevronLeft />
-          </button>
-          
-          <button 
-            onClick={nextSlide}
-            className="carousel-nav-btn carousel-nav-right"
-            aria-label="Próximo slide"
-          >
-            <FaChevronRight />
-          </button>
-
-          {/* Dots Indicator */}
-          <div className="flex justify-center space-x-3 mt-8">
-            {products.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`carousel-dot ${index === currentSlide ? 'active' : ''}`}
-                aria-label={`Ir para slide ${index + 1}`}
-              />
-            ))}
-          </div>
+              </motion.div>
+            </motion.div>
+          </AnimatePresence>
         </div>
+      </div>
+
+      {/* Navigation Arrows */}
+      <button
+        onClick={() => paginate(-1)}
+        className="absolute left-4 top-1/2 -translate-y-1/2 p-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white hover:bg-white/20 transition-all z-20 group"
+        aria-label="Produto anterior"
+      >
+        <FaChevronLeft className="text-2xl group-hover:-translate-x-1 transition-transform" />
+      </button>
+      <button
+        onClick={() => paginate(1)}
+        className="absolute right-4 top-1/2 -translate-y-1/2 p-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white hover:bg-white/20 transition-all z-20 group"
+        aria-label="Próximo produto"
+      >
+        <FaChevronRight className="text-2xl group-hover:translate-x-1 transition-transform" />
+      </button>
+
+      {/* Dots Indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3 z-20">
+        {products.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => {
+              setDirection(index > currentIndex ? 1 : -1)
+              setCurrentIndex(index)
+              setProgress(0)
+            }}
+            className="group relative"
+            aria-label={`Ir para produto ${index + 1}`}
+          >
+            <div className={`w-12 h-2 rounded-full transition-all ${
+              index === currentIndex
+                ? 'bg-white'
+                : 'bg-white/30 hover:bg-white/50'
+            }`}>
+              {index === currentIndex && (
+                <motion.div
+                  className={`h-full rounded-full bg-gradient-to-r ${currentProduct.gradient}`}
+                  initial={{ width: '0%' }}
+                  animate={{ width: `${progress}%` }}
+                  transition={{ duration: 0.1 }}
+                />
+              )}
+            </div>
+          </button>
+        ))}
       </div>
     </section>
   )

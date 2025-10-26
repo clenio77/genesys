@@ -1,5 +1,5 @@
 import PremiumHeader from '@/components/PremiumHeader'
-import HeroSection from '@/components/HeroSection'
+import ProductCarousel from '@/components/ProductCarousel'
 import ServicesSection from '@/components/ServicesSection'
 import AIShowcase from '@/components/AIShowcase'
 import TestimonialsWithVideo from '@/components/TestimonialsWithVideo'
@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-900">
       <PremiumHeader />
-      <HeroSection />
+      <ProductCarousel />
       <ServicesSection />
       <AIShowcase />
       <TestimonialsWithVideo />
