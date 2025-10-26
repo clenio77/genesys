@@ -1,10 +1,10 @@
 'use client'
 
-
 import Link from 'next/link'
 import { FaBrain, FaFileContract, FaSearch, FaRobot, FaShieldAlt, FaArrowRight, FaCheck } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
 import Footer from '@/components/Footer'
+import SEOHead from '@/components/SEOHead'
 
 export default function ProdutosPage() {
   const produtos = [
@@ -117,8 +117,15 @@ export default function ProdutosPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
-      <PremiumHeader />
+    <>
+      <SEOHead
+        title="Produtos - Genesys Tecnologia | Soluções de IA Jurídica"
+        description="Conheça nossos produtos de Inteligência Artificial para o setor jurídico: Kermartin IA, Análise de Contratos, Pesquisa Jurídica e muito mais."
+        keywords="produtos IA jurídica, kermartin ia, análise de contratos, pesquisa jurídica, automação jurídica, compliance ia"
+        canonical="https://genesys-tecnologia.com.br/produtos"
+      />
+      <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+        <PremiumHeader />
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
@@ -260,7 +267,8 @@ export default function ProdutosPage() {
       </section>
 
       <Footer />
-    </div>
+      </div>
+    </>
   )
 }
 

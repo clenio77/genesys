@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { FaBrain, FaCheck, FaRocket, FaChartLine, FaUsers, FaArrowRight, FaPlay, FaDownload } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
 import Footer from '@/components/Footer'
+import SEOHead from '@/components/SEOHead'
 
 export default function KermartinIAPage() {
   const modulos = [
@@ -102,8 +103,16 @@ export default function KermartinIAPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
-      <PremiumHeader />
+    <>
+      <SEOHead
+        title="Kermartin IA - Assistente Jurídico Cibernético | Genesys Tecnologia"
+        description="Kermartin IA: A plataforma mais completa de IA para análise jurídica do Brasil. Agente Klaus integrado, análise de jurisprudência e consultas inteligentes 24/7."
+        keywords="kermartin ia, assistente jurídico ia, agente klaus, análise jurisprudência ia, consultas jurídicas inteligentes"
+        canonical="https://genesys-tecnologia.com.br/produtos/kermartin-ia"
+        ogImage="/images/kermartin-logo.png"
+      />
+      <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+        <PremiumHeader />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative overflow-hidden">
@@ -348,7 +357,8 @@ export default function KermartinIAPage() {
       </section>
 
       <Footer />
-    </div>
+      </div>
+    </>
   )
 }
 

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { FaRocket, FaUsers, FaAward, FaChartLine, FaLinkedin, FaGithub } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
 import Footer from '@/components/Footer'
+import SEOHead from '@/components/SEOHead'
 
 export default function SobrePage() {
   const equipe = [
@@ -66,8 +67,15 @@ export default function SobrePage() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
-      <PremiumHeader />
+    <>
+      <SEOHead
+        title="Sobre - Genesys Tecnologia | Inovação em IA Jurídica"
+        description="Conheça a Genesys Tecnologia, empresa pioneira em soluções de Inteligência Artificial para o setor jurídico. Nossa história, valores e equipe."
+        keywords="sobre genesys, empresa ia jurídica, tecnologia jurídica, inovação legal tech, equipe genesys"
+        canonical="https://genesys-tecnologia.com.br/sobre"
+      />
+      <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
+        <PremiumHeader />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4">
@@ -276,7 +284,8 @@ export default function SobrePage() {
       </section>
 
       <Footer />
-    </div>
+      </div>
+    </>
   )
 }
 
