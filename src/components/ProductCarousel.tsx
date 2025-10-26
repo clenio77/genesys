@@ -165,7 +165,7 @@ export default function ProductCarousel() {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-20 md:pt-24"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -201,7 +201,7 @@ export default function ProductCarousel() {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10">
         <div className="max-w-7xl mx-auto">
           <AnimatePresence initial={false} custom={direction} mode="wait">
             <motion.div
@@ -227,10 +227,10 @@ export default function ProductCarousel() {
                   paginate(-1)
                 }
               }}
-              className="grid lg:grid-cols-2 gap-12 items-center"
+              className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center"
             >
               {/* Left Column - Content */}
-              <div className="space-y-8">
+              <div className="space-y-6 sm:space-y-8">
                 {/* Icon or Logo */}
                 <motion.div
                   initial={{ scale: 0, rotate: -180 }}
@@ -265,7 +265,7 @@ export default function ProductCarousel() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4 }}
-                    className={`text-5xl md:text-6xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-4`}
+                    className={`text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-4`}
                   >
                     {currentProduct.title}
                   </motion.h2>
@@ -273,7 +273,7 @@ export default function ProductCarousel() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
-                    className="text-xl text-gray-300 leading-relaxed"
+                    className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed"
                   >
                     {currentProduct.description}
                   </motion.p>
