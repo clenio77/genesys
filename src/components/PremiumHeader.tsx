@@ -17,10 +17,10 @@ export default function PremiumHeader() {
   }, [])
 
   const menuItems = [
-    { label: 'Início', href: '#home' },
-    { label: 'Soluções', href: '#solutions' },
-    { label: 'IA Jurídica', href: '#ai' },
-    { label: 'Sobre', href: '#about' },
+    { label: 'Início', href: '/' },
+    { label: 'Produtos', href: '/produtos' },
+    { label: 'Serviços', href: '/servicos' },
+    { label: 'Sobre', href: '/sobre' },
     { label: 'Contato', href: '#contact' },
   ]
 
@@ -38,10 +38,10 @@ export default function PremiumHeader() {
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-50" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between min-h-24 sm:h-20 py-3 sm:py-0">
           {/* Logo */}
-          <div className="flex items-center space-x-2 sm:space-x-3">
-            <div className="relative w-20 h-20 sm:w-16 sm:h-16 md:w-18 md:h-18 lg:w-20 lg:h-20">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3">
+            <div className="relative w-24 h-24 sm:w-16 sm:h-16 md:w-18 md:h-18 lg:w-20 lg:h-20">
               <Image
                 src="/images/genesys-logo.jpg"
                 alt="Genesys Logo"
@@ -50,7 +50,7 @@ export default function PremiumHeader() {
                 priority
               />
             </div>
-            <div>
+            <div className="text-center sm:text-left">
               <h1 className="text-xl sm:text-2xl md:text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                 Genesys
               </h1>

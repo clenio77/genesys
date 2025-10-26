@@ -9,7 +9,7 @@ export default function TeamSection() {
       name: 'Firmino',
       role: 'Advogado Criminalista',
       description: 'Especialista em direito penal com mais de 15 anos de experiência em casos complexos. Expertise em jurisprudência criminal e defesa estratégica.',
-      image: '/images/firmino.png',
+      image: '/images/firmino1.png',
       icon: FaGavel,
       tags: ['Direito Penal', 'Jurisprudência', 'Defesa Criminal'],
       social: {
@@ -21,7 +21,7 @@ export default function TeamSection() {
       name: 'Lilian',
       role: 'Advogada Trabalhista',
       description: 'Especialista em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista e processos.',
-      image: '/images/lilian.png',
+      image: '/images/lilian1.png',
       icon: FaBriefcase,
       tags: ['Direito do Trabalho', 'Relações Trabalhistas', 'Legislação'],
       social: {

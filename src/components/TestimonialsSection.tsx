@@ -21,7 +21,7 @@ export default function TestimonialsSection() {
       name: 'Dra. Ana Paula Costa',
       role: 'Diretora Jurídica',
       company: 'TechCorp Brasil',
-      image: '/images/lilian.png',
+      image: '/images/lilian1.png',
       rating: 5,
       text: 'Implementamos a solução de IA da Genesys e os resultados foram além das expectativas. Reduzimos custos em 60% e aumentamos a produtividade significativamente.',
     },

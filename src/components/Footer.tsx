@@ -67,23 +67,23 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="#home" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                <Link href="/" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
                   Início
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                <Link href="/sobre" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
                   Sobre Nós
                 </Link>
               </li>
               <li>
-                <Link href="#team" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
-                  Equipe
+                <Link href="/produtos" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                  Produtos
                 </Link>
               </li>
               <li>
-                <Link href="#products" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
-                  Produtos
+                <Link href="/servicos" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                  Serviços
                 </Link>
               </li>
               <li>

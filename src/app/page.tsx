@@ -2,7 +2,7 @@ import PremiumHeader from '@/components/PremiumHeader'
 import HeroSection from '@/components/HeroSection'
 import ServicesSection from '@/components/ServicesSection'
 import AIShowcase from '@/components/AIShowcase'
-import TestimonialsSection from '@/components/TestimonialsSection'
+import TestimonialsWithVideo from '@/components/TestimonialsWithVideo'
 import TeamSection from '@/components/TeamSection'
 import KermartinSection from '@/components/KermartinSection'
 import ContactSection from '@/components/ContactSection'
@@ -20,7 +20,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <AIShowcase />
-      <TestimonialsSection />
+      <TestimonialsWithVideo />
       <TeamSection />
       <KermartinSection />
       <ContactSection />
