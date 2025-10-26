@@ -185,7 +185,7 @@ export default function TestimonialsWithVideo() {
 
                 {/* Testimonial Text */}
                 <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                  "{currentTestimonial.texto}"
+                  &ldquo;{currentTestimonial.texto}&rdquo;
                 </p>
 
                 {/* Author Info */}

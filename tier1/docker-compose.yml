@@ -1,0 +1,93 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: genesys_postgres
+    environment:
+      POSTGRES_USER: genesys
+      POSTGRES_PASSWORD: genesys
+      POSTGRES_DB: genesys_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - genesys_network
+
+  # Redis
+  redis:
+    image: redis:7-alpine
+    container_name: genesys_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - genesys_network
+
+  # Bot de Telegram
+  bot-telegram:
+    build:
+      context: ./bot-telegram
+      dockerfile: Dockerfile
+    container_name: genesys_bot_telegram
+    environment:
+      - DATABASE_URL=postgresql://genesys:genesys@postgres:5432/genesys_db
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./bot-telegram:/app
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - genesys_network
+    restart: unless-stopped
+
+  # Automação de Prazos
+  automacao-prazos:
+    build:
+      context: ./automacao-prazos
+      dockerfile: Dockerfile
+    container_name: genesys_automacao_prazos
+    environment:
+      - DATABASE_URL=postgresql://genesys:genesys@postgres:5432/genesys_db
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./automacao-prazos:/app
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - genesys_network
+    restart: unless-stopped
+
+  # Assistente Virtual
+  assistente-virtual:
+    build:
+      context: ./assistente-virtual
+      dockerfile: Dockerfile
+    container_name: genesys_assistente_virtual
+    environment:
+      - DATABASE_URL=postgresql://genesys:genesys@postgres:5432/genesys_db
+      - REDIS_URL=redis://redis:6379/0
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./assistente-virtual:/app
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - genesys_network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  genesys_network:
+    driver: bridge
+

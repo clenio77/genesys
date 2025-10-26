@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaRocket, FaUsers, FaAward, FaChartLine, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaRocket, FaUsers, FaAward, FaChartLine, FaLinkedin, FaGithub } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
 import Footer from '@/components/Footer'
 

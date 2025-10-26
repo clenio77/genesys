@@ -1,6 +1,6 @@
 'use client'
 
-import Image from 'next/image'
+
 import Link from 'next/link'
 import { FaBrain, FaFileContract, FaSearch, FaRobot, FaShieldAlt, FaArrowRight, FaCheck } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
@@ -149,7 +149,7 @@ export default function ProdutosPage() {
       <section className="pb-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {produtos.map((produto, index) => {
+            {produtos.map((produto) => {
               const Icon = produto.icon
               return (
                 <div
