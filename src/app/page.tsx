@@ -10,6 +10,9 @@ import FloatingCertifications from '@/components/FloatingCertifications'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 import Footer from '@/components/Footer'
 
+// Força renderização dinâmica para evitar erros de pre-render
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-900">

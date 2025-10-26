@@ -73,6 +73,23 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
   },
   category: 'technology',
+  manifest: '/manifest.json',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/images/genesys-logo.jpg',
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Genesys',
+  },
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#3b82f6',
 }
 
 export default function RootLayout({
@@ -82,20 +99,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${inter.variable} ${playfair.variable} ${jetbrains.variable}`}>
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#3b82f6" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Genesys" />
-        <meta name="msapplication-TileColor" content="#3b82f6" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <link rel="apple-touch-icon" href="/images/genesys-logo.jpg" />
-        <link rel="icon" type="image/jpeg" sizes="192x192" href="/images/genesys-logo.jpg" />
-        <link rel="icon" type="image/jpeg" sizes="512x512" href="/images/genesys-logo.jpg" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
       <body className={`${inter.className} antialiased`}>
         {children}
       </body>
