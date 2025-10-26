@@ -27,12 +27,15 @@ export default function Hero() {
           
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20">
-            <button className="btn-primary flex items-center space-x-3 group">
+            <a href="#products" className="btn-primary flex items-center space-x-3 group">
               <FaRocket className="group-hover:animate-bounce" />
               <span>Descobrir Soluções</span>
-            </button>
-            
-            <button className="btn-secondary flex items-center space-x-3 group">
+            </a>
+
+            <button
+              onClick={() => window.open('https://wa.me/5534998264603?text=Olá! Gostaria de ver uma demonstração das soluções da Genesys Tecnologia.', '_blank')}
+              className="btn-secondary flex items-center space-x-3 group"
+            >
               <FaPlay className="group-hover:scale-110 transition-transform" />
               <span>Ver Demo</span>
             </button>

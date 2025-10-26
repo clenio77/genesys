@@ -74,11 +74,17 @@ export default function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold text-lg shadow-lg shadow-blue-500/50 hover:shadow-xl hover:shadow-blue-500/70 transition-all hover:scale-105">
+            <button
+              onClick={() => window.open('https://wa.me/5534998264603?text=Olá! Gostaria de começar a usar as soluções da Genesys Tecnologia.', '_blank')}
+              className="px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold text-lg shadow-lg shadow-blue-500/50 hover:shadow-xl hover:shadow-blue-500/70 transition-all hover:scale-105"
+            >
               Começar Gratuitamente
             </button>
-            
-            <button className="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold text-lg hover:bg-white/20 transition-all hover:scale-105">
+
+            <button
+              onClick={() => window.open('https://wa.me/5534998264603?text=Olá! Gostaria de ver uma demonstração das soluções da Genesys Tecnologia.', '_blank')}
+              className="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-lg font-semibold text-lg hover:bg-white/20 transition-all hover:scale-105"
+            >
               Ver Demonstração
             </button>
           </div>

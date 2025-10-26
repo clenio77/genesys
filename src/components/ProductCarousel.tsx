@@ -65,7 +65,7 @@ const products: Product[] = [
       { label: 'Busca', value: 'IA' },
     ],
     cta: 'Explorar Pesquisa',
-    ctaLink: '/tecnologias/pesquisa-jurisprudencial',
+    ctaLink: '/produtos/pesquisa-juridica',
     bgPattern: 'radial-gradient(circle at 50% 20%, rgba(16, 185, 129, 0.15) 0%, transparent 50%)',
   },
   {
@@ -81,7 +81,7 @@ const products: Product[] = [
       { label: 'Economia', value: '10x' },
     ],
     cta: 'Ver Análise',
-    ctaLink: '/tecnologias/analise-contratos',
+    ctaLink: '/produtos/analise-contratos',
     bgPattern: 'radial-gradient(circle at 50% 80%, rgba(245, 158, 11, 0.15) 0%, transparent 50%)',
   },
   {
@@ -97,7 +97,7 @@ const products: Product[] = [
       { label: 'Erros', value: '-95%' },
     ],
     cta: 'Automatizar Agora',
-    ctaLink: '/produtos',
+    ctaLink: '/produtos/automacao-processos',
     bgPattern: 'radial-gradient(circle at 20% 80%, rgba(244, 63, 94, 0.15) 0%, transparent 50%)',
   },
 ]
@@ -315,7 +315,7 @@ export default function ProductCarousel() {
                         transition={{ delay: 0.8 + index * 0.1 }}
                         className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
                       >
-                        <div className={`text-4xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2`}>
+                        <div className={`text-4xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2 leading-tight py-1`}>
                           {stat.value}
                         </div>
                         <div className="text-sm text-gray-400 font-medium">
