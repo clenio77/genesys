@@ -104,7 +104,7 @@ export default function AIShowcase() {
                   {/* Icon with gradient background */}
                   <div className={`w-16 h-16 mx-auto mb-4 rounded-xl bg-gradient-to-r ${tech.color} p-0.5`}>
                     <div className="w-full h-full bg-slate-900 rounded-xl flex items-center justify-center">
-                      <tech.icon className={`text-3xl bg-gradient-to-r ${tech.color} bg-clip-text text-transparent`} />
+                      <tech.icon className="text-3xl text-white" />
                     </div>
                   </div>
 
