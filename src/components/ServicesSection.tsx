@@ -12,6 +12,7 @@ export default function ServicesSection() {
       icon: FaFileAlt,
       gradient: 'from-blue-600 to-cyan-600',
       badge: 'Popular',
+      link: '/tecnologias/analise-contratos',
       features: [
         'Revisão automática em minutos',
         'Identificação de riscos',
@@ -25,6 +26,7 @@ export default function ServicesSection() {
       description: 'Busca inteligente em milhões de decisões judiciais com análise de padrões e predição de resultados.',
       icon: FaBrain,
       gradient: 'from-purple-600 to-pink-600',
+      link: '/tecnologias/pesquisa-jurisprudencial',
       features: [
         'Busca semântica avançada',
         'Análise de tendências',
@@ -39,6 +41,7 @@ export default function ServicesSection() {
       icon: FaChartLine,
       gradient: 'from-emerald-600 to-teal-600',
       badge: 'Novo',
+      link: '/tecnologias/analytics-juridico',
       features: [
         'Métricas em tempo real',
         'Visualizações interativas',

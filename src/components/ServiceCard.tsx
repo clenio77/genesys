@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { IconType } from 'react-icons'
 import { FaStar } from 'react-icons/fa'
+import Link from 'next/link'
 
 interface ServiceCardProps {
   title: string
@@ -12,6 +13,7 @@ interface ServiceCardProps {
   badge?: string
   gradient: string
   delay?: number
+  link?: string
 }
 
 export default function ServiceCard({
@@ -22,6 +24,7 @@ export default function ServiceCard({
   badge,
   gradient,
   delay = 0,
+  link,
 }: ServiceCardProps) {
   return (
     <motion.div
@@ -95,13 +98,26 @@ export default function ServiceCard({
         </ul>
 
         {/* CTA Button */}
-        <motion.button
-          className="w-full py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all"
-          whileHover={{ scale: 1.02, y: -2 }}
-          whileTap={{ scale: 0.98 }}
-        >
-          Saiba Mais
-        </motion.button>
+        {link ? (
+          <Link href={link}>
+            <motion.button
+              className="w-full py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all"
+              whileHover={{ scale: 1.02, y: -2 }}
+              whileTap={{ scale: 0.98 }}
+            >
+              Saiba Mais
+            </motion.button>
+          </Link>
+        ) : (
+          <motion.button
+            onClick={() => window.open(`https://wa.me/5534998264603?text=${encodeURIComponent(`Olá! Gostaria de saber mais sobre ${title}.`)}`, '_blank')}
+            className="w-full py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all"
+            whileHover={{ scale: 1.02, y: -2 }}
+            whileTap={{ scale: 0.98 }}
+          >
+            Falar com Especialista
+          </motion.button>
+        )}
 
         {/* Decorative Elements */}
         <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl -z-10 group-hover:bg-blue-500/20 transition-all duration-500" />
