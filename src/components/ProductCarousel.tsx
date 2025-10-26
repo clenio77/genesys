@@ -2,14 +2,16 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaBrain, FaChartLine, FaSearch, FaFileContract, FaRobot, FaArrowRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { FaChartLine, FaSearch, FaFileContract, FaRobot, FaArrowRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import Image from 'next/image'
 
 interface Product {
   id: number
   title: string
   subtitle: string
   description: string
-  icon: React.ComponentType<{ className?: string }>
+  icon?: React.ComponentType<{ className?: string }>
+  logo?: string
   gradient: string
   stats: { label: string; value: string }[]
   cta: string
@@ -23,7 +25,7 @@ const products: Product[] = [
     title: 'Kermartin IA',
     subtitle: 'Assistente Jurídico Inteligente',
     description: 'Seu assistente jurídico pessoal 24/7. Análise instantânea de documentos, respostas precisas e insights estratégicos com IA de última geração.',
-    icon: FaBrain,
+    logo: '/images/kermartin-logo.png',
     gradient: 'from-blue-600 via-cyan-600 to-blue-500',
     stats: [
       { label: 'Precisão', value: '95%' },
@@ -31,7 +33,7 @@ const products: Product[] = [
       { label: 'Respostas', value: '<3s' },
     ],
     cta: 'Conhecer Kermartin',
-    ctaLink: '#kermartin',
+    ctaLink: '/produtos/kermartin-ia',
     bgPattern: 'radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%)',
   },
   {
@@ -46,8 +48,8 @@ const products: Product[] = [
       { label: 'Tempo Real', value: '100%' },
       { label: 'Insights', value: 'IA' },
     ],
-    cta: 'Ver Demonstração',
-    ctaLink: '#analytics',
+    cta: 'Ver Analytics',
+    ctaLink: '/tecnologias/analytics-juridico',
     bgPattern: 'radial-gradient(circle at 80% 50%, rgba(168, 85, 247, 0.15) 0%, transparent 50%)',
   },
   {
@@ -62,8 +64,8 @@ const products: Product[] = [
       { label: 'Tribunais', value: 'Todos' },
       { label: 'Busca', value: 'IA' },
     ],
-    cta: 'Experimentar Busca',
-    ctaLink: '#pesquisa',
+    cta: 'Explorar Pesquisa',
+    ctaLink: '/tecnologias/pesquisa-jurisprudencial',
     bgPattern: 'radial-gradient(circle at 50% 20%, rgba(16, 185, 129, 0.15) 0%, transparent 50%)',
   },
   {
@@ -78,8 +80,8 @@ const products: Product[] = [
       { label: 'Precisão', value: '98%' },
       { label: 'Economia', value: '10x' },
     ],
-    cta: 'Testar Análise',
-    ctaLink: '#contratos',
+    cta: 'Ver Análise',
+    ctaLink: '/tecnologias/analise-contratos',
     bgPattern: 'radial-gradient(circle at 50% 80%, rgba(245, 158, 11, 0.15) 0%, transparent 50%)',
   },
   {
@@ -95,7 +97,7 @@ const products: Product[] = [
       { label: 'Erros', value: '-95%' },
     ],
     cta: 'Automatizar Agora',
-    ctaLink: '#automacao',
+    ctaLink: '/produtos',
     bgPattern: 'radial-gradient(circle at 20% 80%, rgba(244, 63, 94, 0.15) 0%, transparent 50%)',
   },
 ]
@@ -229,14 +231,24 @@ export default function ProductCarousel() {
             >
               {/* Left Column - Content */}
               <div className="space-y-8">
-                {/* Icon */}
+                {/* Icon or Logo */}
                 <motion.div
                   initial={{ scale: 0, rotate: -180 }}
                   animate={{ scale: 1, rotate: 0 }}
                   transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
                   className={`inline-flex p-6 rounded-2xl bg-gradient-to-r ${currentProduct.gradient} shadow-2xl`}
                 >
-                  <currentProduct.icon className="text-5xl text-white" />
+                  {currentProduct.logo ? (
+                    <Image
+                      src={currentProduct.logo}
+                      alt={currentProduct.title}
+                      width={80}
+                      height={80}
+                      className="object-contain"
+                    />
+                  ) : currentProduct.icon ? (
+                    <currentProduct.icon className="text-5xl text-white" />
+                  ) : null}
                 </motion.div>
 
                 {/* Title */}
