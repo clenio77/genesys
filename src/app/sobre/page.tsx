@@ -13,9 +13,10 @@ export default function SobrePage() {
       nome: 'Clênio Moura',
       cargo: 'CEO & Fundador',
       foto: '/images/clenio.png',
-      bio: 'Especialista em IA e Direito com 15+ anos de experiência',
+      bio: 'Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes. Especialista em IA e Direito com 15+ anos de experiência.',
       linkedin: '#',
-      github: '#'
+      github: '#',
+      instagram: 'https://www.instagram.com/afonso.clenio?utm_source=qr&igsh=eXM1cWtvOWZ2dThq'
     },
     {
       nome: 'Lilian Santos',

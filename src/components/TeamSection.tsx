@@ -40,15 +40,20 @@ export default function TeamSection() {
       }
     },
     {
-      name: 'Clenio',
+      name: 'Clênio Moura',
       role: 'Desenvolvedor & Engenheiro de IA',
-      description: 'Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes.',
+      description: 'Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes. CEO & Fundador da Genesys Tecnologia.',
       image: '/images/clenio.png',
       icon: FaCode,
       tags: ['Python', 'Inteligência Artificial', 'Automação', 'Agentes IA'],
       social: {
         linkedin: '#',
-        twitter: '#'
+        twitter: '#',
+        instagram: 'https://www.instagram.com/afonso.clenio?utm_source=qr&igsh=eXM1cWtvOWZ2dThq'
+      },
+      stats: {
+        label: 'Projetos de IA',
+        value: '50+'
       }
     }
   ]
