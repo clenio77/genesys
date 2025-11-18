@@ -19,17 +19,18 @@ export default function SobrePage() {
     },
     {
       nome: 'Lilian Santos',
-      cargo: 'CTO',
+      cargo: 'Advogada Trabalhista',
       foto: '/images/lilian1.png',
-      bio: 'Engenheira de Software especializada em Machine Learning',
+      bio: 'Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
       linkedin: '#',
-      github: '#'
+      github: '#',
+      instagram: 'https://www.instagram.com/adv.liliantrabalhista?igsh=ZmE3aG8ycHNubDgw'
     },
     {
       nome: 'Firmino Costa',
-      cargo: 'Head of Legal Tech',
+      cargo: 'Advogado Criminalista',
       foto: '/images/firmino1.png',
-      bio: 'Advogado e especialista em transformação digital jurídica',
+      bio: 'Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
       linkedin: '#',
       github: '#',
       instagram: 'https://www.instagram.com/firmino.adv?igsh=M2N3cGkxdGtoOWgw'

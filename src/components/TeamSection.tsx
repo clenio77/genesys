@@ -6,28 +6,37 @@ import { FaGavel, FaBriefcase, FaCode, FaLinkedin, FaTwitter, FaInstagram } from
 export default function TeamSection() {
   const teamMembers = [
     {
-      name: 'Firmino',
+      name: 'Firmino Costa',
       role: 'Advogado Criminalista',
-      description: 'Especialista em direito penal com mais de 15 anos de experiência em casos complexos. Expertise em jurisprudência criminal e defesa estratégica.',
+      description: 'Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
       image: '/images/firmino1.png',
       icon: FaGavel,
-      tags: ['Direito Penal', 'Jurisprudência', 'Defesa Criminal'],
+      tags: ['Direito Penal', 'Jurisprudência', 'Defesa Criminal', 'Consultoria Jurídica'],
       social: {
         linkedin: '#',
         twitter: '#',
         instagram: 'https://www.instagram.com/firmino.adv?igsh=M2N3cGkxdGtoOWgw'
+      },
+      stats: {
+        label: 'Anos de Experiência',
+        value: '15+'
       }
     },
     {
-      name: 'Lilian',
+      name: 'Lilian Santos',
       role: 'Advogada Trabalhista',
-      description: 'Especialista em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista e processos.',
+      description: 'Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
       image: '/images/lilian1.png',
       icon: FaBriefcase,
-      tags: ['Direito do Trabalho', 'Relações Trabalhistas', 'Legislação'],
+      tags: ['Direito do Trabalho', 'Relações Trabalhistas', 'Legislação', 'Consultoria Trabalhista'],
       social: {
         linkedin: '#',
-        twitter: '#'
+        twitter: '#',
+        instagram: 'https://www.instagram.com/adv.liliantrabalhista?igsh=ZmE3aG8ycHNubDgw'
+      },
+      stats: {
+        label: 'Casos Analisados',
+        value: '1000+'
       }
     },
     {
