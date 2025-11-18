@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { FaGavel, FaBriefcase, FaCode, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGavel, FaBriefcase, FaCode, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'
 
 export default function TeamSection() {
   const teamMembers = [
@@ -14,7 +14,8 @@ export default function TeamSection() {
       tags: ['Direito Penal', 'Jurisprudência', 'Defesa Criminal'],
       social: {
         linkedin: '#',
-        twitter: '#'
+        twitter: '#',
+        instagram: 'https://www.instagram.com/firmino.adv?igsh=M2N3cGkxdGtoOWgw'
       }
     },
     {
@@ -119,6 +120,17 @@ export default function TeamSection() {
                   >
                     <FaTwitter className="text-sm" />
                   </a>
+                  {member.social.instagram && (
+                    <a
+                      href={member.social.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 rounded-full flex items-center justify-center text-white transition-colors duration-300"
+                      aria-label={`Instagram de ${member.name}`}
+                    >
+                      <FaInstagram className="text-sm" />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

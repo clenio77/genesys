@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaRocket, FaUsers, FaAward, FaChartLine, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaRocket, FaUsers, FaAward, FaChartLine, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
 import Footer from '@/components/Footer'
 import SEOHead from '@/components/SEOHead'
@@ -31,7 +31,8 @@ export default function SobrePage() {
       foto: '/images/firmino1.png',
       bio: 'Advogado e especialista em transformação digital jurídica',
       linkedin: '#',
-      github: '#'
+      github: '#',
+      instagram: 'https://www.instagram.com/firmino.adv?igsh=M2N3cGkxdGtoOWgw'
     }
   ]
 
@@ -250,6 +251,16 @@ export default function SobrePage() {
                   >
                     <FaGithub />
                   </a>
+                  {membro.instagram && (
+                    <a
+                      href={membro.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 rounded-full flex items-center justify-center text-white transition-all"
+                    >
+                      <FaInstagram />
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
