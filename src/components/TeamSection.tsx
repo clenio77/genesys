@@ -8,7 +8,7 @@ export default function TeamSection() {
     {
       name: 'Firmino Costa',
       role: 'Advogado Criminalista',
-      description: 'Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
+      description: 'CEO & Fundador da Genesys Tecnologia. Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
       image: '/images/firmino1.png',
       icon: FaGavel,
       tags: ['Direito Penal', 'Jurisprudência', 'Defesa Criminal', 'Consultoria Jurídica'],
@@ -25,7 +25,7 @@ export default function TeamSection() {
     {
       name: 'Lilian Santos',
       role: 'Advogada Trabalhista',
-      description: 'Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
+      description: 'CEO & Fundadora da Genesys Tecnologia. Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
       image: '/images/lilian1.png',
       icon: FaBriefcase,
       tags: ['Direito do Trabalho', 'Relações Trabalhistas', 'Legislação', 'Consultoria Trabalhista'],
@@ -42,7 +42,7 @@ export default function TeamSection() {
     {
       name: 'Clênio Moura',
       role: 'Desenvolvedor & Engenheiro de IA',
-      description: 'Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes. CEO & Fundador da Genesys Tecnologia.',
+      description: 'CEO & Fundador da Genesys Tecnologia. Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes.',
       image: '/images/clenio.png',
       icon: FaCode,
       tags: ['Python', 'Inteligência Artificial', 'Automação', 'Agentes IA'],
