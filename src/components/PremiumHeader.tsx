@@ -42,8 +42,8 @@ export default function PremiumHeader() {
           {/* Logo */}
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3">
             {/* Mobile: Logo maior e mais larga, sem texto */}
-            {/* Desktop: Logo maior, quase na altura do header */}
-            <div className="relative w-48 h-32 sm:w-44 sm:h-28 md:w-52 md:h-30 lg:w-60 lg:h-32">
+            {/* Desktop: Logo com altura igual ao header */}
+            <div className="relative w-48 h-24 sm:w-40 sm:h-20 md:w-48 md:h-20 lg:w-56 lg:h-20">
               <Image
                 src="/images/genesys-logo.png"
                 alt="Genesys Tecnologia Jurídica"

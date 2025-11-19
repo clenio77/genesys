@@ -18,7 +18,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
-              <div className="genesys-logo logo-container relative w-48 h-32 sm:w-44 sm:h-28 md:w-52 md:h-30 lg:w-60 lg:h-32">
+              <div className="genesys-logo logo-container relative w-48 h-24 sm:w-40 sm:h-20 md:w-48 md:h-20 lg:w-56 lg:h-20">
                 <Image
                   src="/images/genesys-logo.png"
                   alt="Genesys Tecnologia"
