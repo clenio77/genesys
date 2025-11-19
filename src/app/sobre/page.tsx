@@ -12,7 +12,7 @@ export default function SobrePage() {
     {
       nome: 'Clênio Moura',
       cargo: 'CEO & Fundador',
-      foto: '/images/clenio.jpg',
+      foto: '/images/clenio.png',
       bio: 'CEO & Fundador da Genesys Tecnologia. Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes. Especialista em IA e Direito com 15+ anos de experiência.',
       linkedin: '#',
       github: '#',
@@ -21,7 +21,7 @@ export default function SobrePage() {
     {
       nome: 'Lilian Santos',
       cargo: 'Advogada Trabalhista',
-      foto: '/images/lilian.jpg',
+      foto: '/images/lilian1.png',
       bio: 'CEO & Fundadora da Genesys Tecnologia. Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
       linkedin: '#',
       github: '#',
@@ -30,7 +30,7 @@ export default function SobrePage() {
     {
       nome: 'Firmino Costa',
       cargo: 'Advogado Criminalista',
-      foto: '/images/firmino.jpg',
+      foto: '/images/firmino1.png',
       bio: 'CEO & Fundador da Genesys Tecnologia. Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
       linkedin: '#',
       github: '#',
