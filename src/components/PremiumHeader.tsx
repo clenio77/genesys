@@ -45,7 +45,7 @@ export default function PremiumHeader() {
             {/* Desktop: Logo maior, quase na altura do header */}
             <div className="relative w-40 h-20 sm:w-32 sm:h-16 md:w-40 md:h-18 lg:w-48 lg:h-20">
               <Image
-                src="/images/genesys-logo.jpg"
+                src="/images/genesys-logo.png"
                 alt="Genesys Tecnologia Jurídica"
                 fill
                 className="object-contain"

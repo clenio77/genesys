@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: 'Genesys Tecnologia',
     images: [
       {
-        url: '/images/genesys-logo.jpg',
+        url: '/images/genesys-logo.png',
         width: 1200,
         height: 630,
         alt: 'Genesys Tecnologia',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Genesys Tecnologia - Inteligência Artificial Jurídica',
     description: 'Inteligência Artificial que Redefine a Análise Jurídica',
-    images: ['/images/genesys-logo.jpg'],
+    images: ['/images/genesys-logo.png'],
   },
   robots: {
     index: true,
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   icons: {
     icon: '/favicon.ico',
-    apple: '/images/genesys-logo.jpg',
+    apple: '/images/genesys-logo.png',
   },
   appleWebApp: {
     capable: true,

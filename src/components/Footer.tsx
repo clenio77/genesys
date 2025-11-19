@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-32 h-20 flex items-center justify-center genesys-logo logo-container relative">
                 <Image
-                  src="/images/genesys-logo.jpg"
+                  src="/images/genesys-logo.png"
                   alt="Genesys Tecnologia"
                   fill
                   sizes="(max-width: 768px) 50vw, 25vw"

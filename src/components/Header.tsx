@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex items-center space-x-3">
               <div className="genesys-logo logo-container relative">
                 <Image
-                  src="/images/genesys-logo.jpg"
+                  src="/images/genesys-logo.png"
                   alt="Genesys Tecnologia"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

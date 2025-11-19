@@ -14,7 +14,7 @@ export default function SEOHead({
   title, 
   description, 
   keywords = 'inteligência artificial, direito, advocacia, jurisprudência, análise jurídica, IA jurídica',
-  ogImage = '/images/genesys-logo.jpg',
+  ogImage = '/images/genesys-logo.png',
   canonical
 }: SEOHeadProps) {
   useEffect(() => {
