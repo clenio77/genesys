@@ -1,0 +1,13 @@
+{
+  "data_execucao": "2025-10-31T19:55:13.573082",
+  "total_processos": 1,
+  "sucessos": 0,
+  "erros": 1,
+  "resultados": [],
+  "erros_detalhados": [
+    {
+      "processo": "0878961-59.2013.8.13.0702",
+      "erro": "Erro HTTP 401"
+    }
+  ]
+}

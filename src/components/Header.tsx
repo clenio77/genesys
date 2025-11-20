@@ -16,30 +16,27 @@ export default function Header() {
     <>
       <nav className="header-glass-modern" style={{ top: '0px' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-3">
-              <div className="genesys-logo logo-container relative w-48 h-24 sm:w-40 sm:h-20 md:w-48 md:h-20 lg:w-56 lg:h-20">
-                <Image
-                  src="/images/genesys-logo.png"
-                  alt="Genesys Tecnologia"
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="object-contain hover:scale-105 transition-transform duration-300"
-                  style={{
-                    background: 'transparent !important',
-                    border: 'none !important',
-                    outline: 'none !important',
-                    boxShadow: 'none !important',
-                    objectPosition: 'center !important'
-                  }}
-                  priority
-                />
-              </div>
-              <span className="text-2xl font-bold gradient-text hidden lg:block font-playfair">
-                Genesys Tecnologia
-              </span>
+          <div className="flex justify-between items-center py-8 md:py-10 lg:py-12 min-h-[140px] md:min-h-[170px] lg:min-h-[200px]">
+            <div className="flex items-center h-full">
+              <Link href="#home" className="flex items-center h-full">
+                <div className="genesys-logo logo-container relative w-[500px] h-full sm:w-[600px] md:w-[650px] lg:w-[700px] min-h-[120px] md:min-h-[150px] lg:min-h-[180px] transition-all duration-300">
+                  <Image
+                    src="/images/genesys-logo.png"
+                    alt="Genesys Tecnologia - Inteligência Artificial Jurídica"
+                    fill
+                    sizes="(max-width: 640px) 500px, (max-width: 768px) 600px, (max-width: 1024px) 650px, 700px"
+                    className="object-contain hover:scale-110 transition-transform duration-300"
+                    style={{
+                      objectFit: 'contain',
+                      objectPosition: 'left center',
+                      transform: 'scale(1.2)'
+                    }}
+                    priority
+                  />
+                </div>
+              </Link>
             </div>
-            
+
             {/* Desktop Navigation */}
             <div className="nav-links hidden md:flex space-x-8">
               <Link href="#home" className="nav-link text-lg">
@@ -61,7 +58,7 @@ export default function Header() {
                 Contato
               </Link>
             </div>
-            
+
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMenu}
@@ -73,49 +70,48 @@ export default function Header() {
           </div>
         </div>
       </nav>
-      
+
       {/* Mobile Menu */}
-      <div className={`fixed inset-0 z-30 bg-genesys-dark/95 backdrop-blur-md transition-all duration-300 ${
-        isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-      }`}>
+      <div className={`fixed inset-0 z-30 bg-genesys-dark/95 backdrop-blur-md transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        }`}>
         <div className="flex flex-col items-center justify-center h-full space-y-8">
-          <Link 
-            href="#home" 
+          <Link
+            href="#home"
             className="nav-link text-2xl font-playfair"
             onClick={() => setIsMenuOpen(false)}
           >
             Início
           </Link>
-          <Link 
-            href="#about" 
+          <Link
+            href="#about"
             className="nav-link text-2xl font-playfair"
             onClick={() => setIsMenuOpen(false)}
           >
             Sobre
           </Link>
-          <Link 
-            href="#team" 
+          <Link
+            href="#team"
             className="nav-link text-2xl font-playfair"
             onClick={() => setIsMenuOpen(false)}
           >
             Equipe
           </Link>
-          <Link 
-            href="#solutions" 
+          <Link
+            href="#solutions"
             className="nav-link text-2xl font-playfair"
             onClick={() => setIsMenuOpen(false)}
           >
             Soluções
           </Link>
-          <Link 
-            href="#products" 
+          <Link
+            href="#products"
             className="nav-link text-2xl font-playfair"
             onClick={() => setIsMenuOpen(false)}
           >
             Produtos
           </Link>
-          <Link 
-            href="#contact" 
+          <Link
+            href="#contact"
             className="nav-link text-2xl font-playfair"
             onClick={() => setIsMenuOpen(false)}
           >
@@ -123,9 +119,9 @@ export default function Header() {
           </Link>
         </div>
       </div>
-      
+
       {/* Header Spacer */}
-      <div className="header-spacer h-40"></div>
+      <div className="header-spacer"></div>
     </>
   )
 }

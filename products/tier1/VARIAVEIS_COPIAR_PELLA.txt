@@ -1,0 +1,54 @@
+===============================================
+VARIÁVEIS DE AMBIENTE PARA COPIAR NO PELLA
+===============================================
+
+Copie e cole estas variáveis no painel do Pella
+(Configurações → Variáveis de Ambiente)
+
+===============================================
+🔴 OBRIGATÓRIAS
+===============================================
+
+Chave: TELEGRAM_BOT_TOKEN
+Valor: [Pegue do seu .env ou do @BotFather]
+
+Chave: GEMINI_API_KEY
+Valor: [Pegue do seu .env]
+
+OU
+
+Chave: OPENAI_API_KEY
+Valor: [Pegue do seu .env]
+
+===============================================
+🟡 RECOMENDADAS
+===============================================
+
+Chave: DATABASE_URL
+Valor: sqlite:///./bot.db
+
+Chave: LOG_LEVEL
+Valor: INFO
+
+===============================================
+⚪ OPCIONAIS
+===============================================
+
+Chave: SECRET_KEY
+Valor: [Pode deixar em branco ou gerar uma chave aleatória]
+
+===============================================
+📋 INSTRUÇÕES RÁPIDAS
+===============================================
+
+1. No Pella, vá em "Configurações" (Settings)
+2. Encontre "VARIÁVEIS DE AMBIENTE"
+3. Para cada linha acima:
+   - Clique em "Adicionar" ou "+"
+   - Cole a Chave (nome da variável)
+   - Cole o Valor
+4. Clique em "Salvar" (Save)
+5. Reinicie o servidor (botão "COMEÇAR")
+
+===============================================
+

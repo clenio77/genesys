@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: genesys_postgres
+    environment:
+      POSTGRES_USER: genesys
+      POSTGRES_PASSWORD: genesys
+      POSTGRES_DB: genesys_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - genesys_network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: genesys_redis
+    ports:
+      - "6379:6379"
+    networks:
+      - genesys_network
+
+  # Bot WhatsApp Business (TIER 2)
+  bot_whatsapp:
+    build:
+      context: ./bot-whatsapp
+      dockerfile: Dockerfile
+    container_name: genesys_whatsapp
+    environment:
+      - DATABASE_URL=postgresql://genesys:genesys@postgres:5432/genesys_db
+      - REDIS_URL=redis://redis:6379/0
+      - DEBUG=False
+      - PORT=8001
+    ports:
+      - "8001:8001"
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - genesys_network
+    restart: unless-stopped
+
+  # Dashboard Analítico (TIER 2)
+  dashboard_analytics:
+    build:
+      context: ./dashboard-analytics
+      dockerfile: Dockerfile
+    container_name: genesys_dashboard
+    environment:
+      - DATABASE_URL=postgresql://genesys:genesys@postgres:5432/genesys_db
+      - REDIS_URL=redis://redis:6379/0
+      - DEBUG=False
+      - PORT=8002
+    ports:
+      - "8002:8002"
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - genesys_network
+    restart: unless-stopped
+
+networks:
+  genesys_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+

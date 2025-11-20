@@ -1,0 +1,220 @@
+{
+  "numero_processo": "0878961-59.2013.8.13.0702",
+  "analise": {
+    "url": "https://eproc-consulta-publica-1g.tjmg.jus.br/eproc/externo_controlador.php?acao=processo_consulta_publica&acao_origem=&acao_retorno=processo_consulta_publica",
+    "titulo": ":: eproc - Consulta Processual - Busca de Processo ::",
+    "url_contem_processo": true,
+    "url_contem_consulta": true,
+    "textos_visiveis": [
+      {
+        "tag": "H1",
+        "classe": "",
+        "id": "",
+        "texto": "Consulta Processual - Busca de Processo"
+      }
+    ],
+    "tabelas_encontradas": [],
+    "links_encontrados": [
+      {
+        "texto": "Ir para conteúdo",
+        "href": "#divInfraBarraLocalizacao",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#divInfraBarraLocalizacao",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Ir para menu",
+        "href": "#sidebar-searchbox",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#sidebar-searchbox",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "text_increase",
+        "href": "#/",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#/",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "text_decrease",
+        "href": "#/",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#/",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "contrast",
+        "href": "#/",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#/",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Libras",
+        "href": "#/",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#/",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Acessibilidade",
+        "href": "externo_controlador.php?acao=tutorial_acessibilidade",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=tutorial_acessibilidade",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "menu",
+        "href": "#",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Tribunal de Justiça do Estado de Minas Gerais",
+        "href": "https://www.tjmg.jus.br",
+        "url_completa": "https://www.tjmg.jus.br",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Acessibilidade",
+        "href": "externo_controlador.php?acao=tutorial_acessibilidade",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=tutorial_acessibilidade",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Entrar no Sistema",
+        "href": "externo_controlador.php?acao=principal",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=principal",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Cadastre-se AQUI! arrow_drop_down",
+        "href": "#",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Cadastrar Advogado arrow_drop_down",
+        "href": "externo_controlador.php?acao=selecionar_tipo_advogado_cadastrar",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=selecionar_tipo_advogado_cadastrar",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Cadastrar Jus Postulandi arrow_drop_down",
+        "href": "externo_controlador.php?acao=selecionar_tipo_jus_postulandi_cadastrar",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=selecionar_tipo_jus_postulandi_cadastrar",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Cadastrar Representante Legal de PJ arrow_drop_down",
+        "href": "externo_controlador.php?acao=selecionar_tipo_representante_legal_pj_cadastrar",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=selecionar_tipo_representante_legal_pj_cadastrar",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Consulta Autenticidade arrow_drop_down",
+        "href": "#",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/#",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Certidão Narratória arrow_drop_down",
+        "href": "externo_controlador.php?acao=consulta_autenticidade_certidao_narratoria",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=consulta_autenticidade_certidao_narratoria",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Certidão de Execução arrow_drop_down",
+        "href": "externo_controlador.php?acao=consulta_autenticidade_certidao_execucao",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=consulta_autenticidade_certidao_execucao",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Documentos arrow_drop_down",
+        "href": "externo_controlador.php?acao=consulta_autenticidade_documentos",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=consulta_autenticidade_documentos",
+        "parece_documento": true,
+        "parece_processo": false
+      },
+      {
+        "texto": "Consulta Guia de Custas",
+        "href": "externo_controlador.php?acao=consulta_guia_custas",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=consulta_guia_custas",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Audiências",
+        "href": "externo_controlador.php?acao=pauta_audiencias",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=pauta_audiencias",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Consulta Pública de Processos",
+        "href": "externo_controlador.php?acao=processo_consulta_publica",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=processo_consulta_publica",
+        "parece_documento": false,
+        "parece_processo": true
+      },
+      {
+        "texto": "Consulta de Documento por Chave",
+        "href": "https://eproc-consulta-publica-1g.tjmg.jus.br/eproc/externo_controlador.php?acao=processo_consulta_publica_chave/consultar",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/eproc/externo_controlador.php?acao=processo_consulta_publica_chave/consultar",
+        "parece_documento": true,
+        "parece_processo": true
+      },
+      {
+        "texto": "Fale Conosco",
+        "href": "externo_controlador.php?acao=fale",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=fale",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Fórum de Conciliação",
+        "href": "externo_controlador.php?acao=conciliacao_entrar",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=conciliacao_entrar",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Legislação",
+        "href": "externo_controlador.php?acao=legislacao",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=legislacao",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Sessões de Julgamento",
+        "href": "externo_controlador.php?acao=sessao_julgamento",
+        "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=sessao_julgamento",
+        "parece_documento": false,
+        "parece_processo": false
+      },
+      {
+        "texto": "Tutoriais",
+        "href": "https://www.tjmg.jus.br/portal-tjmg/processos/eproc/",
+        "url_completa": "https://www.tjmg.jus.br/portal-tjmg/processos/eproc/",
+        "parece_documento": false,
+        "parece_processo": true
+      }
+    ],
+    "formularios_encontrados": [],
+    "mensagens_erro": [],
+    "elementos_interessantes": [],
+    "ainda_na_busca": true
+  }
+}

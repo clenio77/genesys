@@ -8,14 +8,14 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     background-color: #0f172a;
     color: white;
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
   }
-  
+
   * {
     border-color: #374151;
   }
@@ -28,21 +28,21 @@
     background-clip: text;
     color: transparent;
   }
-  
+
   .glass-effect {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
-  
+
   .hover-lift {
     transition: transform 0.3s ease;
   }
-  
+
   .hover-lift:hover {
     transform: translateY(-8px);
   }
-  
+
   /* Floating Certifications */
   .certification-float {
     width: 48px;
@@ -55,27 +55,27 @@
     transition: all 0.3s ease;
     position: relative;
   }
-  
+
   .certification-float:hover {
     transform: scale(1.1);
   }
-  
+
   .certification-oab {
     background: linear-gradient(to right, #10b981, #059669);
   }
-  
+
   .certification-lgpd {
     background: linear-gradient(to right, #3b82f6, #1d4ed8);
   }
-  
+
   .certification-iso {
     background: linear-gradient(to right, #8b5cf6, #7c3aed);
   }
-  
+
   .certification-ia {
     background: linear-gradient(to right, #f59e0b, #d97706);
   }
-  
+
   /* WhatsApp Float */
   .whatsapp-float {
     position: fixed;
@@ -95,9 +95,171 @@
     z-index: 100;
     box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
   }
-  
+
   .whatsapp-float:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+  }
+
+  /* Header Styles */
+  .header-glass-modern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background: rgba(15, 23, 42, 0.85);
+    backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .header-glass-modern:hover {
+    background: rgba(15, 23, 42, 0.9);
+    border-bottom-color: rgba(255, 255, 255, 0.15);
+  }
+
+  /* Logo Styles */
+  .genesys-logo {
+    filter: drop-shadow(0 2px 8px rgba(59, 130, 246, 0.3));
+  }
+
+  .genesys-logo:hover {
+    filter: drop-shadow(0 4px 12px rgba(59, 130, 246, 0.5));
+  }
+
+  .logo-container img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+
+  /* Logo Scale Responsivo */
+  .logo-scale {
+    transform: scale(2.0);
+  }
+
+  @media (min-width: 640px) {
+    .logo-scale {
+      transform: scale(2.2);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .logo-scale {
+      transform: scale(2.4);
+    }
+  }
+
+  /* Navigation Links */
+  .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    padding-bottom: 4px;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #3b82f6, #06b6d4);
+    transition: width 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #60a5fa;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Mobile Menu Button */
+  .mobile-menu-button {
+    transition: all 0.3s ease;
+  }
+
+  .mobile-menu-button:hover {
+    color: #60a5fa;
+    transform: scale(1.1);
+  }
+
+  /* Header Spacer */
+  .header-spacer {
+    height: 80px;
+  }
+
+  @media (min-width: 768px) {
+    .header-spacer {
+      height: 95px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .header-spacer {
+      height: 105px;
+    }
+  }
+
+  /* Responsividade para telas pequenas */
+  @media (max-width: 480px) {
+    .header-glass-modern {
+      padding: 0.5rem 0;
+    }
+
+    .header-spacer {
+      height: 80px;
+    }
+
+    /* Ajustes de fonte para mobile */
+    body {
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    /* Touch targets mínimos de 44px */
+    button,
+    a {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+
+  /* PWA Standalone Mode */
+  @media (display-mode: standalone) {
+    .header-glass-modern {
+      padding-top: env(safe-area-inset-top);
+    }
+
+    body {
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+  }
+
+  /* Landscape em mobile */
+  @media (max-width: 768px) and (orientation: landscape) {
+    .header-glass-modern {
+      min-height: 60px;
+    }
+
+    .header-spacer {
+      height: 70px;
+    }
   }
 }

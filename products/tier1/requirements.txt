@@ -1,0 +1,28 @@
+# Core Dependencies
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Telegram Bot
+python-telegram-bot==20.7
+
+# RAG & LLM
+langchain==0.1.0
+langchain-google-genai==0.0.5
+langchain-community==0.0.13
+faiss-cpu==1.7.4
+openai==1.3.9
+google-generativeai==0.3.0
+
+# HTTP Requests
+httpx==0.25.2
+requests==2.31.0
+
+# Utils
+python-dateutil==2.8.2
+pytz==2023.3
+

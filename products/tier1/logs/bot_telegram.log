@@ -1,0 +1,1147 @@
+2025-10-27 21:29:40,444 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:29:45,904 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:29:46,142 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:29:46,142 - bot_telegram - ERROR - TELEGRAM_BOT_TOKEN não configurado!
+2025-10-27 21:29:51,843 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:29:52,078 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:29:52,140 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:32:29,159 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 21:32:29,408 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:32:29,468 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:34:16,091 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:34:16,452 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:34:16,525 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:34:23,679 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:34:23,936 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:34:23,998 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:34:26,324 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:34:26,620 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:34:26,683 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:34:33,166 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:34:33,420 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:34:33,481 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:34:39,346 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:34:39,629 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:34:39,694 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:36:27,463 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 21:36:27,697 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:36:27,757 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:40:22,703 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:40:22,946 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:40:23,006 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:40:23,006 - bot_telegram - INFO - 🔄 Bot rodando... Aguardando mensagens no Telegram...
+2025-10-27 21:40:25,766 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:40:25,857 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:40:25,857 - bot_telegram - INFO - 🔄 Bot rodando... Aguardando mensagens no Telegram...
+2025-10-27 21:40:36,328 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:40:36,589 - bot_telegram - INFO - Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:40:36,652 - bot_telegram - INFO - Bot iniciado com sucesso!
+2025-10-27 21:40:36,652 - bot_telegram - INFO - 🔄 Bot rodando... Aguardando mensagens no Telegram...
+2025-10-27 21:40:51,835 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram Jurídico...
+2025-10-27 21:40:51,913 - bot_telegram - INFO - ✅ Bot iniciado! Aguardando mensagens...
+2025-10-27 21:41:36,305 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custódia?
+2025-10-27 21:42:28,268 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:42:28,507 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 21:42:28,567 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 21:43:13,952 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 21:43:13,987 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 21:43:46,187 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 21:43:46,440 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 21:43:46,503 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 21:44:06,455 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 21:44:06,519 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 21:44:06,520 - bot_telegram - ERROR - Erro ao chamar Gemini: No module named 'google'
+2025-10-27 21:44:06,521 - bot_telegram - INFO - IA processou mensagem: como funciona a cadeia de custodia?...
+2025-10-27 21:45:12,837 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 21:45:13,095 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 21:45:13,160 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 21:45:27,729 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:45:28,046 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 21:45:28,046 - bot_telegram - ERROR - ❌ TELEGRAM_BOT_TOKEN não configurado!
+2025-10-27 21:46:28,003 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 21:46:28,033 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 21:46:28,038 - bot_telegram - ERROR - Erro ao chamar Gemini: No module named 'packaging'
+2025-10-27 21:46:28,038 - bot_telegram - INFO - IA processou mensagem: como funciona a cadeia de custodia?...
+2025-10-27 22:23:35,082 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 22:23:35,311 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 22:23:35,369 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 22:58:25,321 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 22:58:25,379 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 22:58:25,382 - bot_telegram - ERROR - Erro ao chamar Gemini: No module named 'packaging'
+2025-10-27 22:58:25,382 - bot_telegram - INFO - IA processou mensagem: como funciona a cadeia de custodia?...
+2025-10-27 22:59:16,398 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 22:59:16,690 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 22:59:16,753 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 22:59:47,725 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 22:59:47,778 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 22:59:48,812 - bot_telegram - ERROR - Erro ao chamar Gemini: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-27 22:59:48,812 - bot_telegram - INFO - IA processou mensagem: como funciona a cadeia de custodia?...
+2025-10-27 23:00:21,601 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 23:00:21,864 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 23:00:21,929 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 23:00:54,418 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 23:00:54,476 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 23:00:56,091 - bot_telegram - ERROR - Erro ao chamar Gemini: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-27 23:00:56,091 - bot_telegram - INFO - IA processou mensagem: como funciona a cadeia de custodia?...
+2025-10-27 23:08:39,087 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 23:08:39,358 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 23:08:39,425 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 23:12:11,221 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 23:12:11,521 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 23:12:11,596 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 23:42:29,207 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 23:42:29,265 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 23:42:42,522 - bot_telegram - INFO - IA processou mensagem: como funciona a cadeia de custodia?...
+2025-10-27 23:45:04,214 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 23:45:04,441 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 23:45:04,500 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 23:45:29,029 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 23:45:29,259 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 23:45:29,317 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-27 23:45:29,317 - bot_telegram - INFO - ✅ Comando /help registrado
+2025-10-27 23:45:29,317 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-27 23:45:29,318 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-27 23:45:29,318 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 23:45:55,104 - bot_telegram - ERROR - Erro ao processar callback: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 23:46:35,188 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-27 23:46:35,428 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 23:46:35,487 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-27 23:46:35,487 - bot_telegram - INFO - ✅ Comando /help registrado
+2025-10-27 23:46:35,490 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-27 23:46:35,491 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-27 23:46:35,491 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 23:48:02,183 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): falha na cadeia de custodia
+2025-10-27 23:48:02,216 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 23:48:07,779 - bot_telegram - INFO - IA processou mensagem: falha na cadeia de custodia...
+2025-10-27 23:48:58,610 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): cadeia de custodia
+2025-10-27 23:48:58,654 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-27 23:49:03,970 - bot_telegram - INFO - IA processou mensagem: cadeia de custodia...
+2025-10-28 06:52:52,210 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): Oi
+2025-10-28 06:52:52,230 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 06:52:55,429 - bot_telegram - INFO - IA processou mensagem: Oi...
+2025-10-28 06:54:10,980 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): cadeia de custodia
+2025-10-28 06:54:11,038 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 06:54:26,691 - bot_telegram - INFO - IA processou mensagem: cadeia de custodia...
+2025-10-28 06:56:33,038 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 06:56:33,264 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 06:56:33,322 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 06:56:33,324 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 06:56:33,324 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 06:56:33,324 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 06:57:35,485 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 06:57:35,725 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 06:57:35,809 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 06:57:35,810 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 06:57:35,810 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 06:57:35,810 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 07:02:31,047 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é um contrato?
+2025-10-28 07:02:32,235 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:02:32,236 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:02:32,236 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 07:02:37,368 - bot_telegram - INFO - IA processou mensagem: o que é um contrato?...
+2025-10-28 07:03:08,972 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: indenização por danos morais
+2025-10-28 07:03:09,789 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-28 07:03:33,776 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-28 07:03:33,777 - bot_telegram - INFO - Busca de jurisprudência realizada: indenização por danos morais
+2025-10-28 07:03:35,305 - bot_telegram - ERROR - Erro ao buscar jurisprudência: Can't parse entities: can't find end of the entity starting at byte offset 4305
+2025-10-28 07:03:35,370 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:03:35,370 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:03:35,371 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 07:03:51,403 - bot_telegram - INFO - IA processou mensagem: indenização por danos morais...
+2025-10-28 07:03:52,481 - bot_telegram - ERROR - Erro ao processar mensagem: Can't parse entities: can't find end of the entity starting at byte offset 1451
+2025-10-28 07:04:43,971 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: indenização por danos morais
+2025-10-28 07:04:44,882 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-28 07:05:08,082 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-28 07:05:08,083 - bot_telegram - INFO - Busca de jurisprudência realizada: indenização por danos morais
+2025-10-28 07:05:09,116 - bot_telegram - ERROR - Erro ao buscar jurisprudência: Message is too long
+2025-10-28 07:05:09,176 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:05:09,176 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:05:09,177 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 07:05:19,125 - bot_telegram - INFO - IA processou mensagem: indenização por danos morais...
+2025-10-28 07:05:20,325 - bot_telegram - ERROR - Erro ao processar mensagem: Can't parse entities: can't find end of the entity starting at byte offset 1258
+2025-10-28 07:06:59,993 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 07:07:00,232 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 07:07:00,290 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 07:07:00,290 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 07:07:00,291 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 07:07:00,291 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 07:09:34,253 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: indenização por danos morais
+2025-10-28 07:09:35,128 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-28 07:09:59,882 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-28 07:09:59,882 - bot_telegram - INFO - Busca de jurisprudência realizada: indenização por danos morais
+2025-10-28 07:10:58,753 - bot_telegram - WARNING - Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:10:58,753 - bot_telegram - INFO - Gerando prazo de exemplo para usuário 180684653
+2025-10-28 07:11:25,847 - bot_telegram - ERROR - Erro ao processar callback: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:17:39,467 - bot_telegram - ERROR - Erro ao processar callback: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:17:58,781 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 07:17:59,046 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 07:17:59,103 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 07:17:59,106 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 07:17:59,106 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 07:17:59,106 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 07:33:46,185 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 07:33:46,601 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 07:33:46,701 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 07:33:46,704 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 07:33:46,705 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 07:33:46,705 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 18:30:06,047 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 18:30:06,396 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 18:30:06,475 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 18:30:06,478 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 18:30:06,479 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 18:30:06,479 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 19:42:56,862 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 19:42:57,308 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 19:42:57,396 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 19:42:57,396 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 19:42:57,396 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 19:42:57,397 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 19:43:35,619 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: ana paula
+2025-10-28 19:43:36,373 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-10-28 19:43:36,373 - bot_telegram - INFO - 📝 Buscando magistrado: ana paula
+2025-10-28 19:43:36,762 - bot_telegram - INFO - Magistrado 'ana paula' não encontrado na base
+2025-10-28 19:43:56,816 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: andre ricardo
+2025-10-28 19:43:57,744 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 19:43:57,744 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 19:43:57,744 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 19:44:00,650 - bot_telegram - INFO - IA processou mensagem: andre ricardo...
+2025-10-28 19:44:21,612 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: andre ricardo
+2025-10-28 19:44:21,942 - bot_telegram - INFO - 📝 Buscando magistrado: andre ricardo
+2025-10-28 19:44:22,325 - bot_telegram - INFO - Magistrado 'andre ricardo' não encontrado na base
+2025-10-28 19:45:04,549 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: ANDRE RICARDO BOTASSO
+2025-10-28 19:45:05,344 - bot_telegram - INFO - 📝 Buscando magistrado: ANDRE RICARDO BOTASSO
+2025-10-28 19:45:05,705 - bot_telegram - INFO - Magistrado 'ANDRE RICARDO BOTASSO' não encontrado na base
+2025-10-28 19:47:06,921 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 19:47:07,182 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 19:47:07,251 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 19:47:07,252 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 19:47:07,252 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 19:47:07,252 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 19:47:29,322 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: andre ricardo botasso
+2025-10-28 19:47:30,089 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-10-28 19:47:30,089 - bot_telegram - INFO - 📝 Buscando magistrado: andre ricardo botasso
+2025-10-28 19:47:30,435 - bot_telegram - INFO - Buscando magistrado: 'andre ricardo botasso' (normalizado: 'andre ricardo botasso')
+2025-10-28 19:47:30,459 - bot_telegram - INFO - ✅ Magistrado encontrado: ANDRÉ_RICARDO_BOTASSO
+2025-10-28 19:47:30,463 - bot_telegram - INFO - ✅ Magistrado encontrado: ANDRE_RICARDO_BOTASSO
+2025-10-28 19:47:30,466 - bot_telegram - INFO - ✅ Magistrado encontrado: André_Ricardo_Botasso
+2025-10-28 19:47:30,466 - bot_telegram - INFO - Melhor match encontrado: ANDRÉ_RICARDO_BOTASSO
+2025-10-28 19:48:16,178 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que há nesse processo 1
+2025-10-28 19:48:17,292 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 19:48:17,292 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 19:48:17,293 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 19:48:25,822 - bot_telegram - INFO - IA processou mensagem: o que há nesse processo 1...
+2025-10-28 19:48:54,252 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: 0878961-59.2013.8.13.0702
+2025-10-28 19:48:55,035 - bot_telegram - INFO - 📝 Consultando processo na API CNJ...
+2025-10-28 19:48:55,376 - bot_telegram - INFO - Consultando processo na API CNJ: 0878961-59.2013.8.13.0702
+2025-10-28 19:48:55,578 - bot_telegram - ERROR - Erro ao consultar processo. Status: 401
+2025-10-28 19:48:55,580 - bot_telegram - WARNING - Playwright não instalado. Execute: pip install playwright && playwright install
+2025-10-28 19:48:56,032 - bot_telegram - ERROR - Erro ao usar Playwright: Playwright não está instalado
+2025-10-28 19:53:46,381 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 19:53:46,613 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 19:53:46,677 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 19:53:46,677 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 19:53:46,677 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 19:53:46,677 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 19:54:13,069 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: 0878961-59.2013.8.13.0702
+2025-10-28 19:54:13,923 - bot_telegram - INFO - 📝 Consultando processo na API CNJ...
+2025-10-28 19:54:14,271 - bot_telegram - INFO - Consultando processo na API CNJ: 0878961-59.2013.8.13.0702
+2025-10-28 19:54:14,460 - bot_telegram - ERROR - Erro ao consultar processo. Status: 401
+2025-10-28 19:54:14,460 - bot_telegram - WARNING - Playwright não instalado. Execute: pip install playwright && playwright install
+2025-10-28 19:54:14,800 - bot_telegram - ERROR - Erro ao usar Playwright: Playwright não está instalado
+2025-10-28 20:02:02,640 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 20:02:02,856 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 20:02:02,917 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 20:02:02,917 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 20:02:02,917 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 20:02:02,917 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 20:17:52,161 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 20:17:52,400 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 20:17:52,457 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 20:17:52,461 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 20:17:52,461 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 20:17:52,461 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 20:18:17,179 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: 0878961-59.2013.8.13.0702
+2025-10-28 20:18:17,995 - bot_telegram - INFO - 📝 Consultando processo na API CNJ...
+2025-10-28 20:18:18,354 - bot_telegram - INFO - Consultando processo na API CNJ: 0878961-59.2013.8.13.0702
+2025-10-28 20:18:18,545 - bot_telegram - ERROR - Erro ao consultar processo. Status: 401
+2025-10-28 20:18:18,565 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-10-28 20:18:18,565 - bot_telegram - INFO - 🔍 API CNJ retornou status 401, tentando Kermartin...
+2025-10-28 20:18:18,578 - bot_telegram - INFO - Processo encontrado na base RAG: 0878961-59.2013.8.13.0702
+2025-10-28 20:18:18,578 - bot_telegram - INFO - ✅ Processo encontrado no Kermartin!
+2025-10-28 20:18:59,244 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é o contencioso?
+2025-10-28 20:19:00,523 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:19:00,523 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:19:00,523 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 20:19:04,128 - bot_telegram - INFO - IA processou mensagem: o que é o contencioso?...
+2025-10-28 20:19:58,148 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: ok, dentro de um processo trabalhista, o que preciso observar dentro de uma sequencia logica do processo?
+2025-10-28 20:19:58,926 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:19:58,926 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:19:58,926 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 20:20:13,650 - bot_telegram - INFO - IA processou mensagem: ok, dentro de um processo trabalhista, o que preci...
+2025-10-28 20:21:42,669 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: para um advogado analisar um processo trabalhista, detalhe essa sequencia
+2025-10-28 20:21:43,627 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:21:43,627 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:21:43,627 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 20:21:59,242 - bot_telegram - INFO - IA processou mensagem: para um advogado analisar um processo trabalhista,...
+2025-10-28 20:22:06,669 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-10-28 20:22:06,756 - bot_telegram - INFO - Processo encontrado na base RAG: 0878961-59.2013.8.13.0702
+2025-10-28 20:25:18,157 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 20:26:55,836 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 20:26:56,079 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 20:26:56,142 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 20:26:56,143 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 20:26:56,143 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 20:26:56,143 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 20:27:57,125 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: detalhe a sequencia logica da analise de um processo trabalhista na visão do advogado
+2025-10-28 20:27:58,319 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:27:58,319 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:27:58,319 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 20:28:16,613 - bot_telegram - INFO - IA processou mensagem: detalhe a sequencia logica da analise de um proces...
+2025-10-28 20:28:17,424 - bot_telegram - INFO - 📤 Enviando mensagem em 2 parte(s)
+2025-10-28 20:28:18,107 - bot_telegram - INFO - ✅ Mensagem completa enviada (2 parte(s))
+2025-10-28 20:29:06,380 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: quais pontos seriam primordiais nesta analise?
+2025-10-28 20:29:07,735 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:29:07,735 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 20:29:07,735 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 20:29:17,868 - bot_telegram - INFO - IA processou mensagem: quais pontos seriam primordiais nesta analise?...
+2025-10-28 20:29:18,757 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-28 20:29:19,102 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-29 07:24:12,877 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-10-29 07:24:13,745 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-29 07:24:13,745 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-29 07:24:13,745 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-29 07:24:16,695 - bot_telegram - INFO - IA processou mensagem: oi...
+2025-10-29 07:24:17,023 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-29 07:24:17,366 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-29 19:26:43,962 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-29 19:26:44,829 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-29 19:26:44,829 - bot_telegram - ERROR - ❌ TELEGRAM_BOT_TOKEN não configurado!
+2025-10-29 19:26:58,423 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-29 19:26:59,160 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-29 19:26:59,338 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-29 19:26:59,351 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-29 19:26:59,352 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-29 19:26:59,352 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-29 19:29:30,074 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-29 19:29:31,476 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-29 19:29:31,734 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-29 19:29:31,738 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-29 19:29:31,740 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-29 19:29:31,741 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-29 19:29:39,770 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-10-29 19:29:40,865 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-29 19:29:40,866 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-29 19:29:40,866 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-29 19:29:54,095 - bot_telegram - INFO - IA processou mensagem: oi...
+2025-10-29 19:29:54,918 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-29 19:29:55,334 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-29 19:30:01,833 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-29 19:32:02,225 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-29 19:32:03,622 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-29 19:32:03,777 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-29 19:32:03,782 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-29 19:32:03,787 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-29 19:32:03,788 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-29 19:32:16,451 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-30 20:36:21,034 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-30 20:36:21,300 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-30 20:36:21,300 - bot_telegram - ERROR - ❌ TELEGRAM_BOT_TOKEN não configurado!
+2025-10-30 20:37:51,970 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-30 20:37:52,219 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-30 20:37:52,287 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-30 20:37:52,287 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-30 20:37:52,287 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-30 20:37:52,287 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-30 20:40:08,331 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: direito adquirido
+2025-10-30 20:40:09,194 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-30 20:40:22,661 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-30 20:40:22,661 - bot_telegram - INFO - Busca de jurisprudência realizada: direito adquirido
+2025-10-30 20:40:23,608 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-30 20:40:23,953 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-30 21:49:30,219 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-30 21:51:40,618 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-30 21:52:07,877 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: O que é um contrato jurídico?
+2025-10-30 21:52:08,651 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-30 21:52:08,651 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-30 21:52:08,651 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-30 21:52:12,059 - bot_telegram - INFO - IA processou mensagem: O que é um contrato jurídico?...
+2025-10-30 21:52:12,386 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-30 21:52:12,720 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-30 21:52:34,337 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: /jurisprudência
+2025-10-30 21:52:35,420 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-30 21:52:35,421 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-30 21:52:35,421 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-30 21:52:39,471 - bot_telegram - INFO - IA processou mensagem: /jurisprudência...
+2025-10-30 21:52:39,793 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-30 21:52:40,152 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-30 21:53:49,947 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: Cadeia de custódia
+2025-10-30 21:53:50,700 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-30 21:54:07,160 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-30 21:54:07,160 - bot_telegram - INFO - Busca de jurisprudência realizada: Cadeia de custódia
+2025-10-30 21:54:07,917 - bot_telegram - INFO - 📤 Enviando mensagem em 2 parte(s)
+2025-10-30 21:54:08,604 - bot_telegram - INFO - ✅ Mensagem completa enviada (2 parte(s))
+2025-10-31 06:44:55,432 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 06:44:55,732 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 06:44:55,809 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 06:44:55,810 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 06:44:55,810 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 06:44:55,811 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 07:41:58,044 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 07:41:58,622 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 07:41:58,760 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 07:41:58,762 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 07:41:58,762 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 07:41:58,762 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 18:06:19,964 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: Oi
+2025-10-31 18:06:20,758 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:06:20,758 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:06:20,758 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-31 18:06:22,953 - bot_telegram - INFO - IA processou mensagem: Oi...
+2025-10-31 18:06:23,340 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 18:06:24,202 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 18:08:14,118 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 18:08:14,388 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 18:08:14,459 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 18:08:14,459 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 18:08:14,459 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 18:08:14,459 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 18:12:36,709 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: Legítima defesa, jurisprudência?
+2025-10-31 18:12:37,518 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:12:37,518 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:12:37,518 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-31 18:12:45,028 - bot_telegram - INFO - IA processou mensagem: Legítima defesa, jurisprudência?...
+2025-10-31 18:12:45,796 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 18:12:46,142 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 18:20:04,805 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: Qual a lógica da análise da petição pelo juiz?
+2025-10-31 18:20:05,723 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:20:05,723 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:20:05,723 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-31 18:20:18,162 - bot_telegram - INFO - IA processou mensagem: Qual a lógica da análise da petição pelo juiz?...
+2025-10-31 18:20:19,635 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 18:20:19,989 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 18:21:13,480 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: No âmbito criminal muda?
+2025-10-31 18:21:14,351 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:21:14,351 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 18:21:14,351 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-31 18:21:21,928 - bot_telegram - INFO - IA processou mensagem: No âmbito criminal muda?...
+2025-10-31 18:21:23,021 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 18:21:23,387 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 18:24:26,474 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 18:24:26,787 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 18:24:26,864 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 18:24:26,864 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 18:24:26,864 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 18:24:26,864 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 20:06:22,049 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 20:06:22,265 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 20:06:22,321 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 20:06:22,321 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 20:06:22,322 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 20:06:22,322 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 20:22:04,229 - bot_telegram - INFO - ✅ CacheService inicializado
+2025-10-31 20:22:04,348 - bot_telegram - INFO - Cache CLEARED
+2025-10-31 20:22:05,470 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-10-31 20:22:05,791 - bot_telegram - INFO - 🔍 Verificando Kermartin (sem auth): 0000000-00.2024.8.13.0000
+2025-10-31 20:22:05,791 - bot_telegram - INFO - Buscando em julgados de magistrados (prioridade)...
+2025-10-31 20:22:05,809 - bot_telegram - INFO - Processo 0000000-00.2024.8.13.0000 não encontrado no Kermartin
+2025-10-31 20:22:05,809 - bot_telegram - INFO - 🔍 Consultando API CNJ: 0000000-00.2024.8.13.0000
+2025-10-31 20:22:05,953 - bot_telegram - ERROR - Erro ao consultar API CNJ. Status: 401
+2025-10-31 20:22:16,880 - bot_telegram - INFO - ✅ CacheService inicializado
+2025-10-31 20:36:34,477 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 20:36:34,856 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 20:36:34,946 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 20:36:34,957 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 20:36:34,958 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 20:36:34,958 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 20:36:56,714 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: Oi
+2025-10-31 20:36:57,641 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:36:57,642 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:36:57,642 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-31 20:37:00,105 - bot_telegram - INFO - IA processou mensagem: Oi...
+2025-10-31 20:37:00,436 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 20:37:00,788 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 20:39:41,901 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: O que seria competio legios
+2025-10-31 20:39:43,165 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:39:43,165 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:39:43,165 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-31 20:39:51,800 - bot_telegram - INFO - IA processou mensagem: O que seria competio legios...
+2025-10-31 20:39:52,595 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 20:39:52,942 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 20:42:28,127 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-10-31 20:42:28,186 - bot_telegram - INFO - Encontrados 0 processos para Uberlândia
+2025-10-31 20:44:56,195 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:48:08,637 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 20:48:08,873 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 20:48:08,928 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 20:48:08,929 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 20:48:08,929 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 20:48:08,929 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 20:48:22,471 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:53:55,591 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 20:53:55,787 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 20:53:55,840 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 20:53:55,845 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 20:53:55,845 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 20:53:55,845 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 20:53:56,977 - bot_telegram - INFO - ✅ 18 comandos registrados na API do Telegram
+2025-10-31 20:54:07,459 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:57:41,170 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 20:59:09,759 - bot_telegram - ERROR - Erro ao registrar email: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:00:16,192 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 21:00:16,549 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 21:00:16,634 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 21:00:16,642 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 21:00:16,642 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 21:00:16,642 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 21:00:17,613 - bot_telegram - INFO - ✅ 18 comandos registrados na API do Telegram
+2025-10-31 21:00:37,175 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:00:37,175 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-10-31 21:00:45,858 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:00:45,858 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-10-31 21:00:45,879 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:00:45,901 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:01:04,704 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:06:43,658 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:07:18,670 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:09:58,348 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:09:58,349 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-10-31 21:12:29,679 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 21:12:29,877 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 21:12:29,934 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 21:12:29,935 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 21:12:29,935 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 21:12:29,935 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 21:12:31,178 - bot_telegram - INFO - ✅ 18 comandos registrados na API do Telegram
+2025-10-31 21:13:09,837 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:13:09,838 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-10-31 21:13:18,935 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:17:48,988 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: legitima defesa
+2025-10-31 21:17:49,853 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-31 21:18:02,218 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-31 21:18:02,218 - bot_telegram - INFO - Busca de jurisprudência realizada: legitima defesa
+2025-10-31 21:18:02,981 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 21:18:03,397 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 21:18:51,075 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: isso serve para todas as areas do direito?
+2025-10-31 21:18:52,103 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:18:52,103 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-10-31 21:18:52,103 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-31 21:18:55,874 - bot_telegram - INFO - IA processou mensagem: isso serve para todas as areas do direito?...
+2025-10-31 21:18:56,307 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-10-31 21:18:56,646 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-10-31 21:32:12,662 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 21:32:12,866 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 21:32:12,923 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 21:32:12,924 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 21:32:12,924 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 21:32:12,924 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 21:32:14,006 - bot_telegram - INFO - ✅ 18 comandos registrados na API do Telegram
+2025-10-31 21:33:24,114 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:33:24,114 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-10-31 21:33:28,162 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 21:33:36,257 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 22:45:29,179 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 22:45:29,475 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 22:45:29,547 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 22:45:29,557 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 22:45:29,557 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 22:45:29,557 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 22:45:30,664 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-10-31 22:53:13,749 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-31 22:53:13,997 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-31 22:53:14,065 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-31 22:53:14,066 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-31 22:53:14,066 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-31 22:53:14,066 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-31 22:53:15,089 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-10-31 23:01:48,270 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 23:01:48,270 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-10-31 23:01:55,182 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-31 23:28:22,367 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 19:29:26,330 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-03 19:29:26,815 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-03 19:29:26,952 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-03 19:29:26,976 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-03 19:29:26,977 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-03 19:29:26,977 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-03 19:29:28,198 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-03 19:29:37,992 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 19:29:37,992 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-11-03 19:36:10,866 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: jurisprudencia trabalhista
+2025-11-03 19:36:11,624 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-11-03 19:36:11,976 - bot_telegram - ERROR - Erro ao buscar jurisprudência: incomplete escape \x at position 1
+2025-11-03 19:36:12,010 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 19:36:12,010 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-11-03 19:36:12,351 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-03 19:36:12,709 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-03 20:01:24,529 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 20:01:46,017 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-03 20:01:46,416 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-03 20:01:46,514 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-03 20:01:46,515 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-03 20:01:46,515 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-03 20:01:46,515 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-03 20:01:47,511 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-03 20:02:06,450 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é processo de execução?
+2025-11-03 20:02:07,262 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 20:02:07,262 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-11-03 20:02:07,263 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-03 20:02:07,614 - bot_telegram - WARNING - Tentativa de SQL Injection detectada: o que é processo de execução?
+2025-11-03 20:02:07,615 - bot_telegram - INFO - Pergunta bloqueada pelos guardrails: o que é processo de execução?...
+2025-11-03 20:02:07,947 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-03 20:02:08,306 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-03 20:02:40,599 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que jurisprudencia?
+2025-11-03 20:02:41,550 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 20:02:41,550 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-11-03 20:02:41,550 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-03 20:02:41,902 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-03 20:04:15,079 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 21:54:46,706 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 21:55:35,811 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-03 21:55:36,026 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-03 21:55:36,081 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-03 21:55:36,081 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-03 21:55:36,081 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-03 21:55:36,081 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-03 21:55:37,058 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-03 21:55:43,500 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-03 21:56:33,976 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-03 21:56:34,251 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-03 21:56:34,313 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-03 21:56:34,314 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-03 21:56:34,314 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-03 21:56:34,314 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-03 21:56:35,352 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-03 21:56:45,553 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.errors.UndefinedTable) relation "users" does not exist
+LINE 2: FROM users 
+             ^
+
+[SQL: SELECT users.id AS users_id, users.telegram_id AS users_telegram_id, users.name AS users_name, users.email AS users_email, users.phone AS users_phone, users.role AS users_role, users.token AS users_token, users.senha_hash AS users_senha_hash, users.autenticado AS users_autenticado, users.ultimo_login AS users_ultimo_login, users.alerta_canal AS users_alerta_canal, users.alerta_intervalo_dias AS users_alerta_intervalo_dias, users.alerta_ativo AS users_alerta_ativo, users.alerta_horario AS users_alerta_horario, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.telegram_id = %(telegram_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'telegram_id_1': 180684653, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 21:57:52,176 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-03 21:57:52,384 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-03 21:57:52,439 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-03 21:57:52,440 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-03 21:57:52,440 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-03 21:57:52,440 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-03 21:57:53,463 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-03 21:58:08,957 - bot_telegram - WARNING - ⚠️ Banco de dados não disponível: (psycopg2.errors.UndefinedTable) relation "users" does not exist
+LINE 2: FROM users 
+             ^
+
+[SQL: SELECT users.id AS users_id, users.telegram_id AS users_telegram_id, users.name AS users_name, users.email AS users_email, users.phone AS users_phone, users.role AS users_role, users.token AS users_token, users.senha_hash AS users_senha_hash, users.autenticado AS users_autenticado, users.ultimo_login AS users_ultimo_login, users.alerta_canal AS users_alerta_canal, users.alerta_intervalo_dias AS users_alerta_intervalo_dias, users.alerta_ativo AS users_alerta_ativo, users.alerta_horario AS users_alerta_horario, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.telegram_id = %(telegram_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'telegram_id_1': 180684653, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 21:58:08,957 - bot_telegram - INFO - 💡 Bot continuará funcionando sem banco de dados
+2025-11-03 21:58:19,643 - bot_telegram - ERROR - Erro ao verificar autenticação: (psycopg2.errors.UndefinedTable) relation "users" does not exist
+LINE 2: FROM users 
+             ^
+
+[SQL: SELECT users.id AS users_id, users.telegram_id AS users_telegram_id, users.name AS users_name, users.email AS users_email, users.phone AS users_phone, users.role AS users_role, users.token AS users_token, users.senha_hash AS users_senha_hash, users.autenticado AS users_autenticado, users.ultimo_login AS users_ultimo_login, users.alerta_canal AS users_alerta_canal, users.alerta_intervalo_dias AS users_alerta_intervalo_dias, users.alerta_ativo AS users_alerta_ativo, users.alerta_horario AS users_alerta_horario, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.telegram_id = %(telegram_id_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'telegram_id_1': 180684653, 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-11-03 22:02:25,095 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-03 22:02:25,314 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-03 22:02:25,376 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-03 22:02:25,384 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-03 22:02:25,384 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-03 22:02:25,384 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-03 22:02:26,388 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-03 22:02:38,635 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-03 22:02:38,983 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-03 22:03:40,226 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: clenio@kermartin.ai.br
+2025-11-03 22:07:13,141 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-03 22:07:13,492 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-03 22:07:13,607 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-03 22:07:13,608 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-03 22:07:13,609 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-03 22:07:13,610 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-03 22:07:14,597 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-03 22:07:26,033 - bot_telegram - INFO - Usuário criado: 180684653 - Oliveira moura
+2025-11-03 22:08:07,731 - bot_telegram - INFO - Email registrado para usuário 180684653: clenio@kermartin.ai.br
+2025-11-03 22:08:41,875 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: clenio@kermartin.ai.br
+2025-11-03 22:08:41,892 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-03 22:08:42,661 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-03 22:08:48,625 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: admin123
+2025-11-03 22:08:48,660 - bot_telegram - INFO - Usuário 180684653 (clenio@kermartin.ai.br) fez login
+2025-11-03 22:08:48,660 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-03 22:08:49,465 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-03 22:09:27,965 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: jurisprudencia trabalhista —data 20024
+2025-11-03 22:09:28,879 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-11-03 22:09:29,235 - bot_telegram - ERROR - Erro ao buscar jurisprudência: incomplete escape \x at position 1
+2025-11-03 22:09:29,613 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-03 22:09:29,977 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-03 23:51:45,651 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é direito adquirido?
+2025-11-03 23:51:46,734 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-03 23:51:47,079 - bot_telegram - WARNING - Tentativa de Command Injection detectada: o que é direito adquirido?
+2025-11-03 23:51:47,079 - bot_telegram - INFO - Pergunta bloqueada pelos guardrails: o que é direito adquirido?...
+2025-11-03 23:51:47,444 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-03 23:51:47,820 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-04 00:35:18,355 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-04 00:35:18,577 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-04 00:35:18,637 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-04 00:35:18,638 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-04 00:35:18,638 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-04 00:35:18,638 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-04 00:35:19,856 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-04 00:41:53,280 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-04 00:41:54,507 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 00:41:54,867 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 00:42:41,301 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é direitor adquierido?
+2025-11-04 00:42:42,082 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 00:42:42,524 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 00:45:11,772 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-04 00:45:11,985 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-04 00:45:12,046 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-04 00:45:12,047 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-04 00:45:12,047 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-04 00:45:12,047 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-04 00:45:13,048 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-04 00:45:23,055 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-04 00:45:23,406 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-04 00:45:34,001 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é direito adquirido?
+2025-11-04 00:45:34,849 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 00:45:35,296 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 19:05:38,338 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-04 19:05:38,687 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-04 19:05:38,768 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-04 19:05:38,769 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-04 19:05:38,770 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-04 19:05:38,770 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-04 19:05:42,151 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-04 19:05:55,951 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-04 19:06:00,092 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 19:06:00,445 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 19:21:49,957 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-04 19:21:50,225 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-04 19:21:50,297 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-04 19:21:50,298 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-04 19:21:50,298 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-04 19:21:50,298 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-04 19:21:51,403 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-04 19:22:01,834 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-04 19:22:02,181 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 19:22:02,528 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 19:38:56,526 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-04 19:38:56,829 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-04 19:38:56,934 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-04 19:38:56,934 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-04 19:38:56,935 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-04 19:38:56,935 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-04 19:38:58,182 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-04 19:39:16,850 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-04 19:39:17,643 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 19:39:17,995 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 19:42:38,130 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-04 19:42:38,387 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-04 19:42:38,451 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-04 19:42:38,452 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-04 19:42:38,452 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-04 19:42:38,452 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-04 19:42:39,427 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-04 19:42:52,214 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-04 19:42:53,140 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 19:42:53,489 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 19:48:45,559 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-04 19:48:45,928 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-04 19:48:46,025 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-04 19:48:46,026 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-04 19:48:46,026 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-04 19:48:46,026 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-04 19:48:47,246 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-04 19:48:55,698 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-04 19:48:56,549 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-04 19:48:56,930 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-04 19:49:21,954 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: uberlândia
+2025-11-04 19:49:22,816 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-11-04 19:49:22,851 - bot_telegram - INFO - 📝 Buscando processos da comarca: uberlândia (filtros: {'tipo': None, 'status': None, 'limite': 50})
+2025-11-04 19:49:23,205 - bot_telegram - INFO - Encontrados 0 processos para uberlândia (filtros: {'tipo': None, 'status': None, 'limite': 50})
+2025-11-04 19:49:23,539 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-04 19:49:23,883 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-04 19:54:35,596 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: uberaba — homicidio
+2025-11-04 19:54:36,369 - bot_telegram - INFO - 📝 Buscando processos da comarca: uberaba — homicidio (filtros: {'tipo': None, 'status': None, 'limite': 50})
+2025-11-04 19:54:36,719 - bot_telegram - INFO - Encontrados 0 processos para uberaba — homicidio (filtros: {'tipo': None, 'status': None, 'limite': 50})
+2025-11-04 19:54:37,050 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-04 19:54:37,403 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-06 23:28:14,344 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-06 23:28:14,730 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-06 23:28:14,789 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-06 23:28:14,791 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-06 23:28:14,791 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-06 23:28:14,791 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-06 23:28:15,806 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-06 23:59:29,211 - bot_telegram - INFO - Sessão expirada para usuário 180684653
+2025-11-06 23:59:29,211 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-06 23:59:30,412 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 06:27:50,690 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: indenização pro danos morais —assunto criminal
+2025-11-07 06:27:51,664 - bot_telegram - INFO - 📝 Consultando processo na API CNJ...
+2025-11-07 06:27:52,009 - bot_telegram - WARNING - Número de processo inválido: indenização pro danos morais —assunto criminal
+2025-11-07 06:27:52,342 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 06:27:52,688 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 06:28:57,928 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é precedentes de inputação?
+2025-11-07 06:28:58,771 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-11-07 06:28:59,113 - bot_telegram - ERROR - Erro ao buscar jurisprudência: incomplete escape \x at position 1
+2025-11-07 06:28:59,486 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 06:28:59,840 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 06:29:50,914 - bot_telegram - INFO - ✅ Serviço Kermartin inicializado: /home/clenio/Documentos/Meusagentes/kermartin
+2025-11-07 06:42:51,251 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: bom dia
+2025-11-07 06:42:52,662 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 06:42:53,003 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-07 06:48:13,126 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-07 06:48:13,437 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-07 06:48:13,528 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-07 06:48:13,528 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-07 06:48:13,529 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-07 06:48:13,529 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-07 06:48:18,544 - bot_telegram - ERROR - ❌ Erro de rede ao conectar com Telegram: Timed out
+2025-11-07 06:48:19,221 - bot_telegram - ERROR - 💡 Verifique sua conexão com a internet e tente novamente
+2025-11-07 06:50:51,807 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-07 06:50:52,065 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-07 06:50:52,132 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-07 06:50:52,134 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-07 06:50:52,134 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-07 06:50:52,134 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-07 06:50:53,435 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-07 06:51:02,723 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-07 06:51:03,603 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 06:51:03,954 - bot_telegram - ERROR - Erro ao processar mensagem: incomplete escape \x at position 1
+2025-11-07 07:04:17,828 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-07 07:04:18,092 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-07 07:04:18,164 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-07 07:04:18,165 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-07 07:04:18,165 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-07 07:04:18,165 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-07 07:04:19,142 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-07 07:04:38,465 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-07 07:04:39,262 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 07:04:39,620 - bot_telegram - INFO - Pergunta bloqueada pelos guardrails: oi...
+2025-11-07 07:04:39,987 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 07:04:40,332 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 07:05:01,184 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: onde posso buscar jurisprudencias reais?
+2025-11-07 07:05:02,327 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 07:05:02,665 - bot_telegram - INFO - Pergunta bloqueada pelos guardrails: onde posso buscar jurisprudencias reais?...
+2025-11-07 07:05:03,015 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 07:05:03,377 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 07:09:25,919 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-07 07:09:26,167 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-07 07:09:26,231 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-07 07:09:26,232 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-07 07:09:26,232 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-07 07:09:26,232 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-07 07:09:27,297 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-07 07:09:36,742 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-07 07:09:39,812 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 07:09:40,164 - bot_telegram - INFO - Pergunta bloqueada pelos guardrails: oi...
+2025-11-07 07:09:40,520 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 07:09:40,861 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 07:09:50,734 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: bom dia
+2025-11-07 07:09:51,524 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 07:09:51,871 - bot_telegram - INFO - Pergunta bloqueada pelos guardrails: bom dia...
+2025-11-07 07:09:52,218 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 07:09:52,587 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 07:14:37,364 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é jurisprudencia?
+2025-11-07 07:14:38,449 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 07:14:42,398 - bot_telegram - INFO - IA processou mensagem: o que é jurisprudencia?...
+2025-11-07 07:14:42,400 - bot_telegram - INFO - Guardrails aplicados. Referências encontradas: 0
+2025-11-07 07:14:42,762 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 07:14:43,111 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 07:23:38,651 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-07 07:23:38,901 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-07 07:23:38,986 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-07 07:23:38,987 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-07 07:23:38,987 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-07 07:23:38,987 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-07 07:23:40,347 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram
+2025-11-07 07:24:23,443 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: oi
+2025-11-07 07:24:24,382 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-11-07 07:24:24,729 - bot_telegram - INFO - Pergunta bloqueada pelos guardrails: oi...
+2025-11-07 07:24:25,145 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 07:24:25,487 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 13:33:35,800 - bot_telegram - INFO - 📤 Enviando mensagem em 1 parte(s)
+2025-11-07 13:33:36,352 - bot_telegram - INFO - ✅ Mensagem completa enviada (1 parte(s))
+2025-11-07 13:33:44,034 - bot_telegram - ERROR - Erro ao buscar preferências: name 'List' is not defined
+2025-11-07 13:33:55,995 - bot_telegram - ERROR - Erro ao processar callback: name 'List' is not defined
+2025-11-07 22:08:54,705 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-11-07 22:08:55,042 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-11-07 22:08:55,096 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-11-07 22:08:55,097 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-11-07 22:08:55,097 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-11-07 22:08:55,097 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-11-07 22:08:56,361 - bot_telegram - INFO - ✅ 23 comandos registrados na API do Telegram

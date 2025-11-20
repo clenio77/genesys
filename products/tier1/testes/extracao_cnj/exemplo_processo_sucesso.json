@@ -1,0 +1,65 @@
+{
+  "numero_processo": "0878961-59.2013.8.13.0702",
+  "fonte": "API CNJ DataJud",
+  "data_extracao": "2025-10-31T20:10:36.628171",
+  "dados_principais": {
+    "numero": "0878961-59.2013.8.13.0702",
+    "classe": "Ação Penal",
+    "assunto": "Crimes contra a Administração Pública",
+    "tribunal": "Tribunal de Justiça de Minas Gerais",
+    "vara": "1ª Vara Criminal",
+    "status": "Em andamento",
+    "data_autuacao": "2013-05-15",
+    "segredo_justica": false
+  },
+  "movimentacoes": [
+    {
+      "data": "2013-05-15",
+      "descricao": "Distribuição do processo",
+      "tipo": "Distribuição",
+      "orgao": "1ª Vara Criminal"
+    },
+    {
+      "data": "2013-06-20",
+      "descricao": "Sentença proferida",
+      "tipo": "Sentença",
+      "orgao": "1ª Vara Criminal"
+    }
+  ],
+  "movimentacoes_classificadas": {
+    "sentencas": [
+      {
+        "data": "2013-06-20",
+        "descricao": "Sentença proferida",
+        "tipo": "Sentença",
+        "orgao": "1ª Vara Criminal"
+      }
+    ],
+    "julgados": [],
+    "denuncias": [],
+    "peticoes": [],
+    "despachos": [],
+    "certidoes": []
+  },
+  "partes": [
+    {
+      "nome": "João da Silva",
+      "tipo": "Autor",
+      "documento": "123.456.789-00",
+      "polo": "Ativo"
+    },
+    {
+      "nome": "Maria Santos",
+      "tipo": "Réu",
+      "documento": "987.654.321-00",
+      "polo": "Passivo"
+    }
+  ],
+  "estatisticas": {
+    "total_movimentacoes": 2,
+    "total_partes": 2,
+    "total_sentencas": 1,
+    "total_julgados": 0,
+    "total_denuncias": 0
+  }
+}

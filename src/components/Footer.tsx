@@ -19,8 +19,8 @@ export default function Footer() {
                   fill
                   sizes="(max-width: 768px) 50vw, 25vw"
                   className="object-contain hover:scale-105 transition-transform duration-300"
-                  style={{ 
-                    background: 'transparent', 
+                  style={{
+                    background: 'transparent',
                     border: 'none'
                   }}
                 />
@@ -33,7 +33,7 @@ export default function Footer() {
               Revolucionando a prática jurídica através da Inteligência Artificial.
               Transformamos dados jurídicos em insights poderosos.
             </p>
-            
+
             {/* Social Links */}
             <div className="flex space-x-4">
               <a
@@ -59,7 +59,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           {/* Quick Links */}
           <div>
             <h3 className="text-xl font-semibold font-playfair mb-6 gradient-text">
@@ -87,13 +87,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                <Link href="/#contact" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
                   Contato
                 </Link>
               </li>
             </ul>
           </div>
-          
+
           {/* Services */}
           <div>
             <h3 className="text-xl font-semibold font-playfair mb-6 gradient-text">
@@ -107,7 +107,7 @@ export default function Footer() {
               <li className="text-genesys-gray">Consultoria IA</li>
             </ul>
           </div>
-          
+
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-semibold font-playfair mb-6 gradient-text">
@@ -144,7 +144,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">

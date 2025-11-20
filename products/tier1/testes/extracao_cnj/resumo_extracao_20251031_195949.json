@@ -1,0 +1,89 @@
+{
+  "data_execucao": "2025-10-31T19:59:49.071255",
+  "total_processos": 20,
+  "sucessos": 0,
+  "erros": 20,
+  "resultados": [],
+  "erros_detalhados": [
+    {
+      "processo": "0000000-00.2023.8.13.0000",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "0000001-23.2024.8.13.0024",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "0000344-53.2024.8.13.0696",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1001005-65.2024.8.13.7542",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1012132-61.2021.8.13.8948",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1013706-85.2021.8.13.7196",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1014370-43.2023.8.13.6048",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1018920-85.2023.8.13.7004",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1019942-12.2025.8.13.7244",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1024325-30.2022.8.13.5754",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1025535-41.2025.8.13.9640",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1030605-83.2022.8.13.9664",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1032413-99.2023.8.13.7200",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1040846-40.2021.8.13.5218",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1046860-77.2023.8.13.6846",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1048277-85.2025.8.13.2645",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1056131-81.2022.8.13.8793",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1064577-45.2022.8.13.1546",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1065281-15.2024.8.13.6970",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1070054-63.2023.8.13.8416",
+      "erro": "Processo não encontrado na API CNJ"
+    }
+  ]
+}

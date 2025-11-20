@@ -315,10 +315,10 @@ export default function ProductCarousel() {
                         transition={{ delay: 0.8 + index * 0.1 }}
                         className="text-center p-3 sm:p-4 md:p-6 bg-white/5 backdrop-blur-sm rounded-xl md:rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
                       >
-                        <div className={`text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-1 sm:mb-2 leading-tight py-1`}>
+                        <div className={`text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2 leading-tight`}>
                           {stat.value}
                         </div>
-                        <div className="text-xs sm:text-sm text-gray-400 font-medium">
+                        <div className="text-xs sm:text-sm md:text-base text-gray-300 font-medium">
                           {stat.label}
                         </div>
                       </motion.div>
@@ -360,11 +360,10 @@ export default function ProductCarousel() {
             className="group relative"
             aria-label={`Ir para produto ${index + 1}`}
           >
-            <div className={`w-8 sm:w-10 md:w-12 h-1.5 sm:h-2 rounded-full transition-all ${
-              index === currentIndex
-                ? 'bg-white'
-                : 'bg-white/30 hover:bg-white/50'
-            }`}>
+            <div className={`w-8 sm:w-10 md:w-12 h-1.5 sm:h-2 rounded-full transition-all ${index === currentIndex
+              ? 'bg-white'
+              : 'bg-white/30 hover:bg-white/50'
+              }`}>
               {index === currentIndex && (
                 <motion.div
                   className={`h-full rounded-full bg-gradient-to-r ${currentProduct.gradient}`}

@@ -1,0 +1,8 @@
+2025-10-27 21:42:28,268 - bot_telegram - WARNING - Nenhum provedor de IA configurado
+2025-10-27 21:42:28,507 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-27 21:42:28,567 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-27 21:43:13,952 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura): como funciona a cadeia de custodia?
+2025-10-27 21:43:13,987 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

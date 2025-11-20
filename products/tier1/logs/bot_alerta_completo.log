@@ -1,0 +1,6 @@
+2025-10-28 07:17:58,781 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 07:17:59,046 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 07:17:59,103 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 07:17:59,106 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 07:17:59,106 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 07:17:59,106 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...

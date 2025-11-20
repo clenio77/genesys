@@ -1,0 +1,49 @@
+2025-10-28 06:57:35,485 - bot_telegram - INFO - Usando Google Gemini como provedor de IA
+2025-10-28 06:57:35,725 - bot_telegram - INFO - 🤖 Iniciando Bot de Telegram com IA...
+2025-10-28 06:57:35,809 - bot_telegram - INFO - ✅ Comando /start registrado
+2025-10-28 06:57:35,810 - bot_telegram - INFO - ✅ Todos os comandos registrados
+2025-10-28 06:57:35,810 - bot_telegram - INFO - ✅ Handler de mensagens registrado
+2025-10-28 06:57:35,810 - bot_telegram - INFO - ✅ Bot com IA iniciado! Aguardando mensagens...
+2025-10-28 07:02:31,047 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: o que é um contrato?
+2025-10-28 07:02:32,235 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:02:32,236 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:02:32,236 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 07:02:37,368 - bot_telegram - INFO - IA processou mensagem: o que é um contrato?...
+2025-10-28 07:03:08,972 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: indenização por danos morais
+2025-10-28 07:03:09,789 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-28 07:03:33,776 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-28 07:03:33,777 - bot_telegram - INFO - Busca de jurisprudência realizada: indenização por danos morais
+2025-10-28 07:03:35,305 - bot_telegram - ERROR - Erro ao buscar jurisprudência: Can't parse entities: can't find end of the entity starting at byte offset 4305
+2025-10-28 07:03:35,370 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:03:35,370 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:03:35,371 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 07:03:51,403 - bot_telegram - INFO - IA processou mensagem: indenização por danos morais...
+2025-10-28 07:03:52,481 - bot_telegram - ERROR - Erro ao processar mensagem: Can't parse entities: can't find end of the entity starting at byte offset 1451
+2025-10-28 07:04:43,971 - bot_telegram - INFO - Usuário 180684653 (Clenio_moura) enviou: indenização por danos morais
+2025-10-28 07:04:44,882 - bot_telegram - INFO - 📝 Enviando mensagem de status: Analisando jurisprudência...
+2025-10-28 07:05:08,082 - bot_telegram - INFO - IA processou mensagem: Você é um assistente jurídico especializado em jur...
+2025-10-28 07:05:08,083 - bot_telegram - INFO - Busca de jurisprudência realizada: indenização por danos morais
+2025-10-28 07:05:09,116 - bot_telegram - ERROR - Erro ao buscar jurisprudência: Message is too long
+2025-10-28 07:05:09,176 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:05:09,176 - bot_telegram - ERROR - Erro ao buscar/criar usuário: (psycopg2.OperationalError) connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "genesys"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-28 07:05:09,177 - bot_telegram - INFO - 📝 Enviando mensagem de status: Processando com IA...
+2025-10-28 07:05:19,125 - bot_telegram - INFO - IA processou mensagem: indenização por danos morais...
+2025-10-28 07:05:20,325 - bot_telegram - ERROR - Erro ao processar mensagem: Can't parse entities: can't find end of the entity starting at byte offset 1258

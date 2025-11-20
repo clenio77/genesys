@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-cyan-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '4s' }}></div>
       </div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Main Hero Section */}
         <div className="text-center py-20">
@@ -20,14 +20,14 @@ export default function Hero() {
             <br />
             <span className="text-white">Genesys</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed mb-12">
             A mais avançada tecnologia de IA aplicada ao contexto jurídico brasileiro
           </p>
-          
+
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-20">
-            <a href="#products" className="btn-primary flex items-center space-x-3 group">
+            <a href="/#products" className="btn-primary flex items-center space-x-3 group">
               <FaRocket className="group-hover:animate-bounce" />
               <span>Descobrir Soluções</span>
             </a>
@@ -53,7 +53,7 @@ export default function Hero() {
               <div className="feature-content">
                 <h3 className="text-2xl font-bold text-white mb-3">Machine Learning Avançado</h3>
                 <p className="text-slate-300 leading-relaxed">
-                  Algoritmos de deep learning treinados especificamente com dados jurídicos brasileiros, 
+                  Algoritmos de deep learning treinados especificamente com dados jurídicos brasileiros,
                   capazes de compreender nuances legais e contextos processuais complexos.
                 </p>
               </div>
@@ -66,7 +66,7 @@ export default function Hero() {
               <div className="feature-content">
                 <h3 className="text-2xl font-bold text-white mb-3">Processamento de Linguagem Natural</h3>
                 <p className="text-slate-300 leading-relaxed">
-                  NLP especializado em português jurídico para interpretação precisa de textos legais, 
+                  NLP especializado em português jurídico para interpretação precisa de textos legais,
                   extração de informações relevantes e análise semântica avançada.
                 </p>
               </div>
@@ -79,7 +79,7 @@ export default function Hero() {
               <div className="feature-content">
                 <h3 className="text-2xl font-bold text-white mb-3">Big Data Jurídico</h3>
                 <p className="text-slate-300 leading-relaxed">
-                  Processamento de milhões de documentos jurídicos, decisões judiciais e legislações 
+                  Processamento de milhões de documentos jurídicos, decisões judiciais e legislações
                   para identificar padrões e gerar insights estratégicos.
                 </p>
               </div>
@@ -92,14 +92,14 @@ export default function Hero() {
               <div className="feature-icon-large bg-gradient-to-r from-purple-500 to-blue-500">
                 <FaNetworkWired className="text-4xl text-white" />
               </div>
-              
+
               <h3 className="text-3xl font-bold text-white mb-4">Rede Neural Jurídica</h3>
-              
+
               <p className="text-slate-200 text-lg leading-relaxed mb-8">
-                Nossa IA utiliza uma arquitetura de rede neural especializada, treinada com mais de 
+                Nossa IA utiliza uma arquitetura de rede neural especializada, treinada com mais de
                 10 milhões de documentos jurídicos para oferecer análises precisas e contextualizadas.
               </p>
-              
+
               <div className="grid grid-cols-2 gap-6">
                 <div className="stat-card">
                   <div className="stat-number">99.2%</div>
@@ -114,7 +114,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      
+
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">

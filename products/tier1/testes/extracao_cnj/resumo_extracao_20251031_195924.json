@@ -1,0 +1,29 @@
+{
+  "data_execucao": "2025-10-31T19:59:24.624339",
+  "total_processos": 5,
+  "sucessos": 0,
+  "erros": 5,
+  "resultados": [],
+  "erros_detalhados": [
+    {
+      "processo": "0000000-00.2023.8.13.0000",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "0000001-23.2024.8.13.0024",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "0000344-53.2024.8.13.0696",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1001005-65.2024.8.13.7542",
+      "erro": "Processo não encontrado na API CNJ"
+    },
+    {
+      "processo": "1012132-61.2021.8.13.8948",
+      "erro": "Processo não encontrado na API CNJ"
+    }
+  ]
+}

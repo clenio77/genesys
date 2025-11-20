@@ -1,0 +1,28 @@
+{
+  "numero": "0878961-59.2013.8.13.0702",
+  "data_extracao": "2025-10-31T19:03:16.718297",
+  "fonte": "eproc_tjmg",
+  "dados_principais": {
+    "numero": "Consulta Processual - Busca de Processo",
+    "classe": null,
+    "vara": null,
+    "status": null,
+    "comarca": null
+  },
+  "partes": [],
+  "movimentacoes": [],
+  "sentencas": [],
+  "julgados": [],
+  "denuncias": [],
+  "documentos": [
+    {
+      "texto": "Documentos\n            arrow_drop_down",
+      "href": "externo_controlador.php?acao=consulta_autenticidade_documentos",
+      "url_completa": "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=consulta_autenticidade_documentos",
+      "tipo": "outro"
+    }
+  ],
+  "links_pdf": [
+    "https://eproc-consulta-publica-1g.tjmg.jus.br/externo_controlador.php?acao=consulta_autenticidade_documentos"
+  ]
+}

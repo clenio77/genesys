@@ -1,0 +1,38 @@
+🔍 DEBUG - Processo: 0878961-59.2013.8.13.0702
+============================================================
+
+📡 1. Acessando formulário de busca...
+   ✅ Página carregada
+
+📝 2. Preenchendo formulário...
+   ✅ Número preenchido: 0878961-59.2013.8.13.0702
+
+🔍 3. Clicando em consultar...
+
+⏳ 4. Aguardando resultado...
+   ✅ URL mudou (página de resultado)
+
+📊 5. Estado atual:
+   URL: https://eproc-consulta-publica-1g.tjmg.jus.br/eproc/externo_controlador.php?acao=processo_consulta_publica&acao_origem=&acao_retorno=processo_consulta_publica
+   Título: :: eproc - Consulta Processual - Busca de Processo ::
+
+🔍 6. Analisando conteúdo da página...
+
+✅ Análise salva:
+   📄 JSON: /home/clenio/Documentos/Meusagentes/genesys/products/tier1/testes/debug_analise_0878961_59_2013_8_13_0702.json
+   📄 HTML: /home/clenio/Documentos/Meusagentes/genesys/products/tier1/testes/debug_html_0878961_59_2013_8_13_0702.html
+   📸 Screenshot: /home/clenio/Documentos/Meusagentes/genesys/products/tier1/testes/debug_screenshot_0878961_59_2013_8_13_0702.png
+
+📊 RESUMO DA ANÁLISE:
+   • Ainda na página de busca: True
+   • Tabelas encontradas: 0
+   • Links encontrados: 28
+   • Textos visíveis: 1
+   • Mensagens de erro: 0
+   • ❌ Número do processo NÃO encontrado
+
+⏸️ Pressione Enter para fechar...Traceback (most recent call last):
+  File "/home/clenio/Documentos/Meusagentes/genesys/products/tier1/testes/debug_extracao_eproc.py", line 200, in debug_extracao
+    input("\n⏸️ Pressione Enter para fechar...")
+EOFError: EOF when reading a line
+❌ Erro: EOF when reading a line

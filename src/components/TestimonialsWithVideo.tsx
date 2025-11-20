@@ -24,14 +24,14 @@ export default function TestimonialsWithVideo() {
   const depoimentos: Testimonial[] = [
     {
       id: 1,
-      nome: 'Dr. Carlos Silva',
-      cargo: 'Sócio Fundador',
-      empresa: 'Silva & Associados',
-      foto: '/images/clenio.png',
+      nome: 'Dr. Eduardo Martins',
+      cargo: 'Advogado Tributarista',
+      empresa: 'Martins & Advogados Associados',
+      foto: '/images/avatar-fernando.webp',
       rating: 5,
-      texto: 'A Genesys transformou completamente nossa prática jurídica. Com o Kermartin IA, reduzimos em 70% o tempo de análise de contratos e aumentamos nossa produtividade em 3x. O ROI foi alcançado em apenas 4 meses!',
-      videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-      videoThumbnail: '/images/clenio.png',
+      texto: 'A Genesys revolucionou nossa forma de trabalhar. Com a IA jurídica, conseguimos analisar processos tributários complexos em minutos. Nossa produtividade aumentou 300% e a precisão nas análises melhorou significativamente.',
+      videoUrl: '/videos/depoimento-advogado.mp4',
+      videoThumbnail: '/images/avatar-fernando.webp',
       tipo: 'video'
     },
     {
@@ -39,53 +39,21 @@ export default function TestimonialsWithVideo() {
       nome: 'Dra. Ana Paula Oliveira',
       cargo: 'Diretora Jurídica',
       empresa: 'TechCorp Brasil',
-      foto: '/images/lilian1.png',
+      foto: '/images/avatar-ana.webp',
       rating: 5,
-      texto: 'A consultoria em IA da Genesys foi fundamental para nossa transformação digital. A equipe é extremamente competente e o suporte é excepcional. Recomendo fortemente!',
-      tipo: 'texto'
+      texto: 'A consultoria em IA da Genesys foi fundamental para nossa transformação digital. A equipe é extremamente competente e o suporte é excepcional. Reduzimos 70% do tempo em análise de contratos.',
+      videoUrl: '/videos/depoimento-ana.mp4',
+      videoThumbnail: '/images/avatar-ana.webp',
+      tipo: 'video'
     },
     {
       id: 3,
       nome: 'Dr. Roberto Mendes',
-      cargo: 'Advogado Especialista',
-      empresa: 'Mendes Advocacia',
-      foto: '/images/firmino1.png',
+      cargo: 'Sócio-Fundador',
+      empresa: 'Mendes & Associados',
+      foto: '/images/avatar-roberto.webp',
       rating: 5,
-      texto: 'O sistema de pesquisa jurídica com IA é simplesmente incrível. Encontro precedentes relevantes em minutos, algo que antes levava horas. A precisão é impressionante!',
-      videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-      videoThumbnail: '/images/firmino1.png',
-      tipo: 'video'
-    },
-    {
-      id: 4,
-      nome: 'Dra. Mariana Costa',
-      cargo: 'Coordenadora de Compliance',
-      empresa: 'FinanceGroup',
-      foto: '/images/lilian1.png',
-      rating: 5,
-      texto: 'O módulo de Compliance IA nos ajudou a alcançar 100% de conformidade com a LGPD. Os alertas em tempo real são essenciais para nossa operação. Excelente investimento!',
-      tipo: 'texto'
-    },
-    {
-      id: 5,
-      nome: 'Dr. Fernando Alves',
-      cargo: 'Sócio',
-      empresa: 'Alves & Partners',
-      foto: '/images/clenio.png',
-      rating: 5,
-      texto: 'A automação de processos liberou nossa equipe para focar em atividades estratégicas. Economizamos mais de 15 horas por semana em tarefas repetitivas. Simplesmente fantástico!',
-      videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-      videoThumbnail: '/images/clenio.png',
-      tipo: 'video'
-    },
-    {
-      id: 6,
-      nome: 'Dra. Juliana Santos',
-      cargo: 'Advogada Associada',
-      empresa: 'Santos Advocacia',
-      foto: '/images/lilian.png',
-      rating: 5,
-      texto: 'A interface é intuitiva e a curva de aprendizado é muito rápida. Em uma semana já estávamos usando todas as funcionalidades. O suporte técnico é sempre muito atencioso.',
+      texto: 'Os serviços da Genesys transformaram completamente nossa operação. A pesquisa jurídica inteligente nos permite encontrar precedentes relevantes em segundos, a análise automatizada de contratos identifica riscos que antes passavam despercebidos, e o sistema de compliance garante que estamos sempre em conformidade com a LGPD. O ROI foi alcançado em apenas 4 meses e nossa equipe agora pode focar em atividades estratégicas ao invés de tarefas repetitivas. Recomendo fortemente!',
       tipo: 'texto'
     }
   ]
@@ -134,14 +102,27 @@ export default function TestimonialsWithVideo() {
                 {currentTestimonial.tipo === 'video' && currentTestimonial.videoUrl ? (
                   <div className="relative aspect-video rounded-2xl overflow-hidden bg-slate-900">
                     {playingVideo === currentTestimonial.id ? (
-                      <iframe
-                        src={currentTestimonial.videoUrl}
-                        className="w-full h-full"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      />
+                      // Detecta se é vídeo local (MP4, WebM, MOV) ou embed (YouTube, Vimeo)
+                      currentTestimonial.videoUrl.match(/\.(mp4|webm|mov)$/i) ? (
+                        <video
+                          src={currentTestimonial.videoUrl}
+                          className="w-full h-full object-cover"
+                          controls
+                          autoPlay
+                          preload="metadata"
+                        >
+                          Seu navegador não suporta vídeo HTML5.
+                        </video>
+                      ) : (
+                        <iframe
+                          src={currentTestimonial.videoUrl}
+                          className="w-full h-full"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      )
                     ) : (
-                      <div 
+                      <div
                         className="relative w-full h-full cursor-pointer group"
                         onClick={() => setPlayingVideo(currentTestimonial.id)}
                       >
@@ -152,7 +133,7 @@ export default function TestimonialsWithVideo() {
                           className="object-cover"
                         />
                         <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-all flex items-center justify-center">
-                          <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+                          <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-2xl">
                             <FaPlay className="text-white text-2xl ml-1" />
                           </div>
                         </div>
@@ -223,11 +204,10 @@ export default function TestimonialsWithVideo() {
                     setCurrentIndex(index)
                     setPlayingVideo(null)
                   }}
-                  className={`w-3 h-3 rounded-full transition-all ${
-                    index === currentIndex
-                      ? 'bg-blue-500 w-8'
-                      : 'bg-slate-600 hover:bg-slate-500'
-                  }`}
+                  className={`w-3 h-3 rounded-full transition-all ${index === currentIndex
+                    ? 'bg-blue-500 w-8'
+                    : 'bg-slate-600 hover:bg-slate-500'
+                    }`}
                   aria-label={`Ir para depoimento ${index + 1}`}
                 />
               ))}
