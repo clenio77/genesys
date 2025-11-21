@@ -117,7 +117,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <FaMapMarkerAlt className="text-genesys-gold" />
                 <span className="text-genesys-gray text-sm">
-                  Brasil
+                  Uberlândia - MG
                 </span>
               </div>
               <div className="flex items-center space-x-3">
