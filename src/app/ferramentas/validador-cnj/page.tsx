@@ -6,9 +6,19 @@ import Footer from '@/components/Footer'
 import SEOHead from '@/components/SEOHead'
 import { FaCheckCircle, FaTimesCircle, FaSearch, FaBuilding } from 'react-icons/fa'
 
+interface ValidationDetails {
+    error?: string
+    sequencial?: string
+    digito?: string
+    ano?: string
+    orgao?: string
+    tribunal?: string
+    origem?: string
+}
+
 export default function ValidadorCNJPage() {
     const [cnj, setCnj] = useState('')
-    const [result, setResult] = useState<{ valid: boolean; details?: any } | null>(null)
+    const [result, setResult] = useState<{ valid: boolean; details?: ValidationDetails } | null>(null)
 
     const formatCNJ = (value: string) => {
         // Remove tudo que não é número
@@ -165,13 +175,13 @@ export default function ValidadorCNJPage() {
                                             <h3 className={`text-xl font-bold ${result.valid ? 'text-emerald-400' : 'text-red-400'}`}>
                                                 {result.valid ? 'Numeração Válida' : 'Numeração Inválida'}
                                             </h3>
-                                            {!result.valid && (
+                                            {!result.valid && result.details?.error && (
                                                 <p className="text-red-300 text-sm">{result.details.error}</p>
                                             )}
                                         </div>
                                     </div>
 
-                                    {result.valid && (
+                                    {result.valid && result.details && (
                                         <div className="grid grid-cols-2 gap-4 mt-6 border-t border-emerald-500/20 pt-4">
                                             <div>
                                                 <p className="text-xs text-gray-400 mb-1">Ano do Processo</p>
@@ -185,7 +195,7 @@ export default function ValidadorCNJPage() {
                                                 <p className="text-xs text-gray-400 mb-1">Detalhes da Origem</p>
                                                 <div className="flex items-center gap-2 text-emerald-300">
                                                     <FaBuilding />
-                                                    <span>Tribunal {result.details.tribunal.replace('Tribunal ', '')} / Vara {result.details.origem}</span>
+                                                    <span>Tribunal {result.details.tribunal?.replace('Tribunal ', '') || ''} / Vara {result.details.origem}</span>
                                                 </div>
                                             </div>
                                         </div>

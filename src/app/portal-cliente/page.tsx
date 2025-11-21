@@ -3,10 +3,11 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaFileAlt, FaCheckCircle, FaClock, FaUserTie, FaGavel, FaWhatsapp, FaArrowLeft, FaSignOutAlt, FaArrowRight, FaSpinner } from 'react-icons/fa'
+import { IconType } from 'react-icons'
 import SEOHead from '@/components/SEOHead'
 
 // Map icon strings to components
-const ICON_MAP: { [key: string]: any } = {
+const ICON_MAP: { [key: string]: IconType } = {
     'gavel': FaGavel,
     'file': FaFileAlt,
     'check': FaCheckCircle,
@@ -60,7 +61,7 @@ export default function PortalClientePage() {
                 setIsLoggedIn(true)
                 fetchProcesses()
             }
-        } catch (err) {
+        } catch {
             setError('CPF inválido ou não encontrado. Tente 123.456.789-00')
         } finally {
             setLoading(false)
@@ -73,10 +74,10 @@ export default function PortalClientePage() {
             const data = await res.json()
 
             // Format dates for display
-            const formattedData = data.map((p: any) => ({
+            const formattedData = data.map((p: Processo) => ({
                 ...p,
                 last_update: new Date(p.last_update).toLocaleDateString('pt-BR'),
-                timeline: p.timeline.map((t: any) => ({
+                timeline: p.timeline.map((t: TimelineEvent) => ({
                     ...t,
                     date: new Date(t.date).toLocaleDateString('pt-BR')
                 }))

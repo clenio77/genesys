@@ -24,7 +24,7 @@ export default function PoliticaPrivacidadePage() {
 
                         <div className="prose prose-invert prose-lg max-w-none">
                             <p className="lead text-xl text-gray-400 mb-8">
-                                A Genesys Tecnologia ("nós", "nosso") está comprometida em proteger a sua privacidade.
+                                A Genesys Tecnologia (&quot;nós&quot;, &quot;nosso&quot;) está comprometida em proteger a sua privacidade.
                                 Esta Política de Privacidade explica como coletamos, usamos, divulgamos e protegemos suas informações
                                 quando você visita nosso site ou utiliza nossos serviços.
                             </p>

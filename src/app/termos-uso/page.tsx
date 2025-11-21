@@ -37,7 +37,7 @@ export default function TermosUsoPage() {
 
                             <h2 className="text-2xl font-bold text-white mt-12 mb-6">1. Aceitação dos Termos</h2>
                             <p>
-                                Ao utilizar os serviços da Genesys Tecnologia ("Serviços"), você concorda com estes Termos de Uso.
+                                Ao utilizar os serviços da Genesys Tecnologia (&quot;Serviços&quot;), você concorda com estes Termos de Uso.
                                 Se você não concordar com qualquer parte destes termos, não deverá utilizar nossos Serviços.
                             </p>
 

@@ -32,7 +32,7 @@ export default function CookiesPage() {
                                 <h3 className="text-white mt-0">O que são Cookies?</h3>
                                 <p className="mb-0">
                                     Cookies são pequenos arquivos de texto armazenados no seu dispositivo (computador, tablet ou celular)
-                                    quando você visita um site. Eles permitem que o site "lembre" suas ações e preferências
+                                    quando você visita um site. Eles permitem que o site &quot;lembre&quot; suas ações e preferências
                                     (como login, idioma, tamanho da fonte) por um determinado período.
                                 </p>
                             </div>
