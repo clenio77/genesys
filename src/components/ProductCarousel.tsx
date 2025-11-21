@@ -165,7 +165,7 @@ export default function ProductCarousel() {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 pt-20 md:pt-24 pb-20 md:pb-24"
+      className="relative w-full min-h-[600px] py-12 md:py-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -181,7 +181,7 @@ export default function ProductCarousel() {
 
         {/* Gradient Orbs */}
         <motion.div
-          className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-3xl"
+          className="absolute top-1/4 left-1/4 w-64 h-64 md:w-96 md:h-96 rounded-full blur-3xl"
           style={{ background: currentProduct.gradient }}
           animate={{
             scale: [1, 1.2, 1],
@@ -190,7 +190,7 @@ export default function ProductCarousel() {
           transition={{ duration: 4, repeat: Infinity }}
         />
         <motion.div
-          className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full blur-3xl"
+          className="absolute bottom-1/4 right-1/4 w-64 h-64 md:w-96 md:h-96 rounded-full blur-3xl"
           style={{ background: currentProduct.gradient }}
           animate={{
             scale: [1.2, 1, 1.2],
@@ -201,8 +201,8 @@ export default function ProductCarousel() {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10 overflow-hidden">
-        <div className="max-w-7xl mx-auto overflow-hidden">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+        <div className="max-w-7xl mx-auto">
           <AnimatePresence initial={false} custom={direction} mode="wait">
             <motion.div
               key={currentIndex}
@@ -227,7 +227,7 @@ export default function ProductCarousel() {
                   paginate(-1)
                 }
               }}
-              className="grid lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-12 items-center overflow-hidden"
+              className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center w-full"
             >
               {/* Left Column - Content */}
               <div className="space-y-6 sm:space-y-8">
