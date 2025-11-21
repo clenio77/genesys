@@ -36,8 +36,8 @@ export default function TestimonialsWithVideo() {
     },
     {
       id: 4,
-      nome: 'Dr. Carlos Eduardo Silva',
-      cargo: 'Advogado Empresarial',
+      nome: 'Dra. Beatriz',
+      cargo: 'Advogada Empresarial',
       empresa: 'Silva & Advogados',
       foto: '/images/depoimento1-thumb.webp',
       rating: 5,

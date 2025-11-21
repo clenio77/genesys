@@ -8,7 +8,7 @@ export default function TeamSection() {
     {
       name: 'Firmino Costa',
       role: 'Advogado Criminalista',
-      description: 'CEO & Fundador da Genesys Tecnologia. Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
+      description: 'Sócio-Fundador da Genesys Tecnologia. Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
       image: '/images/firmino1.png',
       icon: FaGavel,
       tags: ['Direito Penal', 'Jurisprudência', 'Defesa Criminal', 'Consultoria Jurídica'],
@@ -25,7 +25,7 @@ export default function TeamSection() {
     {
       name: 'Lilian Santos',
       role: 'Advogada Trabalhista',
-      description: 'CEO & Fundadora da Genesys Tecnologia. Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
+      description: 'Sócia-Fundadora da Genesys Tecnologia. Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
       image: '/images/lilian1.png',
       icon: FaBriefcase,
       tags: ['Direito do Trabalho', 'Relações Trabalhistas', 'Legislação', 'Consultoria Trabalhista'],
@@ -42,7 +42,7 @@ export default function TeamSection() {
     {
       name: 'Clênio Moura',
       role: 'Desenvolvedor & Engenheiro de IA',
-      description: 'CEO & Fundador da Genesys Tecnologia. Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes.',
+      description: 'CTO & Fundador da Genesys Tecnologia. Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes.',
       image: '/images/clenio.png',
       icon: FaCode,
       tags: ['Python', 'Inteligência Artificial', 'Automação', 'Agentes IA'],
@@ -70,7 +70,7 @@ export default function TeamSection() {
             Profissionais especializados unindo expertise jurídica e tecnológica
           </p>
         </div>
-        
+
         {/* Team Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
@@ -87,13 +87,13 @@ export default function TeamSection() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-genesys-dark/50 to-transparent"></div>
                 </div>
-                
+
                 {/* Icon */}
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
                   <member.icon className="text-white text-xl" />
                 </div>
               </div>
-              
+
               {/* Content */}
               <div className="text-center">
                 <h3 className="text-2xl font-bold font-playfair mb-2 gradient-text">
@@ -105,7 +105,7 @@ export default function TeamSection() {
                 <p className="text-genesys-slate text-sm leading-relaxed mb-6">
                   {member.description}
                 </p>
-                
+
                 {/* Tags */}
                 <div className="flex flex-wrap justify-center gap-2 mb-6">
                   {member.tags.map((tag, tagIndex) => (
@@ -117,7 +117,7 @@ export default function TeamSection() {
                     </span>
                   ))}
                 </div>
-                
+
                 {/* Social Links */}
                 <div className="flex justify-center space-x-4">
                   <a
@@ -150,7 +150,7 @@ export default function TeamSection() {
             </div>
           ))}
         </div>
-        
+
         {/* Team Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center">

@@ -16,20 +16,19 @@ export default function Header() {
     <>
       <nav className="header-glass-modern" style={{ top: '0px' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-8 md:py-10 lg:py-12 min-h-[140px] md:min-h-[170px] lg:min-h-[200px]">
-            <div className="flex items-center h-full">
+          <div className="flex justify-between items-center h-20 md:h-24">
+            <div className="flex items-center h-full py-2">
               <Link href="#home" className="flex items-center h-full">
-                <div className="genesys-logo logo-container relative w-[500px] h-full sm:w-[600px] md:w-[650px] lg:w-[700px] min-h-[120px] md:min-h-[150px] lg:min-h-[180px] transition-all duration-300">
+                <div className="relative w-[180px] h-[40px] sm:w-[220px] sm:h-[50px] md:w-[260px] md:h-[60px] transition-all duration-300">
                   <Image
                     src="/images/genesys-logo.png"
                     alt="Genesys Tecnologia - Inteligência Artificial Jurídica"
                     fill
-                    sizes="(max-width: 640px) 500px, (max-width: 768px) 600px, (max-width: 1024px) 650px, 700px"
-                    className="object-contain hover:scale-110 transition-transform duration-300"
+                    sizes="(max-width: 640px) 180px, (max-width: 768px) 220px, 260px"
+                    className="object-contain hover:scale-105 transition-transform duration-300"
                     style={{
                       objectFit: 'contain',
-                      objectPosition: 'left center',
-                      transform: 'scale(1.2)'
+                      objectPosition: 'left center'
                     }}
                     priority
                   />

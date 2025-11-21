@@ -4,7 +4,7 @@ import { FaRocket, FaPlay, FaBrain, FaFileAlt, FaDatabase, FaNetworkWired } from
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen neural-network-bg relative overflow-hidden pt-20">
+    <section id="home" className="min-h-screen neural-network-bg relative overflow-hidden pt-32">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/20 rounded-full blur-3xl animate-float"></div>

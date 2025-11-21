@@ -165,7 +165,7 @@ export default function ProductCarousel() {
 
   return (
     <section
-      className="relative w-full min-h-[600px] py-12 md:py-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"
+      className="relative w-full min-h-[600px] pt-28 pb-12 md:pt-32 md:pb-20 flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
@@ -306,19 +306,19 @@ export default function ProductCarousel() {
                   <div className="absolute inset-0 rounded-3xl opacity-30" style={{ background: currentProduct.bgPattern }} />
 
                   {/* Stats Grid */}
-                  <div className="relative grid grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+                  <div className="relative grid grid-cols-3 gap-2 sm:gap-4 md:gap-6">
                     {currentProduct.stats.map((stat, index) => (
                       <motion.div
                         key={stat.label}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.8 + index * 0.1 }}
-                        className="text-center p-3 sm:p-4 md:p-5 bg-white/5 backdrop-blur-sm rounded-xl md:rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
+                        className="text-center p-2 sm:p-3 md:p-4 bg-white/5 backdrop-blur-sm rounded-xl md:rounded-2xl border border-white/10 hover:bg-white/10 transition-all flex flex-col justify-center items-center h-full"
                       >
-                        <div className={`text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2 leading-tight`}>
+                        <div className={`text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-1 sm:mb-2 leading-tight`}>
                           {stat.value}
                         </div>
-                        <div className="text-xs sm:text-sm text-gray-400 font-medium">
+                        <div className="text-[10px] sm:text-xs text-gray-400 font-medium break-words leading-tight w-full">
                           {stat.label}
                         </div>
                       </motion.div>

@@ -41,16 +41,16 @@ export default function PremiumHeader() {
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-50" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between min-h-[70px] sm:min-h-[85px] lg:min-h-[95px] py-2 sm:py-2.5 lg:py-3">
+        <div className="flex items-center justify-start gap-4 lg:gap-8 min-h-[70px] sm:min-h-[85px] lg:min-h-[95px] py-2 sm:py-2.5 lg:py-3">
           {/* Logo */}
           <div className="flex items-center h-full flex-shrink-0">
             <a href="/" className="flex items-center h-full">
-              <div className="relative w-[200px] h-full sm:w-[400px] md:w-[500px] lg:w-[600px] min-h-[55px] sm:min-h-[75px] lg:min-h-[85px]">
+              <div className="relative w-[180px] h-full sm:w-[220px] lg:w-[280px] min-h-[55px] sm:min-h-[75px] lg:min-h-[85px]">
                 <Image
                   src="/images/genesys-logo.png"
                   alt="Genesys Tecnologia Jurídica"
                   fill
-                  sizes="(max-width: 640px) 200px, (max-width: 768px) 400px, (max-width: 1024px) 500px, 600px"
+                  sizes="(max-width: 640px) 180px, (max-width: 768px) 220px, 280px"
                   className="object-contain hover:scale-105 transition-transform duration-300 logo-scale"
                   style={{
                     objectFit: 'contain',
@@ -64,33 +64,33 @@ export default function PremiumHeader() {
           </div>
 
           {/* Desktop Menu */}
-          <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
+          <nav className="hidden xl:flex items-center space-x-2 2xl:space-x-6">
             {menuItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="relative text-sm xl:text-base text-gray-300 hover:text-white transition-colors group whitespace-nowrap"
+                className="relative px-2 py-1 text-sm font-medium text-gray-300 hover:text-white transition-colors group whitespace-nowrap"
               >
                 {item.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-500 group-hover:w-full transition-all duration-300" />
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-500 group-hover:w-full transition-all duration-300" />
               </a>
             ))}
           </nav>
 
           {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden xl:flex items-center space-x-3 ml-auto">
             <button className="p-2 text-gray-400 hover:text-white transition-colors hover:scale-110">
               <FaSearch />
             </button>
 
-            <button className="px-4 xl:px-6 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg text-sm xl:text-base font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105 whitespace-nowrap">
+            <button className="px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg text-sm font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105 whitespace-nowrap">
               Começar Agora
             </button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-white hover:scale-110 transition-transform relative z-10"
+            className="xl:hidden p-2 text-white hover:scale-110 transition-transform relative z-10 ml-auto"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -100,7 +100,7 @@ export default function PremiumHeader() {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`lg:hidden overflow-hidden transition-all duration-300 relative z-20 ${isMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div className={`xl:hidden overflow-hidden transition-all duration-300 relative z-20 ${isMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="px-4 py-6 space-y-4 bg-slate-900/95 backdrop-blur-xl border-t border-slate-800 overflow-y-auto max-h-[calc(100vh-100px)]">
           {menuItems.map((item) => (
             <a
