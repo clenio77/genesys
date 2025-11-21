@@ -24,6 +24,18 @@ export default function TestimonialsWithVideo() {
   const depoimentos: Testimonial[] = [
     {
       id: 1,
+      nome: 'Dr. Eduardo Martins',
+      cargo: 'Advogado Tributarista',
+      empresa: 'Martins & Advogados Associados',
+      foto: '/images/avatar-fernando.webp',
+      rating: 5,
+      texto: 'A Genesys revolucionou nossa forma de trabalhar. Com a IA jurídica, conseguimos analisar processos tributários complexos em minutos. Nossa produtividade aumentou 300% e a precisão nas análises melhorou significativamente.',
+      videoUrl: '/videos/depoimento-advogado.mp4',
+      videoThumbnail: '/images/avatar-fernando.webp',
+      tipo: 'video'
+    },
+    {
+      id: 4,
       nome: 'Dr. Carlos Eduardo Silva',
       cargo: 'Advogado Empresarial',
       empresa: 'Silva & Advogados',
@@ -98,15 +110,15 @@ export default function TestimonialsWithVideo() {
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-3xl p-8 md:p-12 border border-slate-700 shadow-2xl">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* Left Side - Video or Image */}
-              <div className="relative">
+              <div className="relative h-full min-h-[300px] md:min-h-[400px] flex items-center justify-center bg-slate-900/50 rounded-2xl overflow-hidden">
                 {currentTestimonial.tipo === 'video' && currentTestimonial.videoUrl ? (
-                  <div className="relative aspect-video rounded-2xl overflow-hidden bg-slate-900">
+                  <div className="relative w-full h-full flex items-center justify-center">
                     {playingVideo === currentTestimonial.id ? (
                       // Detecta se é vídeo local (MP4, WebM, MOV) ou embed (YouTube, Vimeo)
                       currentTestimonial.videoUrl.match(/\.(mp4|webm|mov)$/i) ? (
                         <video
                           src={currentTestimonial.videoUrl}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full max-h-[500px] object-contain"
                           controls
                           autoPlay
                           preload="metadata"
@@ -116,24 +128,24 @@ export default function TestimonialsWithVideo() {
                       ) : (
                         <iframe
                           src={currentTestimonial.videoUrl}
-                          className="w-full h-full"
+                          className="w-full h-full aspect-video"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
                         />
                       )
                     ) : (
                       <div
-                        className="relative w-full h-full cursor-pointer group"
+                        className="relative w-full h-full min-h-[300px] cursor-pointer group flex items-center justify-center"
                         onClick={() => setPlayingVideo(currentTestimonial.id)}
                       >
                         <Image
                           src={currentTestimonial.videoThumbnail || currentTestimonial.foto}
                           alt={currentTestimonial.nome}
                           fill
-                          className="object-cover"
+                          className="object-contain"
                         />
                         <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-all flex items-center justify-center">
-                          <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-2xl">
+                          <div className="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform shadow-2xl z-10">
                             <FaPlay className="text-white text-2xl ml-1" />
                           </div>
                         </div>
@@ -141,7 +153,7 @@ export default function TestimonialsWithVideo() {
                     )}
                   </div>
                 ) : (
-                  <div className="relative aspect-square rounded-2xl overflow-hidden">
+                  <div className="relative w-full aspect-square rounded-2xl overflow-hidden">
                     <Image
                       src={currentTestimonial.foto}
                       alt={currentTestimonial.nome}
