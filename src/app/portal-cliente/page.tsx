@@ -111,18 +111,28 @@ export default function PortalClientePage() {
                 {/* Header Simplificado para o Cliente */}
                 <header className="bg-white shadow-sm sticky top-0 z-50">
                     <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-                        <div className="flex items-center gap-2">
+                        <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">G</div>
                             <span className="font-bold text-xl text-slate-800">Portal do Cliente</span>
+                        </a>
+                        <div className="flex items-center gap-4">
+                            {!isLoggedIn && (
+                                <a
+                                    href="/"
+                                    className="text-slate-500 hover:text-blue-600 flex items-center gap-2 text-sm font-medium transition-colors"
+                                >
+                                    <FaArrowLeft /> Voltar ao Site
+                                </a>
+                            )}
+                            {isLoggedIn && (
+                                <button
+                                    onClick={() => { setIsLoggedIn(false); setSelectedProcess(null); setCpf(''); }}
+                                    className="text-slate-500 hover:text-red-600 flex items-center gap-2 text-sm font-medium transition-colors"
+                                >
+                                    <FaSignOutAlt /> Sair
+                                </button>
+                            )}
                         </div>
-                        {isLoggedIn && (
-                            <button
-                                onClick={() => { setIsLoggedIn(false); setSelectedProcess(null); setCpf(''); }}
-                                className="text-slate-500 hover:text-red-600 flex items-center gap-2 text-sm font-medium transition-colors"
-                            >
-                                <FaSignOutAlt /> Sair
-                            </button>
-                        )}
                     </div>
                 </header>
 
