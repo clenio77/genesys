@@ -24,14 +24,14 @@ export default function TestimonialsWithVideo() {
   const depoimentos: Testimonial[] = [
     {
       id: 1,
-      nome: 'Dr. Eduardo Martins',
-      cargo: 'Advogado Tributarista',
-      empresa: 'Martins & Advogados Associados',
-      foto: '/images/avatar-fernando.webp',
+      nome: 'Dr. Carlos Eduardo Silva',
+      cargo: 'Advogado Empresarial',
+      empresa: 'Silva & Advogados',
+      foto: '/images/depoimento1-thumb.webp',
       rating: 5,
-      texto: 'A Genesys revolucionou nossa forma de trabalhar. Com a IA jurídica, conseguimos analisar processos tributários complexos em minutos. Nossa produtividade aumentou 300% e a precisão nas análises melhorou significativamente.',
-      videoUrl: '/videos/depoimento-advogado.mp4',
-      videoThumbnail: '/images/avatar-fernando.webp',
+      texto: 'A Genesys transformou completamente nossa forma de trabalhar. A inteligência artificial nos ajuda a analisar contratos complexos em minutos, identificando cláusulas críticas e riscos que antes levávamos horas para encontrar. Nossa produtividade aumentou significativamente!',
+      videoUrl: '/videos/depoimento1.mp4',
+      videoThumbnail: '/images/depoimento1-thumb.webp',
       tipo: 'video'
     },
     {
