@@ -64,12 +64,12 @@ export default function PremiumHeader() {
           </div>
 
           {/* Desktop Menu */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
             {menuItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="relative text-gray-300 hover:text-white transition-colors group"
+                className="relative text-sm xl:text-base text-gray-300 hover:text-white transition-colors group whitespace-nowrap"
               >
                 {item.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-500 group-hover:w-full transition-all duration-300" />
@@ -78,19 +78,19 @@ export default function PremiumHeader() {
           </nav>
 
           {/* CTA Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <button className="p-2 text-gray-400 hover:text-white transition-colors hover:scale-110">
               <FaSearch />
             </button>
 
-            <button className="px-6 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105">
+            <button className="px-4 xl:px-6 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg text-sm xl:text-base font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105 whitespace-nowrap">
               Começar Agora
             </button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-white hover:scale-110 transition-transform relative z-10"
+            className="lg:hidden p-2 text-white hover:scale-110 transition-transform relative z-10"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -100,7 +100,7 @@ export default function PremiumHeader() {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden overflow-hidden transition-all duration-300 relative z-20 ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+      <div className={`lg:hidden overflow-hidden transition-all duration-300 relative z-20 ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="px-4 py-6 space-y-4 bg-slate-900/95 backdrop-blur-xl border-t border-slate-800">
           {menuItems.map((item) => (
             <a
