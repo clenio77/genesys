@@ -149,13 +149,13 @@ export default function Footer() {
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-genesys-gray text-sm mb-4 md:mb-0">
-              © 2024 Genesys Tecnologia. Todos os direitos reservados.
+              © 2025 Genesys Tecnologia. Todos os direitos reservados.
             </div>
             <div className="flex space-x-6 text-sm">
-              <Link href="/privacy" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+              <Link href="/politica-privacidade" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
                 Política de Privacidade
               </Link>
-              <Link href="/terms" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+              <Link href="/termos-uso" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
                 Termos de Uso
               </Link>
               <Link href="/cookies" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">

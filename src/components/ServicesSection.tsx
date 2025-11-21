@@ -62,6 +62,7 @@ export default function ServicesSection() {
         'Notificações automáticas',
         'Agendamento inteligente',
       ],
+      link: '/servicos/automacao-processos',
     },
     {
       title: 'Compliance e Segurança',
@@ -75,6 +76,7 @@ export default function ServicesSection() {
         'Criptografia avançada',
         'Backup automático',
       ],
+      link: '/servicos/compliance-lgpd',
     },
     {
       title: 'Gestão de Conhecimento',
@@ -88,6 +90,7 @@ export default function ServicesSection() {
         'Colaboração em equipe',
         'Acesso controlado',
       ],
+      link: '/servicos/gestao-conhecimento',
     },
   ]
 

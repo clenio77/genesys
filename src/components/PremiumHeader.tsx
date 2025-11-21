@@ -20,6 +20,9 @@ export default function PremiumHeader() {
     { label: 'Início', href: '/' },
     { label: 'Produtos', href: '/produtos' },
     { label: 'Serviços', href: '/servicos' },
+    { label: 'Ferramentas', href: '/ferramentas' },
+    { label: 'Integrações', href: '/integracoes' },
+    { label: 'Área do Cliente', href: '/portal-cliente' },
     { label: 'Sobre', href: '/sobre' },
     { label: 'Contato', href: '/#contact' },
   ]
