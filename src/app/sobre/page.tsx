@@ -11,27 +11,27 @@ export default function SobrePage() {
   const equipe = [
     {
       nome: 'Clênio Moura',
-      cargo: 'CEO & Fundador',
+      cargo: 'CEO & CTO - Visionário Técnico',
       foto: '/images/clenio.png',
-      bio: 'CEO & Fundador da Genesys Tecnologia. Desenvolvedor Python especializado em Inteligência Artificial. Engenheiro de IA com foco em automação de processos e desenvolvimento de agentes inteligentes. Especialista em IA e Direito com 15+ anos de experiência.',
+      bio: 'CEO e CTO da Genesys Tecnologia. Motor tecnológico da empresa, responsável pela visão do produto e roadmap tecnológico. Desenvolvedor Python especializado em IA, arquitetura de sistemas e automação jurídica. Lidera a ponte entre tecnologia e direito, transformando conhecimento jurídico em código e produto escalável.',
       linkedin: '#',
       github: '#',
       instagram: 'https://www.instagram.com/afonso.clenio?utm_source=qr&igsh=eXM1cWtvOWZ2dThq'
     },
     {
       nome: 'Lilian Santos',
-      cargo: 'Advogada Trabalhista',
+      cargo: 'Co-Fundadora & CLO Trabalhista',
       foto: '/images/lilian1.png',
-      bio: 'CEO & Fundadora da Genesys Tecnologia. Advogada trabalhista especializada em direito do trabalho com vasta experiência em relações trabalhistas. Conhecimento profundo em legislação trabalhista, processos e consultoria jurídica. Atuação dedicada à defesa dos direitos trabalhistas.',
+      bio: 'Co-Fundadora e Chief Legal Officer (Vertical Trabalhista). Especialista em Direito do Trabalho com profundo conhecimento em legislação trabalhista, relações trabalhistas e consultoria jurídica. Responsável pela curadoria de dados, validação de mercado e controle de qualidade jurídico da IA para a vertical trabalhista.',
       linkedin: '#',
       github: '#',
       instagram: 'https://www.instagram.com/adv.liliantrabalhista?igsh=ZmE3aG8ycHNubDgw'
     },
     {
       nome: 'Firmino Costa',
-      cargo: 'Advogado Criminalista',
+      cargo: 'Co-Fundador & CLO Criminal',
       foto: '/images/firmino1.png',
-      bio: 'CEO & Fundador da Genesys Tecnologia. Advogado criminalista com mais de 15 anos de experiência em casos complexos. Especialista em direito penal, jurisprudência criminal e defesa estratégica. Atuação focada em resultados e excelência jurídica.',
+      bio: 'Co-Fundador e Chief Legal Officer (Vertical Criminal). 15+ anos de experiência em casos complexos de direito criminal. Especialista em jurisprudência criminal e defesa estratégica. Responsável por garantir ética e compliance da IA criminal, desenvolvimento de negócios e representação institucional perante OAB e tribunais.',
       linkedin: '#',
       github: '#',
       instagram: 'https://www.instagram.com/firmino.adv?igsh=M2N3cGkxdGtoOWgw'
