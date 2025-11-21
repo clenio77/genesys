@@ -15,34 +15,34 @@ export default function ContactSection() {
     company: '',
     message: '',
   })
-  
+
   const [errors, setErrors] = useState<Record<string, string>>({})
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    
+
     // Validação simples
     const newErrors: Record<string, string> = {}
     if (!formData.name) newErrors.name = 'Nome é obrigatório'
     if (!formData.email) newErrors.email = 'Email é obrigatório'
     if (!formData.message) newErrors.message = 'Mensagem é obrigatória'
-    
+
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors)
       return
     }
-    
+
     setIsSubmitting(true)
-    
+
     // Simular envio
     await new Promise(resolve => setTimeout(resolve, 2000))
-    
+
     setIsSubmitting(false)
     setIsSuccess(true)
     setFormData({ name: '', email: '', phone: '', company: '', message: '' })
-    
+
     setTimeout(() => setIsSuccess(false), 5000)
   }
 
@@ -56,13 +56,13 @@ export default function ContactSection() {
     {
       icon: FaPhone,
       title: 'Telefone',
-      value: '+55 (11) 9999-9999',
-      link: 'tel:+5511999999999',
+      value: '+55 34 99826-4603',
+      link: 'tel:+5534998264603',
     },
     {
       icon: FaBuilding,
       title: 'Endereço',
-      value: 'São Paulo, SP - Brasil',
+      value: 'Uberlândia - MG',
       link: '#',
     },
   ]
@@ -111,7 +111,7 @@ export default function ContactSection() {
               variants={staggerItem}
             >
               <h3 className="text-2xl font-bold text-white mb-6">Envie sua Mensagem</h3>
-              
+
               <form onSubmit={handleSubmit} className="space-y-6">
                 <Input
                   label="Nome Completo"
@@ -123,7 +123,7 @@ export default function ContactSection() {
                   error={errors.name}
                   required
                 />
-                
+
                 <Input
                   label="Email"
                   type="email"
@@ -134,7 +134,7 @@ export default function ContactSection() {
                   error={errors.email}
                   required
                 />
-                
+
                 <Input
                   label="Telefone"
                   type="tel"
@@ -143,7 +143,7 @@ export default function ContactSection() {
                   onChange={(value) => setFormData({ ...formData, phone: value })}
                   icon={FaPhone}
                 />
-                
+
                 <Input
                   label="Empresa"
                   type="text"
@@ -152,7 +152,7 @@ export default function ContactSection() {
                   onChange={(value) => setFormData({ ...formData, company: value })}
                   icon={FaBuilding}
                 />
-                
+
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-2">
                     Mensagem <span className="text-red-400">*</span>
@@ -169,19 +169,19 @@ export default function ContactSection() {
                     <p className="mt-2 text-sm text-red-400">{errors.message}</p>
                   )}
                 </div>
-                
+
                 <Button
                   variant="primary"
                   size="lg"
                   fullWidth
                   loading={isSubmitting}
-                  onClick={() => {}}
+                  onClick={() => { }}
                 >
                   <FaPaperPlane className="inline mr-2" />
                   {isSubmitting ? 'Enviando...' : 'Enviar Mensagem'}
                 </Button>
               </form>
-              
+
               {/* Success Message */}
               {isSuccess && (
                 <motion.div
@@ -223,7 +223,7 @@ export default function ContactSection() {
                 </div>
               </motion.a>
             ))}
-            
+
             {/* Map Placeholder */}
             <motion.div
               className="p-6 bg-slate-800/50 backdrop-blur-xl border border-slate-700/50 rounded-2xl overflow-hidden"
