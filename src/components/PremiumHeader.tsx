@@ -100,8 +100,8 @@ export default function PremiumHeader() {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`lg:hidden overflow-hidden transition-all duration-300 relative z-20 ${isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-        <div className="px-4 py-6 space-y-4 bg-slate-900/95 backdrop-blur-xl border-t border-slate-800">
+      <div className={`lg:hidden overflow-hidden transition-all duration-300 relative z-20 ${isMenuOpen ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'}`}>
+        <div className="px-4 py-6 space-y-4 bg-slate-900/95 backdrop-blur-xl border-t border-slate-800 overflow-y-auto max-h-[calc(100vh-100px)]">
           {menuItems.map((item) => (
             <a
               key={item.href}
