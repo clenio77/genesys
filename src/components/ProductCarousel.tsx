@@ -301,24 +301,24 @@ export default function ProductCarousel() {
                 transition={{ delay: 0.7 }}
                 className="relative"
               >
-                <div className="relative p-4 sm:p-6 md:p-8 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl">
+                <div className="relative p-6 sm:p-8 md:p-10 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl">
                   {/* Background Pattern */}
                   <div className="absolute inset-0 rounded-3xl opacity-30" style={{ background: currentProduct.bgPattern }} />
 
                   {/* Stats Grid */}
-                  <div className="relative grid grid-cols-3 gap-3 sm:gap-4 md:gap-6">
+                  <div className="relative grid grid-cols-3 gap-4 sm:gap-6 md:gap-8">
                     {currentProduct.stats.map((stat, index) => (
                       <motion.div
                         key={stat.label}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.8 + index * 0.1 }}
-                        className="text-center p-2 sm:p-3 md:p-4 bg-white/5 backdrop-blur-sm rounded-xl md:rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
+                        className="text-center p-3 sm:p-4 md:p-5 bg-white/5 backdrop-blur-sm rounded-xl md:rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
                       >
-                        <div className={`text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2 leading-tight whitespace-nowrap`}>
+                        <div className={`text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2 leading-tight`}>
                           {stat.value}
                         </div>
-                        <div className="text-xs sm:text-sm md:text-base text-gray-300 font-medium">
+                        <div className="text-xs sm:text-sm text-gray-400 font-medium">
                           {stat.label}
                         </div>
                       </motion.div>
