@@ -201,8 +201,8 @@ export default function ProductCarousel() {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10">
-        <div className="max-w-7xl mx-auto">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 relative z-10 overflow-hidden">
+        <div className="max-w-7xl mx-auto overflow-hidden">
           <AnimatePresence initial={false} custom={direction} mode="wait">
             <motion.div
               key={currentIndex}
@@ -227,7 +227,7 @@ export default function ProductCarousel() {
                   paginate(-1)
                 }
               }}
-              className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center"
+              className="grid lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-12 items-center overflow-hidden"
             >
               {/* Left Column - Content */}
               <div className="space-y-6 sm:space-y-8">
@@ -257,7 +257,7 @@ export default function ProductCarousel() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3 }}
-                    className="text-cyan-400 text-sm font-semibold mb-2 tracking-wider uppercase"
+                    className="text-cyan-400 text-xs sm:text-sm font-semibold mb-2 tracking-wider uppercase"
                   >
                     {currentProduct.subtitle}
                   </motion.p>
@@ -265,7 +265,7 @@ export default function ProductCarousel() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4 }}
-                    className={`text-4xl sm:text-5xl md:text-6xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-4`}
+                    className={`text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-4 break-words`}
                   >
                     {currentProduct.title}
                   </motion.h2>
@@ -273,7 +273,7 @@ export default function ProductCarousel() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
-                    className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed"
+                    className="text-sm sm:text-base lg:text-lg xl:text-xl text-gray-300 leading-relaxed max-w-xl"
                   >
                     {currentProduct.description}
                   </motion.p>
@@ -315,7 +315,7 @@ export default function ProductCarousel() {
                         transition={{ delay: 0.8 + index * 0.1 }}
                         className="text-center p-3 sm:p-4 md:p-5 bg-white/5 backdrop-blur-sm rounded-xl md:rounded-2xl border border-white/10 hover:bg-white/10 transition-all"
                       >
-                        <div className={`text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2 leading-tight`}>
+                        <div className={`text-xl sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r ${currentProduct.gradient} bg-clip-text text-transparent mb-2 leading-tight`}>
                           {stat.value}
                         </div>
                         <div className="text-xs sm:text-sm text-gray-400 font-medium">
