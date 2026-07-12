@@ -127,9 +127,9 @@ export default function PricingPage() {
                                     key={idx}
                                     className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-cyan-500/50 transition-all group"
                                 >
-                                    <summary className="font-bold text-white cursor-pointer list-none flex items-center justify-between">
-                                        <span>{faq.question}</span>
-                                        <span className="text-cyan-400 group-open:rotate-180 transition-transform">
+                                    <summary className="font-bold text-white cursor-pointer list-none flex items-center justify-between gap-4">
+                                        <span className="min-w-0 flex-1">{faq.question}</span>
+                                        <span className="text-cyan-400 group-open:rotate-180 transition-transform flex-shrink-0">
                                             ▼
                                         </span>
                                     </summary>

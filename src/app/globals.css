@@ -147,6 +147,18 @@
 
   @media (min-width: 1024px) {
     .logo-scale {
+      transform: scale(2.2);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .logo-scale {
+      transform: scale(1.9);
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .logo-scale {
       transform: scale(2.4);
     }
   }
