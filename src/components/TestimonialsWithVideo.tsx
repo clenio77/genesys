@@ -65,7 +65,7 @@ export default function TestimonialsWithVideo() {
       empresa: 'Mendes & Associados',
       foto: '/images/avatar-roberto.webp',
       rating: 5,
-      texto: 'Os serviços da Genesys transformaram completamente nossa operação. A pesquisa jurídica inteligente nos permite encontrar precedentes relevantes em segundos, a análise automatizada de contratos identifica riscos que antes passavam despercebidos, e o sistema de compliance garante que estamos sempre em conformidade com a LGPD. O ROI foi alcançado em apenas 4 meses e nossa equipe agora pode focar em atividades estratégicas ao invés de tarefas repetitivas. Recomendo fortemente!',
+      texto: 'A implantação do Kermartin pela Genesys transformou completamente nossa operação. A pesquisa com fontes e citações no Kermartin nos permite encontrar precedentes em segundos, a análise de contratos identifica riscos que antes passavam despercebidos, e a governança LGPD garante conformidade no uso da IA. O ROI foi alcançado em apenas 4 meses e nossa equipe agora foca em atividades estratégicas. Recomendo fortemente!',
       tipo: 'texto'
     }
   ]
@@ -101,7 +101,7 @@ export default function TestimonialsWithVideo() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Histórias reais de transformação com nossas soluções de IA
+            Histórias reais de transformação com o Kermartin e a implantação Genesys
           </p>
         </div>
 

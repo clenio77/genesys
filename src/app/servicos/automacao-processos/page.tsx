@@ -82,10 +82,10 @@ export default function AutomacaoProcessosPage() {
   return (
     <>
       <SEOHead
-        title="Automação de Processos - Genesys Tecnologia"
-        description="Automatize tarefas jurídicas repetitivas com IA. Geração de documentos, gestão de prazos e workflows inteligentes."
-        keywords="automação jurídica, workflow jurídico, automação de processos, IA jurídica, gestão de prazos"
-        canonical="https://genesys-tecnologia.com.br/produtos/automacao-processos"
+        title="Automação de Processos - Genesys | Complemento ao Kermartin"
+        description="Serviço complementar Genesys: automatize upload, triagem, peças e fluxos conectados ao Kermartin IA."
+        keywords="automação jurídica, workflow kermartin, automação de processos, ia jurídica"
+        canonical="https://genesys-tecnologia.com.br/servicos/automacao-processos"
       />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
         <PremiumHeader />
@@ -109,8 +109,8 @@ export default function AutomacaoProcessosPage() {
                 </h1>
 
                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                  Automatize tarefas repetitivas e ganhe até 300% de produtividade. 
-                  Gestão de prazos, petições automáticas e workflows inteligentes.
+                  Serviço complementar da Genesys: conectamos upload, triagem, geração assistida de peças
+                  e notificações ao Kermartin IA — reduzindo trabalho manual repetitivo.
                 </p>
 
                 <div className="grid grid-cols-2 gap-4 mb-8">

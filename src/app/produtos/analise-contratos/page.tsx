@@ -3,6 +3,7 @@
 import { FaFileContract, FaCheck, FaShieldAlt, FaClock, FaChartLine, FaRobot, FaArrowRight } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
 import Footer from '@/components/Footer'
+import LegacyProdutoBanner from '@/components/LegacyProdutoBanner'
 import SEOHead from '@/components/SEOHead'
 import { motion } from 'framer-motion'
 
@@ -78,6 +79,13 @@ export default function AnaliseContratosPage() {
       />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
         <PremiumHeader />
+
+        <LegacyProdutoBanner
+          titulo="Capacidade do Kermartin IA"
+          descricao="Análise de contratos faz parte do Kermartin — a Genesys configura módulos e fluxos na implantação."
+          linkServico="/produtos/kermartin-ia"
+          labelServico="Conhecer o Kermartin"
+        />
 
         {/* Hero Section */}
         <section className="pt-32 pb-20 px-4">

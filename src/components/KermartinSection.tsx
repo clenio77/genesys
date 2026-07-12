@@ -13,7 +13,7 @@ export default function KermartinSection() {
             <span className="gradient-text">Nossos Produtos</span>
           </h2>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto">
-            Soluções especializadas para diferentes áreas do direito
+            Plataforma jurídica com IA — análise por blocos, pesquisa com fontes, perfis estratégicos e automação assistida
           </p>
         </div>
         
@@ -42,37 +42,35 @@ export default function KermartinSection() {
                 </div>
                 <div>
                   <h3 className="text-3xl font-bold gradient-text font-playfair">Kermartin IA</h3>
-                  <p className="text-slate-100 text-lg">Assistente Jurídico Cibernético</p>
+                  <p className="text-slate-100 text-lg">Plataforma Jurídica com IA</p>
                 </div>
               </div>
               
               <p className="text-slate-100 text-lg leading-relaxed mb-6">
-                O Kermartin IA é nosso assistente jurídico especializado em Direito Penal, 
-                desenvolvido em parceria com o renomado Dr. Jader Mattos. Uma solução completa 
-                que combina expertise jurídica com IA de última geração.
+                O Kermartin IA é uma plataforma de análise jurídica com arquitetura BMAD. Ele organiza documentos e casos em blocos de raciocínio para apoiar análise penal, civil, trânsito, tributária, auditoria pública e criação de perfis estratégicos.
               </p>
               
               <div className="space-y-3 mb-8">
                 <div className="flex items-center space-x-3">
                   <FaCheck className="text-green-400 text-lg" />
-                  <span className="text-slate-100">Análise de Jurisprudência</span>
+                  <span className="text-slate-100">Análise por blocos e subetapas</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <FaCheck className="text-green-400 text-lg" />
-                  <span className="text-slate-100">Consultas Inteligentes</span>
+                  <span className="text-slate-100">Módulos penal, civil, trânsito e tributário</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <FaCheck className="text-green-400 text-lg" />
-                  <span className="text-slate-100">Agente Klaus Integrado</span>
+                  <span className="text-slate-100">Auditoria pública, licitações e score de risco</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <FaCheck className="text-green-400 text-lg" />
-                  <span className="text-slate-100">Roadmap Completo</span>
+                  <span className="text-slate-100">Anonimização, guardrails e documentação LGPD</span>
                 </div>
               </div>
               
               <button className="btn-primary">
-                Conhecer Kermartin IA
+                Conhecer a Plataforma
               </button>
             </div>
             
@@ -97,16 +95,16 @@ export default function KermartinSection() {
                   </div>
                   
                   <h4 className="text-2xl font-bold gradient-text font-playfair mb-2">Kermartin IA</h4>
-                  <p className="text-genesys-cream mb-6">Assistente Jurídico Cibernético</p>
+                  <p className="text-genesys-cream mb-6">Plataforma Jurídica com IA</p>
                   
                   <div className="grid grid-cols-2 gap-4 text-center">
                     <div className="bg-white/10 rounded-lg p-4">
-                      <div className="text-2xl font-bold gradient-text">12</div>
-                      <div className="text-sm text-genesys-slate">Módulos Disponíveis</div>
+                      <div className="text-2xl font-bold gradient-text">6+</div>
+                      <div className="text-sm text-genesys-slate">Blocos de Análise</div>
                     </div>
                     <div className="bg-white/10 rounded-lg p-4">
-                      <div className="text-2xl font-bold gradient-text">50K+</div>
-                      <div className="text-sm text-genesys-slate">Casos Analisados</div>
+                      <div className="text-2xl font-bold gradient-text">5</div>
+                      <div className="text-sm text-genesys-slate">Áreas Jurídicas</div>
                     </div>
                   </div>
                 </div>
@@ -121,9 +119,9 @@ export default function KermartinSection() {
             <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaBrain className="text-2xl text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 font-playfair">IA Avançada</h3>
+            <h3 className="text-xl font-semibold mb-3 font-playfair">Orquestração BMAD</h3>
             <p className="text-genesys-slate text-sm">
-              Algoritmos de machine learning treinados especificamente para análise jurídica.
+              Orquestração por blocos, persona jurídica e instruções especializadas por área.
             </p>
           </div>
           
@@ -131,9 +129,9 @@ export default function KermartinSection() {
             <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaSearch className="text-2xl text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 font-playfair">Pesquisa Inteligente</h3>
+            <h3 className="text-xl font-semibold mb-3 font-playfair">Pesquisa e Fontes</h3>
             <p className="text-genesys-slate text-sm">
-              Busca semântica em jurisprudência com resultados contextualizados.
+              RAG integrado: bases privadas, precedentes e guardrails de citação — configurados na implantação Genesys.
             </p>
           </div>
           
@@ -141,9 +139,9 @@ export default function KermartinSection() {
             <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaRobot className="text-2xl text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 font-playfair">Automação</h3>
+            <h3 className="text-xl font-semibold mb-3 font-playfair">Documentos e Fluxos</h3>
             <p className="text-genesys-slate text-sm">
-              Processos automatizados para análise de documentos e contratos.
+              Upload, triagem, análise e estruturas de peças em fluxos jurídicos repetíveis.
             </p>
           </div>
           
@@ -151,9 +149,9 @@ export default function KermartinSection() {
             <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaChartLine className="text-2xl text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-3 font-playfair">Analytics</h3>
+            <h3 className="text-xl font-semibold mb-3 font-playfair">Auditoria e Risco</h3>
             <p className="text-genesys-slate text-sm">
-              Relatórios e insights baseados em dados jurídicos históricos.
+              Licitações, irregularidades, padrões, evidências e painéis executivos.
             </p>
           </div>
         </div>

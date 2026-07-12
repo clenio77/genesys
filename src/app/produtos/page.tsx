@@ -11,107 +11,112 @@ export default function ProdutosPage() {
     {
       id: 'kermartin-ia',
       nome: 'Kermartin IA',
-      tagline: 'Assistente Jurídico Cibernético',
-      descricao: 'Plataforma completa de IA para análise jurídica com agente Klaus integrado',
+      tagline: 'Plataforma jurídica com IA',
+      descricao: 'Produto central da Genesys: análise jurídica por blocos, upload de documentos, pesquisa, perfis estratégicos e módulos especializados por área.',
       icon: FaBrain,
       gradient: 'from-purple-600 to-pink-600',
+      link: '/produtos/kermartin-ia',
       features: [
-        'Análise de Jurisprudência',
-        'Consultas Inteligentes',
-        'Agente Klaus Integrado',
-        'Roadmap Completo',
-        '12 Módulos Disponíveis',
-        '50K+ Casos Analisados'
+        'Blocos de análise penal e júri',
+        'Módulos civil, trânsito e tributário',
+        'Auditoria pública e licitações',
+        'Análise de perfis estratégicos',
+        'Anonimização e guardrails LGPD',
+        'API e interface web Django/React'
       ],
       stats: {
-        precisao: '99.2%',
-        tempo: '10x mais rápido',
-        economia: 'R$ 50K/mês'
+        precisao: 'BMAD',
+        tempo: '6+ blocos',
+        economia: '5 áreas'
       },
       destaque: true
     },
     {
-      id: 'analise-contratos',
-      nome: 'Análise de Contratos IA',
-      tagline: 'Revisão Inteligente de Contratos',
-      descricao: 'IA avançada para revisão automática, identificação de riscos e sugestões de melhorias',
-      icon: FaFileContract,
-      gradient: 'from-blue-600 to-cyan-600',
-      features: [
-        'Revisão automática em minutos',
-        'Identificação de cláusulas críticas',
-        'Análise de riscos',
-        'Sugestões de melhorias',
-        'Comparação com modelos',
-        'Relatórios detalhados'
-      ],
-      stats: {
-        precisao: '98.5%',
-        tempo: '5 min/contrato',
-        economia: '80% tempo'
-      }
-    },
-    {
-      id: 'pesquisa-juridica',
-      nome: 'Pesquisa Jurídica IA',
-      tagline: 'Busca Inteligente de Jurisprudência',
-      descricao: 'Encontre precedentes relevantes com IA semântica e análise contextual',
-      icon: FaSearch,
-      gradient: 'from-green-600 to-emerald-600',
-      features: [
-        'Busca semântica avançada',
-        'Análise de precedentes',
-        'Resumos automáticos',
-        'Citações relevantes',
-        'Filtros inteligentes',
-        'Exportação formatada'
-      ],
-      stats: {
-        precisao: '97.8%',
-        tempo: '2 min/pesquisa',
-        economia: '90% tempo'
-      }
-    },
-    {
-      id: 'automacao-processos',
-      nome: 'Automação de Processos',
-      tagline: 'Automatize Tarefas Repetitivas',
-      descricao: 'Ganhe tempo automatizando documentos, fluxos e notificações',
+      id: 'implementacao-kermartin',
+      nome: 'Implementação Kermartin',
+      tagline: 'Serviço de onboarding e adoção',
+      descricao: 'Diagnóstico, parametrização, treinamento e implantação do Kermartin no fluxo real do escritório ou departamento jurídico.',
       icon: FaRobot,
-      gradient: 'from-amber-600 to-orange-600',
+      gradient: 'from-blue-600 to-cyan-600',
+      link: '/servicos',
       features: [
-        'Geração automática de documentos',
-        'Fluxos de trabalho inteligentes',
-        'Integração com sistemas',
-        'Notificações automáticas',
-        'Agendamento inteligente',
-        'Templates personalizáveis'
+        'Mapeamento de casos de uso',
+        'Configuração de módulos e permissões',
+        'Treinamento da equipe',
+        'Playbooks por área jurídica',
+        'Métricas de adoção',
+        'Suporte de implantação'
       ],
       stats: {
-        precisao: '99.5%',
-        tempo: '15 min/dia economizado',
-        economia: '70% tarefas'
+        precisao: 'Guiado',
+        tempo: '30-90 dias',
+        economia: 'Adoção'
       }
     },
     {
-      id: 'compliance-ia',
-      nome: 'Compliance IA',
-      tagline: 'Monitoramento Inteligente',
-      descricao: 'Sistema de compliance automatizado com IA para LGPD e regulamentações',
+      id: 'automacao-documentos',
+      nome: 'Automação de Documentos',
+      tagline: 'Fluxos conectados ao Kermartin',
+      descricao: 'Automação de upload, triagem, análise e geração assistida de estruturas de peças e relatórios jurídicos.',
+      icon: FaFileContract,
+      gradient: 'from-amber-600 to-orange-600',
+      link: '/servicos/automacao-processos',
+      features: [
+        'Processamento de PDFs e textos',
+        'Estruturação de peças civis',
+        'Relatórios jurídicos em Markdown',
+        'Templates customizados',
+        'Integrações operacionais',
+        'Rotinas de acompanhamento'
+      ],
+      stats: {
+        precisao: 'Fluxo',
+        tempo: 'Sob medida',
+        economia: 'Horas'
+      }
+    },
+    {
+      id: 'governanca-lgpd',
+      nome: 'Governança e LGPD',
+      tagline: 'Segurança para IA jurídica',
+      descricao: 'Camada de privacidade, validação, anonimização e documentação para uso responsável de IA em dados jurídicos sensíveis.',
       icon: FaShieldAlt,
       gradient: 'from-cyan-600 to-blue-600',
+      link: '/servicos/compliance-lgpd',
       features: [
-        'Monitoramento 24/7',
-        'Alertas inteligentes',
-        'Auditoria automática',
-        'Relatórios de conformidade',
-        'Gestão de riscos',
-        'Criptografia avançada'
+        'Anonimização antes do LLM',
+        'Validação de entrada',
+        'Controle de acesso',
+        'RIPD e documentação de privacidade',
+        'Logs e monitoramento',
+        'Políticas de uso interno'
       ],
       stats: {
-        precisao: '100%',
-        tempo: 'Real-time',
-        economia: 'R$ 30K/mês'
+        precisao: 'LGPD',
+        tempo: 'Contínuo',
+        economia: 'Risco'
+      }
+    },
+    {
+      id: 'auditoria-publica',
+      nome: 'Auditoria Pública IA',
+      tagline: 'Licitações, contratos e evidências',
+      descricao: 'Módulo Kermartin para analisar licitações, detectar irregularidades, montar evidências, score de risco e dashboard executivo.',
+      icon: FaSearch,
+      gradient: 'from-green-600 to-emerald-600',
+      link: '/produtos/kermartin-ia',
+      features: [
+        'Análise de licitações',
+        'Detecção de irregularidades',
+        'Análise de padrões',
+        'Score de risco',
+        'Relatório de evidências',
+        'Dashboard executivo'
+      ],
+      stats: {
+        precisao: 'Score',
+        tempo: 'BI',
+        economia: 'Controle'
       }
     }
   ]
@@ -120,8 +125,8 @@ export default function ProdutosPage() {
     <>
       <SEOHead
         title="Produtos - Genesys Tecnologia | Soluções de IA Jurídica"
-        description="Conheça nossos produtos de Inteligência Artificial para o setor jurídico: Kermartin IA, Análise de Contratos, Pesquisa Jurídica e muito mais."
-        keywords="produtos IA jurídica, kermartin ia, análise de contratos, pesquisa jurídica, automação jurídica, compliance ia"
+        description="Kermartin IA é o produto central da Genesys. Conheça a plataforma e os serviços de implantação, operação, automação e governança."
+        keywords="kermartin ia, implantação kermartin, plataforma ia jurídica, automação jurídica, compliance ia"
         canonical="https://genesys-tecnologia.com.br/produtos"
       />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
@@ -133,16 +138,16 @@ export default function ProdutosPage() {
             Nossos Produtos
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Soluções de IA que transformam a prática jurídica
+            Kermartin como produto central, com serviços Genesys para implantação, automação e governança
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
             <div className="flex items-center gap-2">
               <FaCheck className="text-green-400" />
-              <span>99%+ Precisão</span>
+              <span>Arquitetura BMAD</span>
             </div>
             <div className="flex items-center gap-2">
               <FaCheck className="text-green-400" />
-              <span>10x Mais Rápido</span>
+              <span>Módulos por área</span>
             </div>
             <div className="flex items-center gap-2">
               <FaCheck className="text-green-400" />
@@ -223,11 +228,11 @@ export default function ProdutosPage() {
 
                       {/* CTA */}
                       <Link
-                        href={`/produtos/${produto.id}`}
+                        href={produto.link}
                         className={`block w-full bg-gradient-to-r ${produto.gradient} text-white px-6 py-3 rounded-lg font-semibold text-center hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 group-hover:scale-105`}
                       >
                         <span className="flex items-center justify-center gap-2">
-                          Conhecer {produto.nome}
+                          Conhecer oferta
                           <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
                         </span>
                       </Link>
@@ -244,10 +249,10 @@ export default function ProdutosPage() {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-600 to-cyan-600 rounded-3xl p-12">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Pronto para transformar sua prática jurídica?
+            Pronto para implantar o Kermartin?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Agende uma demonstração gratuita e veja nossos produtos em ação
+            Agende uma demonstração e veja os módulos reais aplicados a documentos e casos do seu fluxo
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <button

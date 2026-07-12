@@ -73,7 +73,7 @@ export default function SobrePage() {
     <>
       <SEOHead
         title="Sobre - Genesys Tecnologia | Inovação em IA Jurídica"
-        description="Conheça a Genesys Tecnologia, empresa pioneira em soluções de Inteligência Artificial para o setor jurídico. Nossa história, valores e equipe."
+        description="Genesys implanta e opera o Kermartin IA. Conheça nossa história, equipe jurídico-tecnológica e missão de transformar análise jurídica com IA."
         keywords="sobre genesys, empresa ia jurídica, tecnologia jurídica, inovação legal tech, equipe genesys"
         canonical="https://genesys-tecnologia.com.br/sobre"
       />
@@ -87,7 +87,7 @@ export default function SobrePage() {
               Sobre a Genesys
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-12">
-              Transformando o futuro da prática jurídica com inteligência artificial
+              Consultoria que implanta, opera e governa o Kermartin — plataforma jurídica com IA
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
@@ -121,20 +121,24 @@ export default function SobrePage() {
                 </h2>
                 <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
                   <p>
-                    A Genesys Tecnologia nasceu em 2020 com uma missão clara: democratizar o acesso
-                    à tecnologia de ponta para profissionais do direito.
+                    A Genesys Tecnologia nasceu em 2020 com uma missão clara: levar IA jurídica
+                    de ponta para a rotina real de escritórios e departamentos jurídicos — com
+                    implantação guiada, não apenas software entregue.
                   </p>
                   <p>
-                    Fundada por especialistas em IA e direito, combinamos expertise técnica com
-                    profundo conhecimento jurídico para criar soluções que realmente fazem a diferença.
+                    Desenvolvemos o Kermartin IA, plataforma de análise jurídica com arquitetura BMAD,
+                    e atuamos como parceira de implantação, operação e governança dessa plataforma
+                    para nossos clientes.
                   </p>
                   <p>
-                    Hoje, somos referência em Legal Tech no Brasil, atendendo desde advogados
-                    autônomos até grandes escritórios e departamentos jurídicos corporativos.
+                    Nossa equipe combina engenharia de software, especialistas jurídicos por vertical
+                    (criminal, trabalhista) e consultoria de processos para transformar documentos,
+                    casos e bases de conhecimento em análise produtiva e auditável.
                   </p>
                   <p>
-                    Nossa plataforma Kermartin IA já analisou mais de 50 mil casos, economizando
-                    milhares de horas de trabalho e milhões de reais para nossos clientes.
+                    O Kermartin já apoiou milhares de análises em penal, civil, trânsito, tributário
+                    e auditoria pública — e a Genesys garante que cada cliente extraia valor contínuo
+                    da plataforma no dia a dia.
                   </p>
                 </div>
               </div>
@@ -285,10 +289,10 @@ export default function SobrePage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
-                href="/produtos"
+                href="/produtos/kermartin-ia"
                 className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:shadow-xl transition-all hover:scale-105"
               >
-                Conhecer Produtos
+                Conhecer o Kermartin
               </Link>
               <Link
                 href="#contact"

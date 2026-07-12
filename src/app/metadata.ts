@@ -1,18 +1,17 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Genesys Tecnologia - Inteligência Artificial Jurídica',
-  description: 'Transforme sua prática jurídica com soluções de IA de última geração. Análise inteligente, automação avançada e insights precisos para decisões estratégicas.',
+  title: 'Genesys Tecnologia - Implantação e Operação do Kermartin IA',
+  description: 'Genesys implanta, opera e governa o Kermartin IA — plataforma jurídica com inteligência artificial. Automação, LGPD e integrações complementares.',
   keywords: [
-    'IA Jurídica',
-    'Inteligência Artificial',
-    'Advocacia',
+    'Kermartin IA',
+    'Implantação IA Jurídica',
+    'Genesys Tecnologia',
     'Legal Tech',
     'Automação Jurídica',
-    'Análise de Contratos',
-    'Pesquisa Jurisprudencial',
-    'Genesys',
-    'Tecnologia Jurídica',
+    'Análise Jurídica IA',
+    'Governança LGPD',
+    'Operação Kermartin',
   ],
   authors: [{ name: 'Genesys Tecnologia' }],
   creator: 'Genesys Tecnologia',

@@ -82,8 +82,8 @@ export default function ComplianceLGPDPage() {
     return (
         <>
             <SEOHead
-                title="Compliance e LGPD - Genesys Tecnologia"
-                description="Garanta conformidade total com a LGPD. Monitoramento 24/7, auditoria automática e proteção de dados com IA."
+                title="Governança, Compliance e LGPD - Genesys | Kermartin IA"
+                description="Serviço complementar Genesys: anonimização, políticas de uso, RIPD e auditoria para operação segura do Kermartin IA."
                 keywords="LGPD, compliance jurídico, proteção de dados, segurança da informação, DPO as a service"
                 canonical="https://genesys-tecnologia.com.br/servicos/compliance-lgpd"
             />
@@ -109,8 +109,8 @@ export default function ComplianceLGPDPage() {
                                 </h1>
 
                                 <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                                    Proteja seu escritório e seus clientes com nossa solução completa de Compliance e LGPD.
-                                    Monitoramento inteligente, auditoria automática e risco zero.
+                                    Serviço complementar da Genesys: governança de uso do Kermartin com anonimização,
+                                    validação de entrada, controle de acesso e documentação LGPD para auditoria.
                                 </p>
 
                                 <div className="grid grid-cols-2 gap-4 mb-8">

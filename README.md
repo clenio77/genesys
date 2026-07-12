@@ -1,313 +1,128 @@
-# 🚀 Genesys Tecnologia - Next.js Version
+# Genesys Tecnologia — Implantação e Operação do Kermartin IA
 
-## ✨ **Projeto Migrado para Next.js!**
+Site institucional e documentação comercial da **Genesys Tecnologia**: consultoria jurídico-tecnológica que **implanta, opera e governa** o **Kermartin IA** — plataforma de análise jurídica com inteligência artificial.
 
-Esta é a versão moderna do site Genesys Tecnologia, migrada para Next.js 14 com TypeScript, Tailwind CSS e PWA.
-
----
-
-## 🛠️ **Stack Tecnológico**
-
-### **Core**
-- **Next.js 14** - Framework React com App Router
-- **TypeScript** - Tipagem estática
-- **Tailwind CSS** - Framework CSS utilitário
-- **React Icons** - Biblioteca de ícones
-
-### **PWA & Performance**
-- **Next-PWA** - Progressive Web App
-- **Next/Image** - Otimização de imagens
-- **Next/Font** - Otimização de fontes
-- **Service Worker** - Cache offline
-
-### **Funcionalidades**
-- **Framer Motion** - Animações (pronto para uso)
-- **Responsive Design** - Mobile-first
-- **SEO Otimizado** - Meta tags dinâmicas
-- **Acessibilidade** - ARIA labels
+> **Genesys** = empresa / serviços / go-to-market  
+> **Kermartin** = produto (plataforma SaaS, repositório em `../kermartin/`)
 
 ---
 
-## 🚀 **Como Executar**
+## Posicionamento
 
-### **Instalação**
+| Papel | Descrição |
+|-------|-----------|
+| **Kermartin IA** | Produto central — análise jurídica por blocos BMAD, módulos por área, RAG, perfis estratégicos |
+| **Genesys** | Parceira de implantação, operação, automação, LGPD e integrações |
+
+### Serviços principais
+- **Implantação do Kermartin** — diagnóstico, módulos, bases, treinamento, governança (30–90 dias)
+- **Operação e Suporte** — suporte contínuo, análises assistidas, evolução de fluxos
+
+### Serviços complementares
+- **Automação de Processos** — upload, triagem, peças assistidas, webhooks
+- **Governança, Compliance e LGPD** — anonimização, políticas, RIPD, auditoria
+- **Integração com Sistemas** — PJe, e-SAJ, CRM, ERP, WhatsApp ([/integracoes](/integracoes))
+
+> Pesquisa jurisprudencial e gestão de conhecimento **não são serviços avulsos** — são capacidades nativas do Kermartin, configuradas na implantação.
+
+---
+
+## Stack do Site
+
+- **Next.js 14** (App Router) + **TypeScript** + **Tailwind CSS**
+- **Framer Motion** — animações
+- **PWA** — manifest + service worker
+- Deploy recomendado: **Vercel**
+
+---
+
+## Como Executar
+
 ```bash
-cd genesys-nextjs
+cd genesys
 npm install
-```
-
-### **Desenvolvimento**
-```bash
-npm run dev
-```
-Acesse: http://localhost:3000
-
-### **Produção**
-```bash
-npm run build
-npm start
-```
-
-### **Deploy**
-```bash
-# Vercel (recomendado)
-npm i -g vercel
-vercel
-
-# Netlify
-npm run build
-# Upload da pasta 'out' para Netlify
+npm run dev    # http://localhost:3000
+npm run build  # produção
 ```
 
 ---
 
-## 📁 **Estrutura do Projeto**
+## Estrutura Principal
 
 ```
-genesys-nextjs/
+genesys/
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx          # Layout principal
-│   │   ├── page.tsx           # Página inicial
-│   │   └── globals.css        # Estilos globais
+│   │   ├── page.tsx                 # Homepage
+│   │   ├── produtos/                # Kermartin e ofertas
+│   │   ├── servicos/                # Implantação, operação, complementares
+│   │   ├── integracoes/             # Conectores e APIs
+│   │   └── sobre/                   # Empresa e equipe
 │   └── components/
-│       ├── Header.tsx         # Cabeçalho
-│       ├── Hero.tsx           # Seção principal
-│       ├── KermartinSection.tsx # Produto Kermartin
-│       ├── TeamSection.tsx    # Equipe
-│       ├── Footer.tsx         # Rodapé
-│       ├── FloatingCertifications.tsx # Certificações
-│       └── WhatsAppFloat.tsx  # Botão WhatsApp
-├── public/
-│   ├── images/               # Imagens otimizadas
-│   └── manifest.json         # PWA manifest
-├── next.config.js           # Configuração Next.js
-├── tailwind.config.js       # Configuração Tailwind
-└── package.json             # Dependências
+│       ├── ProductCarousel.tsx      # Hero — Kermartin + casos de uso
+│       ├── ServicesSection.tsx      # Serviços na homepage
+│       ├── KermartinSection.tsx     # Destaque do produto
+│       └── PricingSection.tsx       # Planos Kermartin
+├── ANALISE_SERVICOS_KERMARTIN.md    # Estratégia Genesys × Kermartin
+└── README.md
 ```
 
 ---
 
-## 🎨 **Componentes Principais**
+## Páginas-chave
 
-### **Header**
-- Logo responsiva com cantos arredondados
-- Menu mobile com animações
-- Navegação suave entre seções
-
-### **Hero**
-- Background com efeitos neurais
-- Call-to-action buttons
-- Grid de funcionalidades
-
-### **KermartinSection**
-- Card principal do produto
-- Logo com efeitos visuais
-- Grid de features
-
-### **TeamSection**
-- Cards da equipe com fotos
-- Tags de especialização
-- Links sociais
-
-### **Footer**
-- Informações de contato
-- Links úteis
-- Redes sociais
-
-### **FloatingCertifications**
-- Botões flutuantes de certificação
-- Tooltips informativos
-- Posicionamento responsivo
-
-### **WhatsAppFloat**
-- Botão WhatsApp flutuante
-- Integração direta
-- Tooltip explicativo
+| Rota | Conteúdo |
+|------|----------|
+| `/` | Homepage — Kermartin no centro, serviços Genesys |
+| `/produtos/kermartin-ia` | Produto — módulos, blocos, planos |
+| `/servicos` | Implantação + operação (principais) e automação/LGPD/integração (complementares) |
+| `/integracoes` | Ecossistema de conectores |
+| `/sobre` | História, equipe, missão |
+| `/servicos/gestao-conhecimento` | Redirect conceitual → capacidade do Kermartin |
 
 ---
 
-## 🔧 **Configurações**
+## Kermartin — Resumo do Produto
 
-### **PWA (Progressive Web App)**
-- ✅ Manifest.json configurado
-- ✅ Service Worker ativo
-- ✅ Cache offline
-- ✅ Instalável como app
+Plataforma jurídica com arquitetura **BMAD** (Business, Model, Application, Domain):
 
-### **SEO**
-- ✅ Meta tags dinâmicas
-- ✅ Open Graph
-- ✅ Twitter Cards
-- ✅ Structured Data
+- **Stack:** Django + React + PostgreSQL/pgvector + Gemini
+- **6+ blocos** de análise (tipificação, provas, estratégia, jurisprudência, recursos, perfis)
+- **Módulos:** penal/júri (produção), civil, trânsito, tributário, administrativo, trabalhista (beta)
+- **RAG:** bases privadas, busca semântica, guardrails de citação
+- **Perfis estratégicos:** jurados, magistrados, promotores
+- **Auditoria pública:** licitações, score de risco, dashboards
+- **LGPD:** anonimização antes do LLM, validação de entrada
 
-### **Performance**
-- ✅ Image optimization
-- ✅ Font optimization
-- ✅ Code splitting
-- ✅ Bundle optimization
-
-### **Responsividade**
-- ✅ Mobile-first design
-- ✅ Breakpoints otimizados
-- ✅ Touch-friendly
-- ✅ PWA mobile
+Documentação técnica completa: [`../kermartin/README.md`](../kermartin/README.md)
 
 ---
 
-## 🎯 **Melhorias Implementadas**
+## Casos de Uso (derivados do Kermartin)
 
-### **vs. Versão HTML**
-- ✅ **Componentes Reutilizáveis** - DRY principle
-- ✅ **TypeScript** - Menos bugs, melhor DX
-- ✅ **Performance** - SSR/SSG, otimizações
-- ✅ **SEO** - Meta tags dinâmicas
-- ✅ **PWA Nativo** - Service Worker integrado
-- ✅ **Manutenibilidade** - Código organizado
-- ✅ **Escalabilidade** - Arquitetura moderna
-
-### **Funcionalidades Avançadas**
-- ✅ **Hot Reload** - Desenvolvimento rápido
-- ✅ **Type Safety** - TypeScript completo
-- ✅ **Image Optimization** - Next/Image
-- ✅ **Font Optimization** - Next/Font
-- ✅ **Bundle Analysis** - Otimização automática
+1. **Defesa penal / Tribunal do Júri** — análise por blocos, teses, perfis de plenário
+2. **Civil e execução** — deep scan de prova, estratégia de execução
+3. **Trânsito e tributário** — defesas administrativas, revisão fiscal
+4. **Auditoria pública** — licitações, irregularidades, evidências
+5. **Departamentos jurídicos** — base privada, pesquisa auditável, relatórios Markdown
+6. **Operação assistida Genesys** — equipe não opera sozinha; entrega com revisão humana
 
 ---
 
-## 📱 **PWA Features**
+## Documentação Complementar
 
-### **Instalação**
-- Chrome: Ícone "+" na barra de endereços
-- Firefox: Menu → "Instalar"
-- Safari: Compartilhar → "Adicionar à Tela Inicial"
-- Mobile: Banner automático
-
-### **Funcionalidades**
-- ✅ App nativo
-- ✅ Cache offline
-- ✅ Carregamento rápido
-- ✅ Notificações push (pronto)
-- ✅ Tela cheia
+- [ANALISE_SERVICOS_KERMARTIN.md](./ANALISE_SERVICOS_KERMARTIN.md) — modelo de negócio e matriz serviços × produto
+- [PLANO_MELHORIAS.md](./PLANO_MELHORIAS.md) — roadmap de UX/design
+- [ROADMAP_IMPLEMENTACAO.md](./ROADMAP_IMPLEMENTACAO.md) — cronograma de sprints
 
 ---
 
-## 🚀 **Deploy**
+## Contato
 
-### **Vercel (Recomendado)**
-```bash
-npm i -g vercel
-vercel
-```
-
-### **Netlify**
-```bash
-npm run build
-# Upload da pasta 'out'
-```
-
-### **VPS/Server**
-```bash
-npm run build
-npm start
-```
+- **WhatsApp:** +55 34 99826-4603
+- **Site:** https://genesys-tecnologia.com.br
+- **Produto:** Kermartin IA — https://kermartin.com
 
 ---
 
-## 📚 **Documentação de Melhorias**
-
-### **Plano Completo de Melhorias**
-Um plano detalhado de 10 sprints foi criado para transformar o projeto em uma plataforma premium:
-
-📄 **[PLANO_MELHORIAS.md](./PLANO_MELHORIAS.md)**
-- 10 fases de implementação
-- Design system completo
-- Componentes premium
-- Animações e interações
-- Performance e SEO
-- Testes e deploy
-
-📐 **[DESIGN_MOCKUPS.md](./DESIGN_MOCKUPS.md)**
-- Wireframes detalhados
-- Paleta de cores
-- Tipografia
-- Efeitos visuais
-- Grid e espaçamento
-
-🗺️ **[ROADMAP_IMPLEMENTACAO.md](./ROADMAP_IMPLEMENTACAO.md)**
-- Cronograma de 10 semanas
-- Tarefas detalhadas por dia
-- Checklists de aceitação
-- Métricas de sucesso
-
-📊 **[RESUMO_EXECUTIVO.md](./RESUMO_EXECUTIVO.md)**
-- Visão geral do projeto
-- Investimento necessário
-- Retorno esperado
-- Benefícios
-
-### **Conceito do Design Premium**
-**"Elegância Jurídica encontra Inovação Tecnológica"**
-
-O novo design equilibra:
-- **Confiança** - Cores sóbrias, tipografia elegante
-- **Inovação** - Animações modernas, efeitos tech
-- **Profissionalismo** - Layout limpo, hierarquia clara
-- **Tecnologia** - Elementos de IA, visualizações de dados
-
----
-
-## 📈 **Próximos Passos**
-
-### **Sprint 1 (Semana 1-2)** - Fundação
-- [ ] Corrigir versões do Next.js (14.x) e React (18.x)
-- [ ] Setup de ferramentas (ESLint, Prettier, Husky)
-- [ ] Criar design system base
-- [ ] Otimizar imagens (WebP/AVIF)
-
-### **Sprint 2 (Semana 3-4)** - Componentes Premium
-- [ ] Header com glassmorphism
-- [ ] Hero section com neural network
-- [ ] Service cards premium
-- [ ] AI showcase section
-
-### **Sprint 3 (Semana 5-6)** - Interações
-- [ ] Framer Motion integrado
-- [ ] Micro-interações
-- [ ] Scroll animations
-- [ ] Loading states
-
-### **Sprint 4 (Semana 7-8)** - Otimização
-- [ ] Performance (Lighthouse > 90)
-- [ ] SEO avançado
-- [ ] Acessibilidade (WCAG 2.1 AA)
-- [ ] Segurança (LGPD, CSP)
-
-### **Sprint 5 (Semana 9-10)** - Testes e Deploy
-- [ ] Unit tests (Jest)
-- [ ] E2E tests (Playwright)
-- [ ] CI/CD (GitHub Actions)
-- [ ] Deploy produção (Vercel)
-
-### **Funcionalidades Futuras (Fase 2)**
-- [ ] Blog integrado
-- [ ] Chatbot IA
-- [ ] Portal do cliente
-- [ ] API backend
-- [ ] App mobile nativo
-
----
-
-## ✅ **Status**
-
-**✅ MIGRAÇÃO COMPLETA!**
-
-O projeto Genesys Tecnologia foi completamente migrado para Next.js com:
-- **Arquitetura moderna** - Componentes React
-- **Performance otimizada** - SSR/SSG
-- **PWA funcional** - App instalável
-- **SEO completo** - Meta tags dinâmicas
-- **TypeScript** - Código tipado
-- **Responsividade** - Mobile-first
-
-**Pronto para produção!** 🚀✨📱
+**Genesys Tecnologia** — Kermartin no centro, implantação na Genesys.

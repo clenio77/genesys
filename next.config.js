@@ -53,6 +53,20 @@ const nextConfig = {
     ],
     formats: ['image/webp', 'image/avif'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/produtos/pesquisa-juridica',
+        destination: '/produtos/kermartin-ia',
+        permanent: true,
+      },
+      {
+        source: '/tecnologias/pesquisa-jurisprudencial',
+        destination: '/produtos/kermartin-ia',
+        permanent: true,
+      },
+    ]
+  },
   async headers() {
     return [
       {

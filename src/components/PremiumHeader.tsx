@@ -20,6 +20,7 @@ export default function PremiumHeader() {
     { label: 'Início', href: '/' },
     { label: 'Produtos', href: '/produtos' },
     { label: 'Serviços', href: '/servicos' },
+    { label: 'Planos', href: '/pricing' },
     { label: 'Ferramentas', href: '/ferramentas' },
     { label: 'Integrações', href: '/integracoes' },
     { label: 'Área do Cliente', href: '/portal-cliente' },
@@ -83,9 +84,12 @@ export default function PremiumHeader() {
               <FaSearch />
             </button>
 
-            <button className="px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg text-sm font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105 whitespace-nowrap">
+            <a
+              href="/pricing"
+              className="px-4 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg text-sm font-medium hover:shadow-lg hover:shadow-blue-500/50 transition-all hover:scale-105 whitespace-nowrap inline-block"
+            >
               Começar Agora
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -113,9 +117,12 @@ export default function PremiumHeader() {
             </a>
           ))}
 
-          <button className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-medium hover:scale-105 transition-transform">
+          <a
+            href="/pricing"
+            className="block w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-medium hover:scale-105 transition-transform text-center"
+          >
             Começar Agora
-          </button>
+          </a>
         </div>
       </div>
     </header>

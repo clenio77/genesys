@@ -2,101 +2,104 @@
 
 import { motion } from 'framer-motion'
 import ServiceCard from './ServiceCard'
-import { FaBrain, FaFileAlt, FaChartLine, FaRobot, FaShieldAlt, FaDatabase } from 'react-icons/fa'
+import { FaBrain, FaHeadset, FaRobot, FaShieldAlt, FaPlug } from 'react-icons/fa'
 
 export default function ServicesSection() {
   const services = [
     {
-      title: 'Análise Inteligente de Contratos',
-      description: 'IA avançada para revisão automática de contratos, identificação de cláusulas críticas e sugestões de melhorias.',
-      icon: FaFileAlt,
+      title: 'Kermartin IA — Plataforma',
+      description: 'Produto central: análise jurídica por blocos BMAD, upload de documentos, pesquisa com fontes, perfis estratégicos e módulos por área.',
+      icon: FaBrain,
       gradient: 'from-blue-600 to-cyan-600',
-      badge: 'Popular',
-      link: '/tecnologias/analise-contratos',
+      badge: 'Produto',
+      link: '/produtos/kermartin-ia',
       features: [
-        'Revisão automática em minutos',
-        'Identificação de riscos',
-        'Sugestões de melhorias',
-        'Comparação com modelos',
-        'Relatórios detalhados',
+        'Penal, civil, trânsito e tributário',
+        'Auditoria pública e licitações',
+        'RAG e base privada integrados',
+        'Anonimização e guardrails LGPD',
+        'Relatórios em Markdown jurídico',
       ],
     },
     {
-      title: 'Pesquisa Jurisprudencial IA',
-      description: 'Busca inteligente em milhões de decisões judiciais com análise de padrões e predição de resultados.',
+      title: 'Implantação do Kermartin',
+      description: 'Diagnóstico, parametrização de módulos, bases documentais, permissões e treinamento da equipe no uso seguro da plataforma.',
       icon: FaBrain,
       gradient: 'from-purple-600 to-pink-600',
-      link: '/tecnologias/pesquisa-jurisprudencial',
+      badge: 'Principal',
+      link: '/servicos',
       features: [
-        'Busca semântica avançada',
-        'Análise de tendências',
-        'Predição de resultados',
-        'Jurisprudência relevante',
-        'Resumos automáticos',
+        'Mapeamento de casos de uso',
+        'Configuração por área jurídica',
+        'Onboarding guiado (30–90 dias)',
+        'Playbooks de prompts e revisão',
+        'Métricas de adoção',
       ],
     },
     {
-      title: 'Analytics Jurídico',
-      description: 'Dashboards interativos com métricas em tempo real para tomada de decisões estratégicas.',
-      icon: FaChartLine,
-      gradient: 'from-emerald-600 to-teal-600',
-      badge: 'Novo',
-      link: '/tecnologias/analytics-juridico',
+      title: 'Operação e Suporte',
+      description: 'Suporte contínuo, análises assistidas sob demanda, ajustes de fluxo e revisão humana antes da entrega ao cliente interno.',
+      icon: FaHeadset,
+      gradient: 'from-indigo-600 to-blue-600',
+      badge: 'Principal',
+      link: '/servicos',
       features: [
-        'Métricas em tempo real',
-        'Visualizações interativas',
-        'Relatórios customizados',
-        'Previsões baseadas em IA',
-        'Exportação de dados',
+        'Suporte técnico e operacional',
+        'Análise penal, civil e tributária',
+        'Licitações e score de risco',
+        'Relatórios estruturados',
+        'Evolução dos fluxos configurados',
       ],
     },
     {
       title: 'Automação de Processos',
-      description: 'Automatize tarefas repetitivas e ganhe tempo para focar no que realmente importa.',
+      description: 'Upload, triagem, geração assistida de peças, notificações e integrações operacionais conectadas ao Kermartin.',
       icon: FaRobot,
       gradient: 'from-amber-600 to-orange-600',
-      features: [
-        'Geração automática de documentos',
-        'Fluxos de trabalho inteligentes',
-        'Integração com sistemas',
-        'Notificações automáticas',
-        'Agendamento inteligente',
-      ],
+      badge: 'Complementar',
       link: '/servicos/automacao-processos',
+      features: [
+        'Geração assistida de documentos',
+        'Fluxos de trabalho inteligentes',
+        'Templates por área jurídica',
+        'APIs e webhooks',
+        'Integração com sistemas internos',
+      ],
     },
     {
-      title: 'Compliance e Segurança',
-      description: 'Garanta conformidade com LGPD e outras regulamentações com monitoramento contínuo.',
+      title: 'Governança, LGPD e Segurança',
+      description: 'Anonimização, validação de entrada, controle de acesso e políticas de uso para reduzir risco na operação do Kermartin.',
       icon: FaShieldAlt,
       gradient: 'from-rose-600 to-red-600',
-      features: [
-        'Monitoramento LGPD',
-        'Auditoria automática',
-        'Alertas de conformidade',
-        'Criptografia avançada',
-        'Backup automático',
-      ],
+      badge: 'Complementar',
       link: '/servicos/compliance-lgpd',
+      features: [
+        'Anonimização antes do LLM',
+        'Validação de dados sensíveis',
+        'RIPD e documentação LGPD',
+        'Perfis de acesso por usuário',
+        'Logs e auditoria',
+      ],
     },
     {
-      title: 'Gestão de Conhecimento',
-      description: 'Centralize e organize todo conhecimento jurídico da sua empresa com busca inteligente.',
-      icon: FaDatabase,
-      gradient: 'from-indigo-600 to-blue-600',
+      title: 'Integração com Sistemas',
+      description: 'Conexão do Kermartin a tribunais (PJe, e-SAJ), CRM, ERP, WhatsApp e ferramentas de produtividade do cliente.',
+      icon: FaPlug,
+      gradient: 'from-emerald-600 to-teal-600',
+      badge: 'Complementar',
+      link: '/integracoes',
       features: [
-        'Base de conhecimento centralizada',
-        'Busca inteligente',
-        'Versionamento de documentos',
-        'Colaboração em equipe',
-        'Acesso controlado',
+        'PJe, e-SAJ, Eproc',
+        'WhatsApp e Google Workspace',
+        'CRM e ERP corporativos',
+        'APIs REST e webhooks',
+        'Sincronização documental',
       ],
-      link: '/servicos/gestao-conhecimento',
     },
   ]
 
   return (
     <section id="solutions" className="py-24 bg-gradient-to-b from-slate-800 to-slate-900 relative overflow-hidden">
-      {/* Background Decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 2px 2px, white 1px, transparent 0)`,
@@ -105,7 +108,6 @@ export default function ServicesSection() {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section Header */}
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
@@ -117,15 +119,14 @@ export default function ServicesSection() {
             Nossas Soluções
           </span>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Tecnologia que
-            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"> Transforma</span>
+            Kermartin no centro,
+            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"> Genesys na implantação</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Soluções completas de IA para revolucionar sua prática jurídica
+            A Genesys é a consultoria que implanta, opera e governa o Kermartin — plataforma jurídica com IA para análise, pesquisa e automação assistida
           </p>
         </motion.div>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <ServiceCard
@@ -136,7 +137,6 @@ export default function ServicesSection() {
           ))}
         </div>
 
-        {/* CTA Section */}
         <motion.div
           className="mt-16 text-center"
           initial={{ opacity: 0, y: 20 }}
@@ -145,13 +145,13 @@ export default function ServicesSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <p className="text-gray-400 mb-6">
-            Não encontrou o que procura? Temos soluções personalizadas para suas necessidades.
+            Pesquisa jurisprudencial e gestão de conhecimento fazem parte do Kermartin — configuramos tudo na implantação.
           </p>
           <motion.button
             className="px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg font-semibold text-lg shadow-lg shadow-blue-500/50 hover:shadow-xl hover:shadow-blue-500/70 transition-all"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => window.open('https://wa.me/5534998264603?text=Olá! Gostaria de saber mais sobre os serviços da Genesys Tecnologia.', '_blank')}
+            onClick={() => window.open('https://wa.me/5534998264603?text=Olá! Gostaria de saber mais sobre implantação e operação do Kermartin.', '_blank')}
           >
             Fale com um Especialista
           </motion.button>
@@ -160,4 +160,3 @@ export default function ServicesSection() {
     </section>
   )
 }
-

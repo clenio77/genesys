@@ -31,7 +31,7 @@ export default function TestimonialsSection() {
       company: 'Firmino Advocacia',
       image: '/images/firmino.png',
       rating: 5,
-      text: 'A pesquisa jurisprudencial com IA é simplesmente fantástica. Encontro precedentes relevantes em segundos e as predições são surpreendentemente precisas.',
+      text: 'O Kermartin implantado pela Genesys é fantástico. Encontro precedentes com fontes e citações em segundos, e a análise por blocos acelerou nossos pareceres de forma impressionante.',
     },
   ]
 

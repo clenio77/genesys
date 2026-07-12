@@ -30,8 +30,8 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-genesys-gray mb-6">
-              Revolucionando a prática jurídica através da Inteligência Artificial.
-              Transformamos dados jurídicos em insights poderosos.
+              Consultoria jurídica-tecnológica que implanta, opera e governa o Kermartin IA
+              para escritórios e departamentos jurídicos.
             </p>
 
             {/* Social Links */}
@@ -100,11 +100,31 @@ export default function Footer() {
               Serviços
             </h3>
             <ul className="space-y-3">
-              <li className="text-genesys-gray">Kermartin IA</li>
-              <li className="text-genesys-gray">Análise Jurídica</li>
-              <li className="text-genesys-gray">Pesquisa Inteligente</li>
-              <li className="text-genesys-gray">Compliance</li>
-              <li className="text-genesys-gray">Consultoria IA</li>
+              <li>
+                <Link href="/produtos/kermartin-ia" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                  Kermartin IA
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicos" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                  Implantação e Operação
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicos/automacao-processos" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                  Automação
+                </Link>
+              </li>
+              <li>
+                <Link href="/servicos/compliance-lgpd" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                  Governança LGPD
+                </Link>
+              </li>
+              <li>
+                <Link href="/integracoes" className="text-genesys-gray hover:text-genesys-gold transition-colors duration-300">
+                  Integrações
+                </Link>
+              </li>
             </ul>
           </div>
 

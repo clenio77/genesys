@@ -29,12 +29,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/produtos/pesquisa-juridica`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
       url: `${baseUrl}/produtos/automacao-processos`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
@@ -66,12 +60,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/tecnologias/analytics-juridico`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/tecnologias/pesquisa-jurisprudencial`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,

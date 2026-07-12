@@ -3,6 +3,7 @@
 import { FaRobot, FaCheck, FaFileAlt, FaBell, FaChartLine, FaArrowRight, FaCog } from 'react-icons/fa'
 import PremiumHeader from '@/components/PremiumHeader'
 import Footer from '@/components/Footer'
+import LegacyProdutoBanner from '@/components/LegacyProdutoBanner'
 import SEOHead from '@/components/SEOHead'
 import { motion } from 'framer-motion'
 
@@ -89,6 +90,13 @@ export default function AutomacaoProcessosPage() {
       />
       <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
         <PremiumHeader />
+
+        <LegacyProdutoBanner
+          titulo="Serviço complementar Genesys"
+          descricao="Automação de processos é oferecida como serviço de implantação e operação — conectada ao Kermartin."
+          linkServico="/servicos/automacao-processos"
+          labelServico="Ver serviço de automação"
+        />
 
         {/* Hero Section */}
         <section className="pt-32 pb-20 px-4">

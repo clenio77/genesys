@@ -62,8 +62,8 @@ export default function IntegracoesPage() {
     return (
         <>
             <SEOHead
-                title="Integrações - Genesys Tecnologia"
-                description="Conecte a Genesys aos seus softwares favoritos: PJe, WhatsApp, Google, Trello e muito mais."
+                title="Integrações - Genesys Tecnologia | Kermartin IA"
+                description="Serviço complementar Genesys: conecte o Kermartin IA a PJe, WhatsApp, CRM, ERP e ferramentas do seu escritório."
                 keywords="integrações jurídicas, api pje, api esaj, automação whatsapp, legaltech integrations"
                 canonical="https://genesys-tecnologia.com.br/integracoes"
             />
@@ -83,12 +83,12 @@ export default function IntegracoesPage() {
                             </motion.div>
 
                             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-                                Conecte a Genesys ao <br />
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">seu fluxo de trabalho</span>
+                                Integre o Kermartin ao <br />
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">seu ecossistema jurídico</span>
                             </h1>
                             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                                Não mude a forma como você trabalha. Apenas torne-a mais inteligente.
-                                Nossa plataforma se integra nativamente às ferramentas que você já usa.
+                                Serviço complementar da Genesys: conectamos o Kermartin a tribunais, CRM, ERP
+                                e ferramentas que sua equipe já utiliza — sem trocar o fluxo de trabalho.
                             </p>
                         </div>
 
